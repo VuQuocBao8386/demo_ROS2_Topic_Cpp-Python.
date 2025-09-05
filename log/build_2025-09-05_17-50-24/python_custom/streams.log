@@ -1,0 +1,28 @@
+[0.524s] Invoking command in '/home/anhbaodz/Documents/ros2_wood/src/python_custom': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ros2_wood/install/ros_interface:/home/anhbaodz/Documents/ros2_wood/install/cpp_custom PYTHONPATH=/home/anhbaodz/Documents/ros2_wood/build/python_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anhbaodz/Documents/ros2_wood/install/python_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_custom build --build-base /home/anhbaodz/Documents/ros2_wood/build/python_custom/build install --record /home/anhbaodz/Documents/ros2_wood/build/python_custom/install.log --single-version-externally-managed install_data
+[0.710s] running egg_info
+[0.710s] writing ../../build/python_custom/python_custom.egg-info/PKG-INFO
+[0.710s] writing dependency_links to ../../build/python_custom/python_custom.egg-info/dependency_links.txt
+[0.711s] writing entry points to ../../build/python_custom/python_custom.egg-info/entry_points.txt
+[0.711s] writing requirements to ../../build/python_custom/python_custom.egg-info/requires.txt
+[0.711s] writing top-level names to ../../build/python_custom/python_custom.egg-info/top_level.txt
+[0.713s] reading manifest file '../../build/python_custom/python_custom.egg-info/SOURCES.txt'
+[0.713s] adding license file 'LICENSE'
+[0.714s] writing manifest file '../../build/python_custom/python_custom.egg-info/SOURCES.txt'
+[0.714s] running build
+[0.714s] running build_py
+[0.714s] copying python_custom/main.py -> /home/anhbaodz/Documents/ros2_wood/build/python_custom/build/lib/python_custom
+[0.715s] copying python_custom/camera_handler.py -> /home/anhbaodz/Documents/ros2_wood/build/python_custom/build/lib/python_custom
+[0.715s] running install
+[0.715s] running install_lib
+[0.715s] copying /home/anhbaodz/Documents/ros2_wood/build/python_custom/build/lib/python_custom/main.py -> /home/anhbaodz/Documents/ros2_wood/install/python_custom/lib/python3.10/site-packages/python_custom
+[0.716s] copying /home/anhbaodz/Documents/ros2_wood/build/python_custom/build/lib/python_custom/camera_handler.py -> /home/anhbaodz/Documents/ros2_wood/install/python_custom/lib/python3.10/site-packages/python_custom
+[0.716s] byte-compiling /home/anhbaodz/Documents/ros2_wood/install/python_custom/lib/python3.10/site-packages/python_custom/main.py to main.cpython-310.pyc
+[0.717s] byte-compiling /home/anhbaodz/Documents/ros2_wood/install/python_custom/lib/python3.10/site-packages/python_custom/camera_handler.py to camera_handler.cpython-310.pyc
+[0.717s] running install_data
+[0.717s] running install_egg_info
+[0.719s] removing '/home/anhbaodz/Documents/ros2_wood/install/python_custom/lib/python3.10/site-packages/python_custom-0.0.0-py3.10.egg-info' (and everything under it)
+[0.719s] Copying ../../build/python_custom/python_custom.egg-info to /home/anhbaodz/Documents/ros2_wood/install/python_custom/lib/python3.10/site-packages/python_custom-0.0.0-py3.10.egg-info
+[0.720s] running install_scripts
+[0.738s] Installing reponse script to /home/anhbaodz/Documents/ros2_wood/install/python_custom/lib/python_custom
+[0.739s] writing list of installed files to '/home/anhbaodz/Documents/ros2_wood/build/python_custom/install.log'
+[0.771s] Invoked command in '/home/anhbaodz/Documents/ros2_wood/src/python_custom' returned '0': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ros2_wood/install/ros_interface:/home/anhbaodz/Documents/ros2_wood/install/cpp_custom PYTHONPATH=/home/anhbaodz/Documents/ros2_wood/build/python_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anhbaodz/Documents/ros2_wood/install/python_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_custom build --build-base /home/anhbaodz/Documents/ros2_wood/build/python_custom/build install --record /home/anhbaodz/Documents/ros2_wood/build/python_custom/install.log --single-version-externally-managed install_data

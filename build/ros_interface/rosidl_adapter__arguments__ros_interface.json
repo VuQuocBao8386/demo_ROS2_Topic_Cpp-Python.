@@ -1,0 +1,8 @@
+{
+  "package_name": "ros_interface",
+  "non_idl_tuples": [
+    "/home/anhbaodz/Documents/ros2_wood/src/ros_interface:msg/Sphere.msg",
+    "/home/anhbaodz/Documents/ros2_wood/src/ros_interface:srv/ProcessRequest.srv",
+    "/home/anhbaodz/Documents/ros2_wood/src/ros_interface:srv/UpdateConfigure.srv"
+  ]
+}

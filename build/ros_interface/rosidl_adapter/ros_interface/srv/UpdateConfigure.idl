@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros_interface/srv/UpdateConfigure.srv
+// generated code does not contain a copyright notice
+
+
+module ros_interface {
+  module srv {
+    struct UpdateConfigure_Request {
+      boolean update;
+
+      string command;
+
+      string mode;
+
+      int64 area;
+
+      int32 threshold_1;
+
+      int32 threshold_2;
+    };
+    struct UpdateConfigure_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

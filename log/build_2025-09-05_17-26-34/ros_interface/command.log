@@ -1,0 +1,6 @@
+Invoking command in '/home/anhbaodz/Documents/ros2_wood/build/ros_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/anhbaodz/Documents/ros2_wood/src/ros_interface -DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ros2_wood/install/ros_interface
+Invoked command in '/home/anhbaodz/Documents/ros2_wood/build/ros_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/anhbaodz/Documents/ros2_wood/src/ros_interface -DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ros2_wood/install/ros_interface
+Invoking command in '/home/anhbaodz/Documents/ros2_wood/build/ros_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/anhbaodz/Documents/ros2_wood/build/ros_interface -- -j12 -l12
+Invoked command in '/home/anhbaodz/Documents/ros2_wood/build/ros_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/anhbaodz/Documents/ros2_wood/build/ros_interface -- -j12 -l12
+Invoking command in '/home/anhbaodz/Documents/ros2_wood/build/ros_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/anhbaodz/Documents/ros2_wood/build/ros_interface
+Invoked command in '/home/anhbaodz/Documents/ros2_wood/build/ros_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/anhbaodz/Documents/ros2_wood/build/ros_interface
