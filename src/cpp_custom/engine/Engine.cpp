@@ -7,44 +7,47 @@ void Engine::add_Object(const std::shared_ptr<User::Demand_WoodBar>& obj)
 }
 
 
-// Print demand list
-void Engine::_Print_All_()
-{
-    for (auto& obj : demanding_Object)
-    {
-        obj->__print_();
-    }
-
-    for (const auto& a : final_data)
-    {
-        std::cout <<  static_cast<int>(a) << std::endl;
-    }
-    
-}
-
-
-
-//________________________________PROCESSING____________________-
+//--------------------------PROCESS---------------------------
 
 // Fitting
 std::vector<uint8_t> Engine::fitting(uint8_t input_py)
 {
     std::vector<uint8_t> output;
+    int temp = static_cast<int>(input_py);
 
     for (const auto& obj : demanding_Object)
     {
         if (input_py >= obj->_get_length())
         {
             output.push_back(obj->_get_length());
+            
+            // Extra checking
+            if (this->temporary_wasting_data != 0)
+                {
+                    Storage->add_FinalData(this->temporary_wasting_data);
+                    Storage->add_Wasting_data(this->temporary_wasting_data);
+                    // refresh
+                    this->temporary_wasting_data = 0;
+                }
+        
         }
         else
         {
-            this->final_data.push_back(input_py);
-            update_wasting_data(input_py);
-        }
-        
-    }
+            if (this->temporary_wasting_data != 0)
+            {   
+                temp = temp + this->temporary_wasting_data;
 
+                // store data
+                Storage->add_FinalData(temp);
+                Storage->add_Wasting_data(temp);
+                
+                // refresh temporary_wasting_data
+                this->temporary_wasting_data = 0;
+
+            }
+
+        }
+    }
     return output;
 }
 
@@ -64,12 +67,8 @@ std::vector<uint8_t> Engine::missing(const std::vector<uint8_t>& output_1)
             }
         }
     }
-
     return output;
 }
-
-
-
 
 // Min waste
 std::vector<uint8_t> Engine::min_waste(const std::vector<uint8_t>& output_2, uint8_t input_py)
@@ -104,12 +103,9 @@ std::vector<uint8_t> Engine::min_waste(const std::vector<uint8_t>& output_2, uin
                 int pieces = (divisible > missing_demand) ? missing_demand : divisible;
                 output.insert(output.end(), pieces, obj->_get_length());
 
-                // append leftover directly into the vector
+                // Save temporary wasting
                 if (waste > 0)
-                    output.push_back(waste);
-
-                // also track waste total
-                update_wasting_data(waste);
+                    this->temporary_wasting_data = waste;
             }
             // Case 2: equal waste → prefer larger length
             else if (waste == min_wasting && obj->_get_length() >= current_length)
@@ -120,16 +116,14 @@ std::vector<uint8_t> Engine::min_waste(const std::vector<uint8_t>& output_2, uin
                 int pieces = (divisible > missing_demand) ? missing_demand : divisible;
                 output.insert(output.end(), pieces, obj->_get_length());
 
+                // Save temporary wasting
                 if (waste > 0)
-                    output.push_back(waste);
-
-                update_wasting_data(waste);
+                    this->temporary_wasting_data = waste;
             }
         }
     }
     return output;
 }
-
 
 // Counting
 void Engine::counting(const std::vector<uint8_t>& output_3)
@@ -146,7 +140,6 @@ void Engine::counting(const std::vector<uint8_t>& output_3)
     }
 }
 
-
 // Process
 void Engine::process(uint8_t input_py)
 {
@@ -156,42 +149,9 @@ void Engine::process(uint8_t input_py)
 
     this->counting(output3);
 
-
-
     for (const auto& i : output3)
     {
-        std::cout << static_cast<int>(i) <<std::endl;        
+        int j = static_cast<int>(i);
+        Storage->add_FinalData(j);
     }
-}
-
-
-// This function calculate how much wood we wasted:
-// For example:
-    // When I take the wood bar with dimensions is 35x10
-    // And I wanna cut the segment is 20x10
-    // Then the left dimesion will be a wasting segments
-    //     I need to garth them and calculate how much 
-    //     I cost in this 
-void Engine::update_wasting_data(uint8_t input_checking)
-{
-    this->wasting_data += input_checking;
-}
-
-
-
-
-
-
-
-
-// these function to get "final data" and "wasting data"
-
-std::vector<uint8_t> Engine::_get_final_data() const
-{
-    return this->final_data;
-}
-
-uint32_t Engine::_get_wasting_data() const
-{
-    return this->wasting_data;
 }
