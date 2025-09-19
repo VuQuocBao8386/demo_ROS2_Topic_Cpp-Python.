@@ -1,23 +1,34 @@
 from threading import Lock
+import json
 
 class SystemState():
     def __init__(self):
-        self._config_lock = Lock()
+        self._config_lock = Lock() 
         self._image_lock  = Lock()
         self._data_lock   = Lock()
 
+        with open('../default_config.json', 'r') as file:
+            cfgJson = json.load(file)
+
         self.config = {
-            'camera_enabled':     True,
-            'processing_enabled': False,
-            'mode':               'default',
-            'area':                400,
-            'threshold_1':         78,
-            'threshold_2':         128
+            'camera_enabled':     cfgJson["camera_enabled"],
+            'processing_enabled': cfgJson["processing_enabled"],
+            'mode':               cfgJson["mode"],
+            'area':               cfgJson["area"],
+            'threshold_1':        cfgJson["threshold_1"],
+            'threshold_2':        cfgJson["threshold_2"]
         }
 
         self.camera_frame         = None
         self.process_data         = []
         self.communication_active = False
+    
+
+
+
+
+
+
     
     # # Data Configuration
     # def update_config(self, new_config: dict):

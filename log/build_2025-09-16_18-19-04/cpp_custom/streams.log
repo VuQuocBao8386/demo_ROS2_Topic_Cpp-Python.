@@ -1,0 +1,9 @@
+[0.015s] Invoking command in '/home/anhbaodz/Documents/ros2_wood/build/cpp_custom': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ros2_wood/install/ros_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ros2_wood/install/ros_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/anhbaodz/Documents/ros2_wood/build/cpp_custom -- -j12 -l12
+[0.040s] [31mCMake Error at CMakeLists.txt:20 (ament_package):
+[0.040s]   Unknown CMake command "ament_package".
+[0.040s] 
+[0.040s] [0m
+[0.040s] -- Configuring incomplete, errors occurred!
+[0.040s] See also "/home/anhbaodz/Documents/ros2_wood/build/cpp_custom/CMakeFiles/CMakeOutput.log".
+[0.041s] gmake: *** [Makefile:429: cmake_check_build_system] Error 1
+[0.044s] Invoked command in '/home/anhbaodz/Documents/ros2_wood/build/cpp_custom' returned '2': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ros2_wood/install/ros_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ros2_wood/install/ros_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/anhbaodz/Documents/ros2_wood/build/cpp_custom -- -j12 -l12

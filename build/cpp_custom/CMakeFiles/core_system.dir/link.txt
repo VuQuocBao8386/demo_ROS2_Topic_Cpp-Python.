@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcore_system.a CMakeFiles/core_system.dir/src/communication/ros_Service.cpp.o CMakeFiles/core_system.dir/src/communication/serial_UART.cpp.o CMakeFiles/core_system.dir/src/dataBase/StoreData.cpp.o CMakeFiles/core_system.dir/src/enigne/Engine.cpp.o CMakeFiles/core_system.dir/src/setup/Setup.cpp.o CMakeFiles/core_system.dir/src/stateMachine/StateMachine.cpp.o
+/usr/bin/ranlib libcore_system.a

@@ -1,0 +1,398 @@
+[0.000000] (-) TimerEvent: {}
+[0.000299] (-) JobUnselected: {'identifier': 'python_custom'}
+[0.000346] (-) JobUnselected: {'identifier': 'ros_interface'}
+[0.000385] (cpp_custom) JobQueued: {'identifier': 'cpp_custom', 'dependencies': OrderedDict([('ros_interface', '/home/anhbaodz/Documents/ros2_wood/install/ros_interface')])}
+[0.000425] (cpp_custom) JobStarted: {'identifier': 'cpp_custom'}
+[0.010766] (cpp_custom) JobProgress: {'identifier': 'cpp_custom', 'progress': 'cmake'}
+[0.011443] (cpp_custom) JobProgress: {'identifier': 'cpp_custom', 'progress': 'build'}
+[0.012053] (cpp_custom) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anhbaodz/Documents/ros2_wood/build/cpp_custom', '--', '-j12', '-l12'], 'cwd': '/home/anhbaodz/Documents/ros2_wood/build/cpp_custom', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'anhbaodz'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/anhbaodz/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anhbaodz'), ('OLDPWD', '/home/anhbaodz/Documents'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1467'), ('SYSTEMD_EXEC_PID', '1630'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '44901'), ('_colcon_cd_root', '/opt/ros/rolling/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anhbaodz'), ('JOURNAL_STREAM', '8:7088'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anhbaodz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/anhbaodz/.local/bin:/home/anhbaodz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Inspiration:@/tmp/.ICE-unix/1595,unix/Inspiration:/tmp/.ICE-unix/1595'), ('INVOCATION_ID', '846fad6e462447dd930ccfd6d32d16ea'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JTCNC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anhbaodz/Documents/ros2_wood/install/ros_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a90b30f2-e1ab-4627-9877-0a0d0280aed5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anhbaodz/Documents/ros2_wood/build/cpp_custom'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ROS_MAIN_ID', '7'), ('PYTHONPATH', '/home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anhbaodz/Documents/ros2_wood/install/ros_interface:/opt/ros/humble')]), 'shell': False}
+[0.061912] (cpp_custom) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target core_system\x1b[0m\n'}
+[0.088863] (cpp_custom) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/core_system.dir/src/enigne/Engine.cpp.o\x1b[0m\n'}
+[0.089201] (cpp_custom) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/core_system.dir/src/stateMachine/StateMachine.cpp.o\x1b[0m\n'}
+[0.099287] (-) TimerEvent: {}
+[0.199822] (-) TimerEvent: {}
+[0.300298] (-) TimerEvent: {}
+[0.401013] (-) TimerEvent: {}
+[0.458924] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/enigne/Engine.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char> Engine::fitting(uint8_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.459358] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/enigne/Engine.cpp:28:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class StoreData\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass StoreData\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kadd_Wasting_data\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kadd_Wasting_Data\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.459559] (cpp_custom) StderrLine: {'line': b'   28 |                     Storage->\x1b[01;31m\x1b[Kadd_Wasting_data\x1b[m\x1b[K(this->temporary_wasting_data);\n'}
+[0.459674] (cpp_custom) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.459739] (cpp_custom) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Kadd_Wasting_Data\x1b[m\x1b[K\n'}
+[0.459804] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/enigne/Engine.cpp:42:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class StoreData\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass StoreData\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kadd_Wasting_data\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kadd_Wasting_Data\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.459868] (cpp_custom) StderrLine: {'line': b'   42 |                 Storage->\x1b[01;31m\x1b[Kadd_Wasting_data\x1b[m\x1b[K(temp);\n'}
+[0.459943] (cpp_custom) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.460003] (cpp_custom) StderrLine: {'line': b'      |                          \x1b[32m\x1b[Kadd_Wasting_Data\x1b[m\x1b[K\n'}
+[0.501370] (-) TimerEvent: {}
+[0.512582] (cpp_custom) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/core_system.dir/build.make:118: CMakeFiles/core_system.dir/src/enigne/Engine.cpp.o] Error 1\n'}
+[0.512772] (cpp_custom) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[0.601544] (-) TimerEvent: {}
+[0.702004] (-) TimerEvent: {}
+[0.802410] (-) TimerEvent: {}
+[0.902847] (-) TimerEvent: {}
+[1.003603] (-) TimerEvent: {}
+[1.104581] (-) TimerEvent: {}
+[1.205006] (-) TimerEvent: {}
+[1.305459] (-) TimerEvent: {}
+[1.405978] (-) TimerEvent: {}
+[1.506721] (-) TimerEvent: {}
+[1.607149] (-) TimerEvent: {}
+[1.707606] (-) TimerEvent: {}
+[1.808069] (-) TimerEvent: {}
+[1.908543] (-) TimerEvent: {}
+[2.009048] (-) TimerEvent: {}
+[2.109759] (-) TimerEvent: {}
+[2.210177] (-) TimerEvent: {}
+[2.310565] (-) TimerEvent: {}
+[2.410987] (-) TimerEvent: {}
+[2.493520] (cpp_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[2.493833] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:44:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KState\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.493989] (cpp_custom) StderrLine: {'line': b'   44 |     void setState(\x1b[01;31m\x1b[KState\x1b[m\x1b[K new_state) {\n'}
+[2.494130] (cpp_custom) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.511133] (-) TimerEvent: {}
+[2.514395] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MachineController::setState(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.514807] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:45:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[KMachineController::State\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.514927] (cpp_custom) StderrLine: {'line': b'   45 |         std::cout << ">>> Transition to " << stateToString(\x1b[01;31m\x1b[Knew_state\x1b[m\x1b[K) << std::endl;\n'}
+[2.515031] (cpp_custom) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.515172] (cpp_custom) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.515309] (cpp_custom) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.515440] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:131:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kstd::string MachineController::stateToString(MachineController::State)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.515734] (cpp_custom) StderrLine: {'line': b'  131 |     std::string stateToString(\x1b[01;36m\x1b[KState s\x1b[m\x1b[K) {\n'}
+[2.515848] (cpp_custom) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K~~~~~~^\x1b[m\x1b[K\n'}
+[2.515948] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:46:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::atomic<MachineController::State>::store(int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.516077] (cpp_custom) StderrLine: {'line': b'   46 |         \x1b[01;31m\x1b[Kcurrent_state.store(new_state)\x1b[m\x1b[K;\n'}
+[2.516186] (cpp_custom) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.516283] (cpp_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/future:41\x1b[m\x1b[K,\n'}
+[2.516378] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[2.516507] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.516718] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/communication/ros_Service.hpp:7\x1b[m\x1b[K,\n'}
+[2.516781] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[2.516948] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[2.517000] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/atomic:269:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid std::atomic<_Tp>::store(_Tp, std::memory_order) [with _Tp = MachineController::State; std::memory_order = std::memory_order]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.517058] (cpp_custom) StderrLine: {'line': b'  269 |       \x1b[01;36m\x1b[Kstore\x1b[m\x1b[K(_Tp __i, memory_order __m = memory_order_seq_cst) noexcept\n'}
+[2.517104] (cpp_custom) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.517149] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/atomic:269:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[KMachineController::State\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.517197] (cpp_custom) StderrLine: {'line': b'  269 |       store(\x1b[01;36m\x1b[K_Tp __i\x1b[m\x1b[K, memory_order __m = memory_order_seq_cst) noexcept\n'}
+[2.517243] (cpp_custom) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[2.517287] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/atomic:275:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid std::atomic<_Tp>::store(_Tp, std::memory_order) volatile [with _Tp = MachineController::State; std::memory_order = std::memory_order]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.517335] (cpp_custom) StderrLine: {'line': b'  275 |       \x1b[01;36m\x1b[Kstore\x1b[m\x1b[K(_Tp __i, memory_order __m = memory_order_seq_cst) volatile noexcept\n'}
+[2.517381] (cpp_custom) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.517425] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/atomic:275:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[KMachineController::State\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.517470] (cpp_custom) StderrLine: {'line': b'  275 |       store(\x1b[01;36m\x1b[K_Tp __i\x1b[m\x1b[K, memory_order __m = memory_order_seq_cst) volatile noexcept\n'}
+[2.517533] (cpp_custom) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[2.517577] (cpp_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[2.517622] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MachineController::rosLoop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.517667] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:114:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class Ros_Cpp\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass Ros_Cpp\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kspin_some\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.517723] (cpp_custom) StderrLine: {'line': b'  114 |     void rosLoop()     { ros_->\x1b[01;31m\x1b[Kspin_some\x1b[m\x1b[K(); log("ROS2: processing services..."); }\n'}
+[2.517768] (cpp_custom) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.517812] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MachineController::engineLoop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.517856] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:121:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class Engine\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass Engine\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KrunOnce\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.517908] (cpp_custom) StderrLine: {'line': b'  121 |     void engineLoop()     { engine_->\x1b[01;31m\x1b[KrunOnce\x1b[m\x1b[K(); log("Engine: processing optimization..."); }\n'}
+[2.517953] (cpp_custom) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.517997] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.518047] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:7:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid MachineController::mcuIdle()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.518093] (cpp_custom) StderrLine: {'line': b'    7 | void \x1b[01;31m\x1b[KMachineController\x1b[m\x1b[K::mcuIdle()\n'}
+[2.518136] (cpp_custom) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.518181] (cpp_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[2.518225] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:105:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid MachineController::mcuIdle()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.518270] (cpp_custom) StderrLine: {'line': b'  105 |     void \x1b[01;36m\x1b[KmcuIdle\x1b[m\x1b[K()     { log("MCU: waiting for serial connection..."); }\n'}
+[2.518314] (cpp_custom) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.518357] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:15:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid MachineController::mcuSetup()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.518402] (cpp_custom) StderrLine: {'line': b'   15 | void \x1b[01;31m\x1b[KMachineController\x1b[m\x1b[K::mcuSetup()    { log("MCU: configuring hardware..."); }\n'}
+[2.518453] (cpp_custom) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.518510] (cpp_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[2.518556] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:106:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid MachineController::mcuSetup()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.518614] (cpp_custom) StderrLine: {'line': b'  106 |     void \x1b[01;36m\x1b[KmcuSetup\x1b[m\x1b[K()    { log("MCU: configuring hardware..."); }\n'}
+[2.518660] (cpp_custom) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.518705] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:16:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid MachineController::mcuLoop()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.518749] (cpp_custom) StderrLine: {'line': b'   16 | void \x1b[01;31m\x1b[KMachineController\x1b[m\x1b[K::mcuLoop()     { log("MCU: reading sensors + sending data..."); }\n'}
+[2.518793] (cpp_custom) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.518837] (cpp_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[2.518881] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:107:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid MachineController::mcuLoop()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.518926] (cpp_custom) StderrLine: {'line': b'  107 |     void \x1b[01;36m\x1b[KmcuLoop\x1b[m\x1b[K()     { log("MCU: reading sensors + sending data..."); }\n'}
+[2.518970] (cpp_custom) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.519014] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:18:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid MachineController::mcuError()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.519059] (cpp_custom) StderrLine: {'line': b'   18 | void \x1b[01;31m\x1b[KMachineController\x1b[m\x1b[K::mcuError()\n'}
+[2.519102] (cpp_custom) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.519146] (cpp_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[2.519190] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:108:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid MachineController::mcuError()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.519235] (cpp_custom) StderrLine: {'line': b'  108 |     void \x1b[01;36m\x1b[KmcuError\x1b[m\x1b[K()    { log("MCU: stopping actuators due to ERROR."); }\n'}
+[2.519279] (cpp_custom) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.519323] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:22:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid MachineController::mcuShutdown()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.519368] (cpp_custom) StderrLine: {'line': b'   22 | void \x1b[01;31m\x1b[KMachineController\x1b[m\x1b[K::mcuShutdown() { log("MCU: shutting down."); }\n'}
+[2.519412] (cpp_custom) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.519456] (cpp_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[2.519518] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:109:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid MachineController::mcuShutdown()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.519604] (cpp_custom) StderrLine: {'line': b'  109 |     void \x1b[01;36m\x1b[KmcuShutdown\x1b[m\x1b[K() { log("MCU: shutting down."); }\n'}
+[2.519654] (cpp_custom) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.519831] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid rosIdle()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.519903] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:30:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.520003] (cpp_custom) StderrLine: {'line': b'   30 |     while (!\x1b[01;31m\x1b[Kros_\x1b[m\x1b[K->check_services())\n'}
+[2.520065] (cpp_custom) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.520125] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:32:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.520186] (cpp_custom) StderrLine: {'line': b'   32 |         log(\x1b[01;31m\x1b[K"ROS2: waiting for service connection..."\x1b[m\x1b[K);\n'}
+[2.520317] (cpp_custom) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.520379] (cpp_custom) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.520439] (cpp_custom) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[2.520585] (cpp_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[2.520637] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[2.520683] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[2.520748] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[2.520794] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.520845] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.520891] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.520936] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.520981] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.521026] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.521070] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.521115] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.521159] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.521210] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/communication/ros_Service.hpp:7\x1b[m\x1b[K,\n'}
+[2.521255] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[2.521299] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[2.521343] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.521388] (cpp_custom) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[2.521432] (cpp_custom) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.521486] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid rosSetup()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.521540] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:37:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.521586] (cpp_custom) StderrLine: {'line': b'   37 | void rosSetup()    { log(\x1b[01;31m\x1b[K"ROS2: loading parameters, registering services..."\x1b[m\x1b[K); }\n'}
+[2.521634] (cpp_custom) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.521679] (cpp_custom) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.521723] (cpp_custom) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[2.521775] (cpp_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[2.521820] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[2.521866] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[2.521910] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[2.521954] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.521998] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.522042] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.522086] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.522130] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.522174] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.522218] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.522269] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.522313] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.522357] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/communication/ros_Service.hpp:7\x1b[m\x1b[K,\n'}
+[2.522402] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[2.522446] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[2.522508] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.522556] (cpp_custom) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[2.522607] (cpp_custom) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.523282] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid rosLoop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.523369] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:38:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.523430] (cpp_custom) StderrLine: {'line': b'   38 | void rosLoop()     { \x1b[01;31m\x1b[Kros_\x1b[m\x1b[K->spin_some(); log("ROS2: processing services..."); }\n'}
+[2.523532] (cpp_custom) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.523963] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:38:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.524019] (cpp_custom) StderrLine: {'line': b'   38 | void rosLoop()     { ros_->spin_some(); log(\x1b[01;31m\x1b[K"ROS2: processing services..."\x1b[m\x1b[K); }\n'}
+[2.524068] (cpp_custom) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.524115] (cpp_custom) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.524161] (cpp_custom) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[2.524206] (cpp_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[2.524253] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[2.524300] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[2.524345] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[2.524390] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.524434] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.524509] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.524563] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.524608] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.524652] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.524700] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.524744] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.524787] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.524831] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/communication/ros_Service.hpp:7\x1b[m\x1b[K,\n'}
+[2.524875] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[2.524920] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[2.524964] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.525009] (cpp_custom) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[2.525053] (cpp_custom) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.525098] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid rosError()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.525143] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:39:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.525189] (cpp_custom) StderrLine: {'line': b'   39 | void rosError()    { log(\x1b[01;31m\x1b[K"ROS2: reporting error state."\x1b[m\x1b[K); }\n'}
+[2.525234] (cpp_custom) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.525277] (cpp_custom) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.525321] (cpp_custom) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[2.525365] (cpp_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[2.525409] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[2.525461] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[2.525523] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[2.525575] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.525621] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.525667] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.525711] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.525755] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.525799] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.525843] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.525887] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.525931] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.525976] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/communication/ros_Service.hpp:7\x1b[m\x1b[K,\n'}
+[2.526020] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[2.526065] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[2.526109] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.526170] (cpp_custom) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[2.526216] (cpp_custom) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.526260] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid rosShutdown()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.526305] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:40:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.526350] (cpp_custom) StderrLine: {'line': b'   40 | void rosShutdown() { log(\x1b[01;31m\x1b[K"ROS2: shutting down node."\x1b[m\x1b[K); }\n'}
+[2.526394] (cpp_custom) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.526438] (cpp_custom) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.526489] (cpp_custom) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[2.526538] (cpp_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[2.526583] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[2.526626] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[2.526678] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[2.526722] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.526767] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.526811] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.526855] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.526899] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.526943] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.526987] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.527032] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.527179] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.527243] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/communication/ros_Service.hpp:7\x1b[m\x1b[K,\n'}
+[2.527304] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[2.527412] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[2.527485] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.527701] (cpp_custom) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[2.527749] (cpp_custom) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.527795] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid engineIdle()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.527844] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:44:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.527890] (cpp_custom) StderrLine: {'line': b'   44 | void engineIdle()     { log(\x1b[01;31m\x1b[K"Engine: idle, no job."\x1b[m\x1b[K); }\n'}
+[2.527936] (cpp_custom) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.527985] (cpp_custom) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.528030] (cpp_custom) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[2.528075] (cpp_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[2.528119] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[2.528173] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[2.528224] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[2.528274] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.528319] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.528364] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.528409] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.528453] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.528518] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.528565] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.528611] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.528656] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.528700] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/communication/ros_Service.hpp:7\x1b[m\x1b[K,\n'}
+[2.528746] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[2.528791] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[2.528836] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.528882] (cpp_custom) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[2.528927] (cpp_custom) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.528971] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid engineSetup()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.529020] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:45:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.529067] (cpp_custom) StderrLine: {'line': b'   45 | void engineSetup()    { log(\x1b[01;31m\x1b[K"Engine: preloading woodbar demand..."\x1b[m\x1b[K); }\n'}
+[2.529111] (cpp_custom) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.529156] (cpp_custom) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.529201] (cpp_custom) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[2.529258] (cpp_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[2.529303] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[2.529348] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[2.529393] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[2.529444] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.529503] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.529558] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.529603] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.529648] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.529696] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.529740] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.529788] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.529833] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.529877] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/communication/ros_Service.hpp:7\x1b[m\x1b[K,\n'}
+[2.529929] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[2.529975] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[2.530020] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.530066] (cpp_custom) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[2.530110] (cpp_custom) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.530155] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid engineLoop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.530200] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:46:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kengine_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KEngine\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.530247] (cpp_custom) StderrLine: {'line': b'   46 | void engineLoop()     { \x1b[01;31m\x1b[Kengine_\x1b[m\x1b[K->runOnce(); log("Engine: processing optimization..."); }\n'}
+[2.530299] (cpp_custom) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.530344] (cpp_custom) StderrLine: {'line': b'      |                         \x1b[32m\x1b[KEngine\x1b[m\x1b[K\n'}
+[2.530389] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:46:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.530436] (cpp_custom) StderrLine: {'line': b'   46 | void engineLoop()     { engine_->runOnce(); log(\x1b[01;31m\x1b[K"Engine: processing optimization..."\x1b[m\x1b[K); }\n'}
+[2.530490] (cpp_custom) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.530549] (cpp_custom) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.530595] (cpp_custom) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[2.530643] (cpp_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[2.530689] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[2.530733] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[2.530778] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[2.530823] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.530868] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.530912] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.530958] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.531003] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.531048] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.531092] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.531137] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.531192] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.531237] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/communication/ros_Service.hpp:7\x1b[m\x1b[K,\n'}
+[2.531285] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[2.531336] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[2.531381] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.531433] (cpp_custom) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[2.531484] (cpp_custom) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.531538] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid engineError()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.531592] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:47:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.531639] (cpp_custom) StderrLine: {'line': b'   47 | void engineError()    { log(\x1b[01;31m\x1b[K"Engine: halted due to ERROR."\x1b[m\x1b[K); }\n'}
+[2.531684] (cpp_custom) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.531729] (cpp_custom) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.531775] (cpp_custom) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[2.531820] (cpp_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[2.531865] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[2.531910] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[2.531956] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[2.532002] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.532050] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.532095] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.532140] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.532185] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.532231] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.532276] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.532321] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.532366] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.532412] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/communication/ros_Service.hpp:7\x1b[m\x1b[K,\n'}
+[2.532458] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[2.532520] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[2.532578] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.532625] (cpp_custom) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[2.532674] (cpp_custom) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.532719] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid engineShutdown()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.532764] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:48:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.532813] (cpp_custom) StderrLine: {'line': b'   48 | void engineShutdown() { log(\x1b[01;31m\x1b[K"Engine: cleanup."\x1b[m\x1b[K); }\n'}
+[2.532858] (cpp_custom) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.532903] (cpp_custom) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.532948] (cpp_custom) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[2.532993] (cpp_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[2.533038] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[2.533094] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[2.533140] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[2.533191] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.533245] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.533291] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.533336] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.533381] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.533426] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.533482] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.533542] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.533586] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.533629] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/communication/ros_Service.hpp:7\x1b[m\x1b[K,\n'}
+[2.533685] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[2.533728] (cpp_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[2.533770] (cpp_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.533814] (cpp_custom) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[2.533856] (cpp_custom) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.611266] (-) TimerEvent: {}
+[2.711607] (-) TimerEvent: {}
+[2.811977] (-) TimerEvent: {}
+[2.912355] (-) TimerEvent: {}
+[3.012785] (-) TimerEvent: {}
+[3.113192] (-) TimerEvent: {}
+[3.115652] (cpp_custom) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/core_system.dir/build.make:146: CMakeFiles/core_system.dir/src/stateMachine/StateMachine.cpp.o] Error 1\n'}
+[3.116044] (cpp_custom) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/core_system.dir/all] Error 2\n'}
+[3.116277] (cpp_custom) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.119978] (cpp_custom) CommandEnded: {'returncode': 2}
+[3.127134] (cpp_custom) JobEnded: {'identifier': 'cpp_custom', 'rc': 2}
+[3.154339] (-) EventReactorShutdown: {}

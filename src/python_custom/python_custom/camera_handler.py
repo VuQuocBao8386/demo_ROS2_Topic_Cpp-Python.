@@ -1,10 +1,12 @@
 import cv2
-import numpy as np
+import threading
 
-class CameraHandler:
-    
-    def __init__(self, state, cam_index=None, path=None):
+class CameraHandler(threading.Thread):
+#____________________________________________Initalize_________________________________  
+    def __init__(self, state, event:threading.Event, cam_index=None, path=None):
         self.state = state
+        self.event = event
+
         self.cap = None
         self.image = None
 
@@ -24,22 +26,48 @@ class CameraHandler:
         else:
             raise ValueError("You must provide either a camera index or an image path.")
     
+        
 
+#____________________________________________Process_________________________________  
     def capture_frame(self):
         if self.cap is not None:
             ret, frame = self.cap.read()
             if ret:
-                with self.state._image_lock:
-                    self.state.camera_frame = frame
+                self.state.set_systemCamera(frame)
+                print("Success: Camera initailize sucessful.")
+
             else:
                 print("Warning: Failed to read frame from camera.")
         
-        elif self.image is not None:
-            with self.state._image_lock:
-                self.state.camera_frame = self.image.copy()
+        elif self.image is not None:  
+                self.state.set_systemCamera(self.image.copy())
                 print("Success: Image initailize sucessful.")
-    
+
+
+
     def release(self):
         """Release the camera if it's being used."""
         if self.cap is not None:
-            self.cap.release()
+            self.cap.release()  
+
+
+
+#____________________________________________Thread_________________________________  
+    def run(self):
+        while True:
+            self.event.wait()   # wait until triggered
+            try:
+                if self.command == "on_cam":
+                    self.capture_frame()
+                elif self.command == "off_cam":
+                    self.release()
+                else:
+                    print("[Camera]: No valid command")
+            finally:
+                # go back to sleep automatically
+                self.event.clear()
+
+
+    def trigger(self, command):
+        self.command = command
+        self.event.set()

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target core_system[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/core_system.dir/src/enigne/Engine.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/core_system.dir/src/dataBase/StoreData.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/core_system.dir/src/stateMachine/StateMachine.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/core_system.dir/src/communication/serial_UART.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/core_system.dir/src/setup/Setup.cpp.o[0m
+In file included from [01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/enigne/Engine.cpp:1[m[K:
+[01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/enigne/Engine.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Ksrc/setup/Setup.hpp: No such file or directory
+    6 | #include [01;31m[K"src/setup/Setup.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/core_system.dir/build.make:118: CMakeFiles/core_system.dir/src/enigne/Engine.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:8[m[K,
+                 from [01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1[m[K:
+[01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/enigne/Engine.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Ksrc/setup/Setup.hpp: No such file or directory
+    6 | #include [01;31m[K"src/setup/Setup.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/core_system.dir/build.make:146: CMakeFiles/core_system.dir/src/stateMachine/StateMachine.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/core_system.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

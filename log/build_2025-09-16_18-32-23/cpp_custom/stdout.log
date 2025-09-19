@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target core_system[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/core_system.dir/src/enigne/Engine.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/core_system.dir/src/dataBase/StoreData.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/core_system.dir/src/stateMachine/StateMachine.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/core_system.dir/src/communication/serial_UART.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/core_system.dir/src/setup/Setup.cpp.o[0m

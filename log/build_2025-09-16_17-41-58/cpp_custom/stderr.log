@@ -1,0 +1,37 @@
+In file included from [01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/communication/ros_Service.cpp:1[m[K:
+[01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/communication/ros_Service.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+    7 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1[m[K:
+[01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Ksrc/communication/ros_Service.hpp: No such file or directory
+    5 | #include [01;31m[K"src/communication/ros_Service.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/request.dir/build.make:160: CMakeFiles/request.dir/src/stateMachine/StateMachine.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/request.dir/build.make:90: CMakeFiles/request.dir/src/communication/ros_Service.cpp.o] Error 1
+In file included from [01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/enigne/Engine.cpp:1[m[K:
+[01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/enigne/Engine.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Ksrc/setup/Setup.hpp: No such file or directory
+    6 | #include [01;31m[K"src/setup/Setup.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/request.dir/build.make:132: CMakeFiles/request.dir/src/enigne/Engine.cpp.o] Error 1
+[01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/main.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kstatemachine.hpp: No such file or directory
+    6 | #include [01;31m[K"statemachine.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/request.dir/build.make:76: CMakeFiles/request.dir/src/main.cpp.o] Error 1
+In file included from [01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/setup/Setup.cpp:1[m[K:
+[01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/setup/Setup.hpp:[m[K In constructor ‘[01m[KUser::Input_WoodBar::Input_WoodBar(const string&, uint8_t, uint8_t)[m[K’:
+[01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/setup/Setup.hpp:15:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KUser::Input_WoodBar::userName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   15 |     std::string [01;35m[KuserName[m[K;
+      |                 [01;35m[K^~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/setup/Setup.hpp:13:17:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kuint8_t User::Input_WoodBar::_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   13 |     uint8_t     [01;35m[K_length[m[K = 0;
+      |                 [01;35m[K^~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/setup/Setup.hpp:21:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   21 |     [01;35m[KInput_WoodBar[m[K(const std::string& name, uint8_t l, uint8_t w)
+      |     [01;35m[K^~~~~~~~~~~~~[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,16 @@
+{
+    "mode": "default",
+    "area": 400,
+    "threshold_1": 78,
+    "threshold_2": 128,
+
+    "scale": 1,
+    "width_pixel": 800,
+    "height_pixel": 200,
+    "ratio_numerator": 80,
+    "ratio_denominator": 760,
+    
+    "camera_idex" : 0
+}
+
+

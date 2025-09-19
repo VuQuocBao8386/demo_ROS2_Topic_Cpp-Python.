@@ -1,47 +1,69 @@
 from threading import Lock
+import json
 
-class SystemState():
+
+class SystemState:
     def __init__(self):
+        # Locks for thread safety
         self._config_lock = Lock()
-        self._image_lock  = Lock()
+        self._camera_lock = Lock()
         self._data_lock   = Lock()
 
-        self.config = {
-            'camera_enabled':     True,
-            'processing_enabled': False,
-            'mode':               'default',
-            'area':                400,
-            'threshold_1':         78,
-            'threshold_2':         128
+        # Load default config at startup
+        self._system_config = self._load_default_config()
+
+        # Other system data
+        self._system_camera = None
+        self._system_data   = []
+
+    # ---------------- Private helper ----------------
+    def _load_default_config(self):
+        with open('../default_config.json', 'r') as file:
+            cfgJson = json.load(file)
+
+        return {
+            'mode':               cfgJson["mode"],
+            'area':               cfgJson["area"],
+            'threshold_1':        cfgJson["threshold_1"],
+            'threshold_2':        cfgJson["threshold_2"],
+            'scale':              cfgJson["scale"],
+            'width_pixel':        cfgJson["width_pixel"],
+            'height_pixel':       cfgJson["height_pixel"],
+            'ratio_numerator':    cfgJson["ratio_numerator"],
+            'ratio_denominator':  cfgJson["ratio_denominator"],
         }
 
-        self.camera_frame         = None
-        self.process_data         = []
-        self.communication_active = False
+    # ---------------- Config ----------------
+    def set_systemConfig(self, key, value, command=None):
+        with self._config_lock:
+            if command == "reset":
+                self._system_config = self._load_default_config()
+            else:
+                self._system_config[key] = value
+
+    def get_systemConfig(self, key):
+        with self._config_lock:
+            return self._system_config.get(key)
+
+
+    # ---------------- Camera ----------------
+    def set_systemCamera(self, img):
+        with self._camera_lock:
+            self._system_camera = img
+
+    def get_systemCamera(self):
+        with self._camera_lock:
+            return self._system_camera
+
+
+    # ---------------- Data ----------------
+    def set_systemData(self, data):
+        with self._data_lock:
+            self._system_data = data
+
+    def get_systemData(self):
+        with self._data_lock:
+            return self._system_data
+
+
     
-    # # Data Configuration
-    # def update_config(self, new_config: dict):
-    #     with self._config_lock:
-    #         self.config.update(new_config)
-
-    # def get_config(self):
-    #     with self._config_lock:
-    #         return self.config.copy()
-
-    # # Frame Camera
-    # def set_frame(self, frame):
-    #     with self._image_lock:
-    #         self.camera_frame = frame
-
-    # def get_frame(self):
-    #     with self._image_lock:
-    #         return self.camera_frame
-
-    # # Data Processing 
-    # def set_processed_data(self, data):
-    #     with self._data_lock:
-    #         self.processed_data = data
-
-    # def get_processed_data(self):
-    #     with self._data_lock:
-    #         return self.processed_data.copy() 

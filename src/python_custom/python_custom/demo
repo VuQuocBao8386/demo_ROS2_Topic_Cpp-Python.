@@ -1,0 +1,172 @@
+import rclpy
+from rclpy.node import Node
+from std_srvs.srv import Trigger  # Example service type (can be your custom)
+
+import threading
+import cv2
+
+
+# ================================
+# Shared State
+# ================================
+class SystemState:
+    def __init__(self):
+        self._config_lock = threading.Lock()
+        self._image_lock  = threading.Lock()
+        self._result_lock = threading.Lock()
+
+        self._config = {}
+        self._image = None
+        self._result = None
+
+    def set_config(self, key, value):
+        with self._config_lock:
+            self._config[key] = value
+
+    def get_config(self, key):
+        with self._config_lock:
+            return self._config.get(key)
+
+    def set_image(self, img):
+        with self._image_lock:
+            self._image = img
+
+    def get_image(self):
+        with self._image_lock:
+            return self._image
+
+    def set_result(self, result):
+        with self._result_lock:
+            self._result = result
+
+    def get_result(self):
+        with self._result_lock:
+            return self._result
+
+
+# ================================
+# Camera Thread
+# ================================
+class CameraThread(threading.Thread):
+    def __init__(self, state: SystemState, event: threading.Event):
+        super().__init__(daemon=True)
+        self.state = state
+        self.event = event
+        self.cap = cv2.VideoCapture(0)
+
+    def run(self):
+        while True:
+            self.event.wait()
+            ret, frame = self.cap.read()
+            if ret:
+                print("[CameraThread] Captured image")
+                self.state.set_image(frame)
+            self.event.clear()
+
+
+# ================================
+# Engine Thread
+# ================================
+class EngineThread(threading.Thread):
+    def __init__(self, state: SystemState, event: threading.Event):
+        super().__init__(daemon=True)
+        self.state = state
+        self.event = event
+
+    def run(self):
+        while True:
+            self.event.wait()
+            img = self.state.get_image()
+            if img is not None:
+                print("[EngineThread] Processing image...")
+                gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+                self.state.set_result(gray)
+            else:
+                print("[EngineThread] No image available")
+            self.event.clear()
+
+
+# ================================
+# ROS2 Service Node (acts like ConfigThread)
+# ================================
+class ConfigService(Node):
+    def __init__(self, state: SystemState, camera_event, engine_event):
+        super().__init__('config_service_node')
+        self.state = state
+        self.camera_event = camera_event
+        self.engine_event = engine_event
+
+        # Create service (C++ client can call this)
+        self.srv = self.create_service(Trigger, 'update_config', self.update_config_cb)
+
+    def update_config_cb(self, request, response):
+        # Example: config update
+        self.state.set_config("mode", "RUN")
+        print("[ConfigService] Config updated from C++")
+
+        # Wake up camera + engine threads
+        self.camera_event.set()
+        self.engine_event.set()
+
+        response.success = True
+        response.message = "Config updated and tasks triggered"
+        return response
+
+
+# ================================
+# Main Controller
+# ================================
+def main():
+    rclpy.init()
+
+    state = SystemState()
+    camera_event = threading.Event()
+    engine_event = threading.Event()
+
+    # Start worker threads
+    camera_thread = CameraThread(state, camera_event)
+    engine_thread = EngineThread(state, engine_event)
+    camera_thread.start()
+    engine_thread.start()
+
+    # Start ROS2 node
+    config_node = ConfigService(state, camera_event, engine_event)
+
+    try:
+        rclpy.spin(config_node)  # wait for service requests
+    except KeyboardInterrupt:
+        pass
+    finally:
+        config_node.destroy_node()
+        rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()
+
+
+
+
+
+
+
+
+    def run(self):
+        while True:
+            self.event.wait()   # wait until triggered
+            try:
+                if self.command == "A":
+                    self.method_a()
+                elif self.command == "B":
+                    self.method_b()
+                elif self.command == "C":
+                    self.method_c()
+                else:
+                    print("[Engine] No valid command")
+            finally:
+                # go back to sleep automatically
+                self.event.clear()
+
+    def trigger(self, command):
+        self.command = command
+        self.event.set()

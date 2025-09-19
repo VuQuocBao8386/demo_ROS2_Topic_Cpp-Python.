@@ -1,0 +1,24 @@
+[0.013s] Invoking command in '/home/anhbaodz/Documents/ros2_wood/build/cpp_custom': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ros2_wood/install/ros_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ros2_wood/install/ros_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/anhbaodz/Documents/ros2_wood/build/cpp_custom -- -j12 -l12
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target core_system[0m
+[0.080s] [ 44%] [32mBuilding CXX object CMakeFiles/core_system.dir/src/enigne/Engine.cpp.o[0m
+[0.080s] [ 44%] [32mBuilding CXX object CMakeFiles/core_system.dir/src/dataBase/StoreData.cpp.o[0m
+[0.080s] [ 44%] [32mBuilding CXX object CMakeFiles/core_system.dir/src/stateMachine/StateMachine.cpp.o[0m
+[0.080s] [ 44%] [32mBuilding CXX object CMakeFiles/core_system.dir/src/communication/serial_UART.cpp.o[0m
+[0.080s] [ 55%] [32mBuilding CXX object CMakeFiles/core_system.dir/src/setup/Setup.cpp.o[0m
+[0.091s] In file included from [01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/enigne/Engine.cpp:1[m[K:
+[0.091s] [01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/enigne/Engine.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Ksrc/setup/Setup.hpp: No such file or directory
+[0.091s]     6 | #include [01;31m[K"src/setup/Setup.hpp"[m[K
+[0.091s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.091s] compilation terminated.
+[0.092s] gmake[2]: *** [CMakeFiles/core_system.dir/build.make:118: CMakeFiles/core_system.dir/src/enigne/Engine.cpp.o] Error 1
+[0.092s] gmake[2]: *** Waiting for unfinished jobs....
+[0.359s] In file included from [01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/Statemachine.hpp:8[m[K,
+[0.359s]                  from [01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/stateMachine/StateMachine.cpp:1[m[K:
+[0.359s] [01m[K/home/anhbaodz/Documents/ros2_wood/src/cpp_custom/src/enigne/Engine.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Ksrc/setup/Setup.hpp: No such file or directory
+[0.360s]     6 | #include [01;31m[K"src/setup/Setup.hpp"[m[K
+[0.360s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.360s] compilation terminated.
+[0.364s] gmake[2]: *** [CMakeFiles/core_system.dir/build.make:146: CMakeFiles/core_system.dir/src/stateMachine/StateMachine.cpp.o] Error 1
+[0.389s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/core_system.dir/all] Error 2
+[0.389s] gmake: *** [Makefile:146: all] Error 2
+[0.393s] Invoked command in '/home/anhbaodz/Documents/ros2_wood/build/cpp_custom' returned '2': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ros2_wood/install/ros_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ros2_wood/install/ros_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/anhbaodz/Documents/ros2_wood/build/cpp_custom -- -j12 -l12

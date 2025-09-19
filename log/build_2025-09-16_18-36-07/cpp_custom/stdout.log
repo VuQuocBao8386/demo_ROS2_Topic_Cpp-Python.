@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target core_system[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/core_system.dir/src/enigne/Engine.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/core_system.dir/src/stateMachine/StateMachine.cpp.o[0m

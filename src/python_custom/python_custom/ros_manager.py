@@ -1,14 +1,12 @@
 import rclpy
 from rclpy.node import Node
-from threading import Lock
 from ros_interface.srv import UpdateConfigure, ProcessRequest
 
 class RosInterfaces(Node):
-    def __init__(self, system_state, config_manager, camera_handler, image_processor):
+    def __init__(self, state, config_manager, camera_handler, image_processor):
         super().__init__('ros_interface')
 
-        self.state = system_state
-        self.config_manager = config_manager
+        self.state = state
         self.camera_handler = camera_handler
         self.image_processor = image_processor
 

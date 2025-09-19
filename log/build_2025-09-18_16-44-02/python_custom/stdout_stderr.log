@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/python_custom/python_custom.egg-info/PKG-INFO
+writing dependency_links to ../../build/python_custom/python_custom.egg-info/dependency_links.txt
+writing entry points to ../../build/python_custom/python_custom.egg-info/entry_points.txt
+writing requirements to ../../build/python_custom/python_custom.egg-info/requires.txt
+writing top-level names to ../../build/python_custom/python_custom.egg-info/top_level.txt
+reading manifest file '../../build/python_custom/python_custom.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/python_custom/python_custom.egg-info/SOURCES.txt'
+running build
+running build_py
+copying python_custom/system_state.py -> /home/anhbaodz/Documents/ros2_wood/build/python_custom/build/lib/python_custom
+copying python_custom/ros_manager.py -> /home/anhbaodz/Documents/ros2_wood/build/python_custom/build/lib/python_custom
+running install
+running install_lib
+copying /home/anhbaodz/Documents/ros2_wood/build/python_custom/build/lib/python_custom/system_state.py -> /home/anhbaodz/Documents/ros2_wood/install/python_custom/lib/python3.10/site-packages/python_custom
+copying /home/anhbaodz/Documents/ros2_wood/build/python_custom/build/lib/python_custom/ros_manager.py -> /home/anhbaodz/Documents/ros2_wood/install/python_custom/lib/python3.10/site-packages/python_custom
+byte-compiling /home/anhbaodz/Documents/ros2_wood/install/python_custom/lib/python3.10/site-packages/python_custom/system_state.py to system_state.cpython-310.pyc
+byte-compiling /home/anhbaodz/Documents/ros2_wood/install/python_custom/lib/python3.10/site-packages/python_custom/ros_manager.py to ros_manager.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/anhbaodz/Documents/ros2_wood/install/python_custom/lib/python3.10/site-packages/python_custom-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/python_custom/python_custom.egg-info to /home/anhbaodz/Documents/ros2_wood/install/python_custom/lib/python3.10/site-packages/python_custom-0.0.0-py3.10.egg-info
+running install_scripts
+Installing reponse script to /home/anhbaodz/Documents/ros2_wood/install/python_custom/lib/python_custom
+writing list of installed files to '/home/anhbaodz/Documents/ros2_wood/build/python_custom/install.log'
