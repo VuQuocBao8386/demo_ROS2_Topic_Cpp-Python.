@@ -16,9 +16,6 @@
 #include "ros_interface/srv/detail/process_request__struct.h"
 #include "ros_interface/srv/detail/process_request__functions.h"
 
-#include "rosidl_runtime_c/string.h"
-#include "rosidl_runtime_c/string_functions.h"
-
 
 ROSIDL_GENERATOR_C_EXPORT
 bool ros_interface__srv__process_request__request__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -53,19 +50,13 @@ bool ros_interface__srv__process_request__request__convert_from_py(PyObject * _p
     assert(strncmp("ros_interface.srv._process_request.ProcessRequest_Request", full_classname_dest, 57) == 0);
   }
   ros_interface__srv__ProcessRequest_Request * ros_message = _ros_message;
-  {  // start_communication
-    PyObject * field = PyObject_GetAttrString(_pymsg, "start_communication");
+  {  // start_requestdata
+    PyObject * field = PyObject_GetAttrString(_pymsg, "start_requestdata");
     if (!field) {
       return false;
     }
-    assert(PyUnicode_Check(field));
-    PyObject * encoded_field = PyUnicode_AsUTF8String(field);
-    if (!encoded_field) {
-      Py_DECREF(field);
-      return false;
-    }
-    rosidl_runtime_c__String__assign(&ros_message->start_communication, PyBytes_AS_STRING(encoded_field));
-    Py_DECREF(encoded_field);
+    assert(PyBool_Check(field));
+    ros_message->start_requestdata = (Py_True == field);
     Py_DECREF(field);
   }
 
@@ -90,17 +81,11 @@ PyObject * ros_interface__srv__process_request__request__convert_to_py(void * ra
     }
   }
   ros_interface__srv__ProcessRequest_Request * ros_message = (ros_interface__srv__ProcessRequest_Request *)raw_ros_message;
-  {  // start_communication
+  {  // start_requestdata
     PyObject * field = NULL;
-    field = PyUnicode_DecodeUTF8(
-      ros_message->start_communication.data,
-      strlen(ros_message->start_communication.data),
-      "replace");
-    if (!field) {
-      return NULL;
-    }
+    field = PyBool_FromLong(ros_message->start_requestdata ? 1 : 0);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "start_communication", field);
+      int rc = PyObject_SetAttrString(_pymessage, "start_requestdata", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

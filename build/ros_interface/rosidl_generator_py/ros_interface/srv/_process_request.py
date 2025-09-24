@@ -55,22 +55,22 @@ class ProcessRequest_Request(metaclass=Metaclass_ProcessRequest_Request):
     """Message class 'ProcessRequest_Request'."""
 
     __slots__ = [
-        '_start_communication',
+        '_start_requestdata',
     ]
 
     _fields_and_field_types = {
-        'start_communication': 'string',
+        'start_requestdata': 'boolean',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.UnboundedString(),  # noqa: E501
+        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.start_communication = kwargs.get('start_communication', str())
+        self.start_requestdata = kwargs.get('start_requestdata', bool())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -101,7 +101,7 @@ class ProcessRequest_Request(metaclass=Metaclass_ProcessRequest_Request):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.start_communication != other.start_communication:
+        if self.start_requestdata != other.start_requestdata:
             return False
         return True
 
@@ -111,17 +111,17 @@ class ProcessRequest_Request(metaclass=Metaclass_ProcessRequest_Request):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def start_communication(self):
-        """Message field 'start_communication'."""
-        return self._start_communication
+    def start_requestdata(self):
+        """Message field 'start_requestdata'."""
+        return self._start_requestdata
 
-    @start_communication.setter
-    def start_communication(self, value):
+    @start_requestdata.setter
+    def start_requestdata(self, value):
         if __debug__:
             assert \
-                isinstance(value, str), \
-                "The 'start_communication' field must be of type 'str'"
-        self._start_communication = value
+                isinstance(value, bool), \
+                "The 'start_requestdata' field must be of type 'bool'"
+        self._start_requestdata = value
 
 
 # Import statements for member types

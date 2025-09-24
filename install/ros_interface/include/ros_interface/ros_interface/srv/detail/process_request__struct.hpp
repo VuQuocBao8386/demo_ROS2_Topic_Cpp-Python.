@@ -38,30 +38,30 @@ struct ProcessRequest_Request_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->start_communication = "";
+      this->start_requestdata = false;
     }
   }
 
   explicit ProcessRequest_Request_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : start_communication(_alloc)
   {
+    (void)_alloc;
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->start_communication = "";
+      this->start_requestdata = false;
     }
   }
 
   // field types and members
-  using _start_communication_type =
-    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
-  _start_communication_type start_communication;
+  using _start_requestdata_type =
+    bool;
+  _start_requestdata_type start_requestdata;
 
   // setters for named parameter idiom
-  Type & set__start_communication(
-    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+  Type & set__start_requestdata(
+    const bool & _arg)
   {
-    this->start_communication = _arg;
+    this->start_requestdata = _arg;
     return *this;
   }
 
@@ -107,7 +107,7 @@ struct ProcessRequest_Request_
   // comparison operators
   bool operator==(const ProcessRequest_Request_ & other) const
   {
-    if (this->start_communication != other.start_communication) {
+    if (this->start_requestdata != other.start_requestdata) {
       return false;
     }
     return true;

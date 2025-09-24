@@ -55,7 +55,6 @@ class UpdateConfigure_Request(metaclass=Metaclass_UpdateConfigure_Request):
     """Message class 'UpdateConfigure_Request'."""
 
     __slots__ = [
-        '_update',
         '_command',
         '_mode',
         '_area',
@@ -64,7 +63,6 @@ class UpdateConfigure_Request(metaclass=Metaclass_UpdateConfigure_Request):
     ]
 
     _fields_and_field_types = {
-        'update': 'boolean',
         'command': 'string',
         'mode': 'string',
         'area': 'int64',
@@ -73,7 +71,6 @@ class UpdateConfigure_Request(metaclass=Metaclass_UpdateConfigure_Request):
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
         rosidl_parser.definition.BasicType('int64'),  # noqa: E501
@@ -85,7 +82,6 @@ class UpdateConfigure_Request(metaclass=Metaclass_UpdateConfigure_Request):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.update = kwargs.get('update', bool())
         self.command = kwargs.get('command', str())
         self.mode = kwargs.get('mode', str())
         self.area = kwargs.get('area', int())
@@ -121,8 +117,6 @@ class UpdateConfigure_Request(metaclass=Metaclass_UpdateConfigure_Request):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.update != other.update:
-            return False
         if self.command != other.command:
             return False
         if self.mode != other.mode:
@@ -139,19 +133,6 @@ class UpdateConfigure_Request(metaclass=Metaclass_UpdateConfigure_Request):
     def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
-
-    @builtins.property
-    def update(self):
-        """Message field 'update'."""
-        return self._update
-
-    @update.setter
-    def update(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'update' field must be of type 'bool'"
-        self._update = value
 
     @builtins.property
     def command(self):

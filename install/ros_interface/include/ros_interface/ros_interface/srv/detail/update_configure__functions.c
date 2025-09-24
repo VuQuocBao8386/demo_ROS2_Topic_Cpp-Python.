@@ -21,7 +21,6 @@ ros_interface__srv__UpdateConfigure_Request__init(ros_interface__srv__UpdateConf
   if (!msg) {
     return false;
   }
-  // update
   // command
   if (!rosidl_runtime_c__String__init(&msg->command)) {
     ros_interface__srv__UpdateConfigure_Request__fini(msg);
@@ -44,7 +43,6 @@ ros_interface__srv__UpdateConfigure_Request__fini(ros_interface__srv__UpdateConf
   if (!msg) {
     return;
   }
-  // update
   // command
   rosidl_runtime_c__String__fini(&msg->command);
   // mode
@@ -58,10 +56,6 @@ bool
 ros_interface__srv__UpdateConfigure_Request__are_equal(const ros_interface__srv__UpdateConfigure_Request * lhs, const ros_interface__srv__UpdateConfigure_Request * rhs)
 {
   if (!lhs || !rhs) {
-    return false;
-  }
-  // update
-  if (lhs->update != rhs->update) {
     return false;
   }
   // command
@@ -99,8 +93,6 @@ ros_interface__srv__UpdateConfigure_Request__copy(
   if (!input || !output) {
     return false;
   }
-  // update
-  output->update = input->update;
   // command
   if (!rosidl_runtime_c__String__copy(
       &(input->command), &(output->command)))

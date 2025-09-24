@@ -58,8 +58,6 @@ CMakeFiles/ros_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupp
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /home/anhbaodz/Documents/ros2_wood/build/ros_interface/rosidl_generator_c/ros_interface/msg/rosidl_generator_c__visibility_control.h \
  /home/anhbaodz/Documents/ros2_wood/build/ros_interface/rosidl_generator_c/ros_interface/srv/detail/process_request__struct.h \
- /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h \
  /opt/ros/humble/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/service_introspection.h

@@ -10,21 +10,13 @@
 
 #include "rcutils/allocator.h"
 
-// Include directives for member types
-// Member `start_communication`
-#include "rosidl_runtime_c/string_functions.h"
-
 bool
 ros_interface__srv__ProcessRequest_Request__init(ros_interface__srv__ProcessRequest_Request * msg)
 {
   if (!msg) {
     return false;
   }
-  // start_communication
-  if (!rosidl_runtime_c__String__init(&msg->start_communication)) {
-    ros_interface__srv__ProcessRequest_Request__fini(msg);
-    return false;
-  }
+  // start_requestdata
   return true;
 }
 
@@ -34,8 +26,7 @@ ros_interface__srv__ProcessRequest_Request__fini(ros_interface__srv__ProcessRequ
   if (!msg) {
     return;
   }
-  // start_communication
-  rosidl_runtime_c__String__fini(&msg->start_communication);
+  // start_requestdata
 }
 
 bool
@@ -44,10 +35,8 @@ ros_interface__srv__ProcessRequest_Request__are_equal(const ros_interface__srv__
   if (!lhs || !rhs) {
     return false;
   }
-  // start_communication
-  if (!rosidl_runtime_c__String__are_equal(
-      &(lhs->start_communication), &(rhs->start_communication)))
-  {
+  // start_requestdata
+  if (lhs->start_requestdata != rhs->start_requestdata) {
     return false;
   }
   return true;
@@ -61,12 +50,8 @@ ros_interface__srv__ProcessRequest_Request__copy(
   if (!input || !output) {
     return false;
   }
-  // start_communication
-  if (!rosidl_runtime_c__String__copy(
-      &(input->start_communication), &(output->start_communication)))
-  {
-    return false;
-  }
+  // start_requestdata
+  output->start_requestdata = input->start_requestdata;
   return true;
 }
 

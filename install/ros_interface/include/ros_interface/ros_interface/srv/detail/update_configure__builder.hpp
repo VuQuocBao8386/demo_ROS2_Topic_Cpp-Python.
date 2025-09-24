@@ -88,29 +88,13 @@ private:
 class Init_UpdateConfigure_Request_command
 {
 public:
-  explicit Init_UpdateConfigure_Request_command(::ros_interface::srv::UpdateConfigure_Request & msg)
-  : msg_(msg)
+  Init_UpdateConfigure_Request_command()
+  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
   Init_UpdateConfigure_Request_mode command(::ros_interface::srv::UpdateConfigure_Request::_command_type arg)
   {
     msg_.command = std::move(arg);
     return Init_UpdateConfigure_Request_mode(msg_);
-  }
-
-private:
-  ::ros_interface::srv::UpdateConfigure_Request msg_;
-};
-
-class Init_UpdateConfigure_Request_update
-{
-public:
-  Init_UpdateConfigure_Request_update()
-  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
-  {}
-  Init_UpdateConfigure_Request_command update(::ros_interface::srv::UpdateConfigure_Request::_update_type arg)
-  {
-    msg_.update = std::move(arg);
-    return Init_UpdateConfigure_Request_command(msg_);
   }
 
 private:
@@ -128,7 +112,7 @@ template<>
 inline
 auto build<::ros_interface::srv::UpdateConfigure_Request>()
 {
-  return ros_interface::srv::builder::Init_UpdateConfigure_Request_update();
+  return ros_interface::srv::builder::Init_UpdateConfigure_Request_command();
 }
 
 }  // namespace ros_interface

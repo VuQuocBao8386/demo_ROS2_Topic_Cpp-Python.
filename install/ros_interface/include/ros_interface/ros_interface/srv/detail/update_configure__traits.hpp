@@ -25,13 +25,6 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: update
-  {
-    out << "update: ";
-    rosidl_generator_traits::value_to_yaml(msg.update, out);
-    out << ", ";
-  }
-
   // member: command
   {
     out << "command: ";
@@ -72,16 +65,6 @@ inline void to_block_style_yaml(
   const UpdateConfigure_Request & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: update
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "update: ";
-    rosidl_generator_traits::value_to_yaml(msg.update, out);
-    out << "\n";
-  }
-
   // member: command
   {
     if (indentation > 0) {

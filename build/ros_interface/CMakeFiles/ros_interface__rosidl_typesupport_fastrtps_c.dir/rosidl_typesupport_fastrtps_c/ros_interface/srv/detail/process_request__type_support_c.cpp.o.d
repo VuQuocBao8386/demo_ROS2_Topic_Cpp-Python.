@@ -184,11 +184,9 @@ CMakeFiles/ros_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_f
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc /usr/include/malloc.h \
  /home/anhbaodz/Documents/ros2_wood/build/ros_interface/rosidl_generator_c/ros_interface/srv/detail/process_request__struct.h \
- /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /home/anhbaodz/Documents/ros2_wood/build/ros_interface/rosidl_generator_c/ros_interface/srv/detail/process_request__functions.h \
  /usr/include/c++/11/stdlib.h \
  /home/anhbaodz/Documents/ros2_wood/build/ros_interface/rosidl_generator_c/ros_interface/msg/rosidl_generator_c__visibility_control.h \
- /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h \
  /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/service_type_support.h \
  /opt/ros/humble/include/rmw/rmw/types.h \

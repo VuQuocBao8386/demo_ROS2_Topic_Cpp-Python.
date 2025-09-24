@@ -25,10 +25,10 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: start_communication
+  // member: start_requestdata
   {
-    out << "start_communication: ";
-    rosidl_generator_traits::value_to_yaml(msg.start_communication, out);
+    out << "start_requestdata: ";
+    rosidl_generator_traits::value_to_yaml(msg.start_requestdata, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -37,13 +37,13 @@ inline void to_block_style_yaml(
   const ProcessRequest_Request & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: start_communication
+  // member: start_requestdata
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "start_communication: ";
-    rosidl_generator_traits::value_to_yaml(msg.start_communication, out);
+    out << "start_requestdata: ";
+    rosidl_generator_traits::value_to_yaml(msg.start_requestdata, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)
@@ -94,11 +94,11 @@ inline const char * name<ros_interface::srv::ProcessRequest_Request>()
 
 template<>
 struct has_fixed_size<ros_interface::srv::ProcessRequest_Request>
-  : std::integral_constant<bool, false> {};
+  : std::integral_constant<bool, true> {};
 
 template<>
 struct has_bounded_size<ros_interface::srv::ProcessRequest_Request>
-  : std::integral_constant<bool, false> {};
+  : std::integral_constant<bool, true> {};
 
 template<>
 struct is_message<ros_interface::srv::ProcessRequest_Request>

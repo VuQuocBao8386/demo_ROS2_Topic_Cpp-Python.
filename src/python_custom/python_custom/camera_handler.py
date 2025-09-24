@@ -1,9 +1,10 @@
 import cv2
 import threading
+from system_state import SystemState
 
 class CameraHandler(threading.Thread):
 #____________________________________________Initalize_________________________________  
-    def __init__(self, state, event:threading.Event, cam_index=None, path=None):
+    def __init__(self, state:SystemState, event:threading.Event, cam_index=None, path=None):
         self.state = state
         self.event = event
 
@@ -29,45 +30,30 @@ class CameraHandler(threading.Thread):
         
 
 #____________________________________________Process_________________________________  
-    def capture_frame(self):
-        if self.cap is not None:
-            ret, frame = self.cap.read()
-            if ret:
-                self.state.set_systemCamera(frame)
-                print("Success: Camera initailize sucessful.")
+    def run(self):
+        while True:
+            self.event.wait()   # wait until triggered
+            if self.cap is not None:
+                ret, frame = self.cap.read()
+                if ret:
+                    self.state.set_systemCamera(frame)
+                    print("Success: Camera initailize sucessful.")
 
-            else:
-                print("Warning: Failed to read frame from camera.")
-        
-        elif self.image is not None:  
-                self.state.set_systemCamera(self.image.copy())
-                print("Success: Image initailize sucessful.")
+                else:
+                    print("Warning: Failed to read frame from camera.")
+
+            elif self.image is not None:  
+                    self.state.set_systemCamera(self.image.copy())
+                    print("Success: Image initailize sucessful.")
+            
+            self.event.clear()
 
 
 
     def release(self):
         """Release the camera if it's being used."""
         if self.cap is not None:
-            self.cap.release()  
+            self.cap.release()
+            cv2.destroyAllWindows()
 
 
-
-#____________________________________________Thread_________________________________  
-    def run(self):
-        while True:
-            self.event.wait()   # wait until triggered
-            try:
-                if self.command == "on_cam":
-                    self.capture_frame()
-                elif self.command == "off_cam":
-                    self.release()
-                else:
-                    print("[Camera]: No valid command")
-            finally:
-                # go back to sleep automatically
-                self.event.clear()
-
-
-    def trigger(self, command):
-        self.command = command
-        self.event.set()

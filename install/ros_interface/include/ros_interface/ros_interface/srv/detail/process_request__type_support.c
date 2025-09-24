@@ -12,10 +12,6 @@
 #include "ros_interface/srv/detail/process_request__struct.h"
 
 
-// Include directives for member types
-// Member `start_communication`
-#include "rosidl_runtime_c/string_functions.h"
-
 #ifdef __cplusplus
 extern "C"
 {
@@ -37,14 +33,14 @@ void ros_interface__srv__ProcessRequest_Request__rosidl_typesupport_introspectio
 
 static rosidl_typesupport_introspection_c__MessageMember ros_interface__srv__ProcessRequest_Request__rosidl_typesupport_introspection_c__ProcessRequest_Request_message_member_array[1] = {
   {
-    "start_communication",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
+    "start_requestdata",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(ros_interface__srv__ProcessRequest_Request, start_communication),  // bytes offset in struct
+    offsetof(ros_interface__srv__ProcessRequest_Request, start_requestdata),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer

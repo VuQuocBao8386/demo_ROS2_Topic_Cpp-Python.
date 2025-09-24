@@ -1,11 +1,12 @@
 from python_custom import Util
 import cv2
 import threading
+from system_state import SystemState
 
 
 class ImageProcessor(threading.Thread):
 #__________________________________________Initialization______________________//
-    def __init__(self, state, event: threading.Event):
+    def __init__(self, state:SystemState, event: threading.Event):
         self.state = state
         self.event = event
 
@@ -14,7 +15,9 @@ class ImageProcessor(threading.Thread):
 
 #__________________________________________PROCESS______________________//
     def run(self):
-        
+      while True:
+        self.event.wait()
+          
         checking_image = self.state.get_systemCamera()
         if checking_image is None:
             print("[PROCESS] No frame available yet.")
@@ -67,7 +70,9 @@ class ImageProcessor(threading.Thread):
                 head_tail.append(w_p)
 
                 final_data = Util.distance_object(head_tail, ratio)
-                return final_data
+                
+                # Store final data
+                self.state.set_systemData = final_data
 
         # close thread
         self.event.clear()

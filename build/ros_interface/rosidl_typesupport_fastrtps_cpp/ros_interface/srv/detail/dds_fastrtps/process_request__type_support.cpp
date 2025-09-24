@@ -32,8 +32,8 @@ cdr_serialize(
   const ros_interface::srv::ProcessRequest_Request & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: start_communication
-  cdr << ros_message.start_communication;
+  // Member: start_requestdata
+  cdr << (ros_message.start_requestdata ? true : false);
   return true;
 }
 
@@ -43,8 +43,12 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   ros_interface::srv::ProcessRequest_Request & ros_message)
 {
-  // Member: start_communication
-  cdr >> ros_message.start_communication;
+  // Member: start_requestdata
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message.start_requestdata = tmp ? true : false;
+  }
 
   return true;
 }
@@ -62,10 +66,12 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: start_communication
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message.start_communication.size() + 1);
+  // Member: start_requestdata
+  {
+    size_t item_size = sizeof(ros_message.start_requestdata);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
 
   return current_alignment - initial_alignment;
 }
@@ -90,17 +96,12 @@ max_serialized_size_ProcessRequest_Request(
   is_plain = true;
 
 
-  // Member: start_communication
+  // Member: start_requestdata
   {
     size_t array_size = 1;
 
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
   }
 
   size_t ret_val = current_alignment - initial_alignment;
@@ -111,7 +112,7 @@ max_serialized_size_ProcessRequest_Request(
     using DataType = ros_interface::srv::ProcessRequest_Request;
     is_plain =
       (
-      offsetof(DataType, start_communication) +
+      offsetof(DataType, start_requestdata) +
       last_member_size
       ) == ret_val;
   }

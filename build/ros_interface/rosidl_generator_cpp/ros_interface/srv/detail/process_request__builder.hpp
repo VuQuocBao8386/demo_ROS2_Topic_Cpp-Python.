@@ -21,15 +21,15 @@ namespace srv
 namespace builder
 {
 
-class Init_ProcessRequest_Request_start_communication
+class Init_ProcessRequest_Request_start_requestdata
 {
 public:
-  Init_ProcessRequest_Request_start_communication()
+  Init_ProcessRequest_Request_start_requestdata()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::ros_interface::srv::ProcessRequest_Request start_communication(::ros_interface::srv::ProcessRequest_Request::_start_communication_type arg)
+  ::ros_interface::srv::ProcessRequest_Request start_requestdata(::ros_interface::srv::ProcessRequest_Request::_start_requestdata_type arg)
   {
-    msg_.start_communication = std::move(arg);
+    msg_.start_requestdata = std::move(arg);
     return std::move(msg_);
   }
 
@@ -48,7 +48,7 @@ template<>
 inline
 auto build<::ros_interface::srv::ProcessRequest_Request>()
 {
-  return ros_interface::srv::builder::Init_ProcessRequest_Request_start_communication();
+  return ros_interface::srv::builder::Init_ProcessRequest_Request_start_requestdata();
 }
 
 }  // namespace ros_interface

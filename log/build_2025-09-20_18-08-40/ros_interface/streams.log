@@ -1,0 +1,296 @@
+[0.011s] Invoking command in '/home/anhbaodz/Documents/ros2_wood/build/ros_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake /home/anhbaodz/Documents/ros2_wood/src/ros_interface -DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ros2_wood/install/ros_interface
+[0.032s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.167s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.200s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.204s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.211s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.224s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.239s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.276s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.559s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.954s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.108s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.130s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.132s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.158s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.158s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.158s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.158s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.179s] -- Found PythonExtra: .so  
+[1.235s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.260s] -- Added test 'lint_cmake' to check CMake code style
+[1.262s] -- Added test 'xmllint' to check XML markup files
+[1.265s] -- Configuring done
+[1.305s] -- Generating done
+[1.316s] -- Build files have been written to: /home/anhbaodz/Documents/ros2_wood/build/ros_interface
+[1.325s] Invoked command in '/home/anhbaodz/Documents/ros2_wood/build/ros_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake /home/anhbaodz/Documents/ros2_wood/src/ros_interface -DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ros2_wood/install/ros_interface
+[1.328s] Invoking command in '/home/anhbaodz/Documents/ros2_wood/build/ros_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake --build /home/anhbaodz/Documents/ros2_wood/build/ros_interface -- -j12 -l12
+[1.374s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.387s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.397s] [  4%] Built target ament_cmake_python_copy_ros_interface
+[1.604s] running egg_info
+[1.604s] creating ros_interface.egg-info
+[1.604s] writing ros_interface.egg-info/PKG-INFO
+[1.605s] writing dependency_links to ros_interface.egg-info/dependency_links.txt
+[1.605s] writing top-level names to ros_interface.egg-info/top_level.txt
+[1.605s] writing manifest file 'ros_interface.egg-info/SOURCES.txt'
+[1.607s] reading manifest file 'ros_interface.egg-info/SOURCES.txt'
+[1.607s] writing manifest file 'ros_interface.egg-info/SOURCES.txt'
+[1.646s] [  4%] Built target ament_cmake_python_build_ros_interface_egg
+[1.760s] [  4%] Built target ros_interface__cpp
+[1.772s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.772s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.775s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.783s] [ 17%] [32mBuilding C object CMakeFiles/ros_interface__rosidl_generator_c.dir/rosidl_generator_c/ros_interface/srv/detail/update_configure__functions.c.o[0m
+[1.783s] [ 17%] [32mBuilding C object CMakeFiles/ros_interface__rosidl_generator_c.dir/rosidl_generator_c/ros_interface/srv/detail/process_request__functions.c.o[0m
+[1.784s] [ 17%] [32mBuilding C object CMakeFiles/ros_interface__rosidl_generator_c.dir/rosidl_generator_c/ros_interface/msg/detail/sphere__functions.c.o[0m
+[1.869s] [ 19%] [32m[1mLinking C shared library libros_interface__rosidl_generator_c.so[0m
+[1.921s] [ 19%] Built target ros_interface__rosidl_generator_c
+[1.935s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.935s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.936s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.073s] [ 29%] [32mBuilding CXX object CMakeFiles/ros_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_interface/srv/update_configure__type_support.cpp.o[0m
+[2.073s] [ 29%] [32mBuilding CXX object CMakeFiles/ros_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_interface/srv/process_request__type_support.cpp.o[0m
+[2.074s] [ 31%] [32mBuilding CXX object CMakeFiles/ros_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_interface/msg/sphere__type_support.cpp.o[0m
+[2.154s] [ 34%] [32mBuilding CXX object CMakeFiles/ros_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_interface/srv/detail/process_request__type_support.cpp.o[0m
+[2.154s] [ 36%] [32mBuilding CXX object CMakeFiles/ros_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_interface/srv/detail/update_configure__type_support.cpp.o[0m
+[2.155s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_interface/msg/detail/sphere__type_support.cpp.o[0m
+[2.203s] [ 42%] [32mBuilding CXX object CMakeFiles/ros_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_interface/srv/detail/dds_fastrtps/process_request__type_support.cpp.o[0m
+[2.204s] [ 44%] [32mBuilding CXX object CMakeFiles/ros_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_interface/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[2.204s] [ 44%] [32mBuilding CXX object CMakeFiles/ros_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_interface/srv/detail/dds_fastrtps/update_configure__type_support.cpp.o[0m
+[2.522s] [ 46%] [32mBuilding CXX object CMakeFiles/ros_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_interface/msg/sphere__type_support.cpp.o[0m
+[2.577s] [ 48%] [32mBuilding C object CMakeFiles/ros_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_interface/msg/detail/sphere__type_support.c.o[0m
+[2.591s] [ 53%] [32mBuilding C object CMakeFiles/ros_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_interface/srv/detail/process_request__type_support.c.o[0m
+[2.591s] [ 53%] [32m[1mLinking CXX shared library libros_interface__rosidl_typesupport_cpp.so[0m
+[2.603s] [ 55%] [32mBuilding CXX object CMakeFiles/ros_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_interface/srv/process_request__type_support.cpp.o[0m
+[2.613s] [ 57%] [32mBuilding CXX object CMakeFiles/ros_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_interface/srv/update_configure__type_support.cpp.o[0m
+[2.662s] [ 59%] [32mBuilding CXX object CMakeFiles/ros_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_interface/msg/detail/sphere__type_support_c.cpp.o[0m
+[2.668s] [ 61%] [32mBuilding C object CMakeFiles/ros_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_interface/srv/detail/update_configure__type_support.c.o[0m
+[2.684s] [ 65%] [32mBuilding CXX object CMakeFiles/ros_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_interface/srv/detail/process_request__type_support_c.cpp.o[0m
+[2.684s] [ 65%] [32m[1mLinking CXX shared library libros_interface__rosidl_typesupport_c.so[0m
+[2.694s] [ 68%] [32mBuilding CXX object CMakeFiles/ros_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_interface/srv/detail/update_configure__type_support_c.cpp.o[0m
+[2.706s] [ 68%] Built target ros_interface__rosidl_typesupport_cpp
+[2.752s] [ 70%] [32m[1mLinking C shared library libros_interface__rosidl_typesupport_introspection_c.so[0m
+[2.789s] [ 70%] Built target ros_interface__rosidl_typesupport_c
+[2.829s] [ 70%] Built target ros_interface__rosidl_typesupport_introspection_c
+[2.891s] [ 72%] [32m[1mLinking CXX shared library libros_interface__rosidl_typesupport_introspection_cpp.so[0m
+[3.013s] [ 74%] [32m[1mLinking CXX shared library libros_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.043s] [ 74%] Built target ros_interface__rosidl_typesupport_introspection_cpp
+[3.140s] [ 74%] Built target ros_interface__rosidl_typesupport_fastrtps_cpp
+[3.150s] [ 76%] [32m[1mLinking CXX shared library libros_interface__rosidl_typesupport_fastrtps_c.so[0m
+[3.252s] [ 76%] Built target ros_interface__rosidl_typesupport_fastrtps_c
+[3.277s] [ 76%] Built target ros_interface
+[3.301s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.822s] [ 78%] Built target ros_interface__py
+[3.846s] [ 85%] [32mBuilding C object CMakeFiles/ros_interface__rosidl_generator_py.dir/rosidl_generator_py/ros_interface/srv/_update_configure_s.c.o[0m
+[3.846s] [ 85%] [32mBuilding C object CMakeFiles/ros_interface__rosidl_generator_py.dir/rosidl_generator_py/ros_interface/srv/_process_request_s.c.o[0m
+[3.846s] [ 85%] [32mBuilding C object CMakeFiles/ros_interface__rosidl_generator_py.dir/rosidl_generator_py/ros_interface/msg/_sphere_s.c.o[0m
+[3.972s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/ros_interface/libros_interface__rosidl_generator_py.so[0m
+[4.018s] [ 87%] Built target ros_interface__rosidl_generator_py
+[4.043s] [ 93%] [32mBuilding C object CMakeFiles/ros_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_interface/_ros_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[4.043s] [ 93%] [32mBuilding C object CMakeFiles/ros_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_interface/_ros_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.043s] [ 93%] [32mBuilding C object CMakeFiles/ros_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_interface/_ros_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.156s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros_interface/ros_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.156s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros_interface/ros_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.156s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros_interface/ros_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.202s] [100%] Built target ros_interface__rosidl_typesupport_c__pyext
+[4.202s] [100%] Built target ros_interface__rosidl_typesupport_introspection_c__pyext
+[4.203s] [100%] Built target ros_interface__rosidl_typesupport_fastrtps_c__pyext
+[4.218s] Invoked command in '/home/anhbaodz/Documents/ros2_wood/build/ros_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake --build /home/anhbaodz/Documents/ros2_wood/build/ros_interface -- -j12 -l12
+[4.230s] Invoking command in '/home/anhbaodz/Documents/ros2_wood/build/ros_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake --install /home/anhbaodz/Documents/ros2_wood/build/ros_interface
+[4.238s] -- Install configuration: ""
+[4.238s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ament_index/resource_index/rosidl_interfaces/ros_interface
+[4.239s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface
+[4.239s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg
+[4.239s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/rosidl_generator_c__visibility_control.h
+[4.239s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/sphere.h
+[4.239s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail
+[4.240s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail/sphere__struct.h
+[4.240s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail/sphere__type_support.h
+[4.240s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail/sphere__functions.c
+[4.240s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail/sphere__functions.h
+[4.240s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv
+[4.240s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/process_request.h
+[4.240s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/update_configure.h
+[4.240s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail
+[4.240s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/update_configure__type_support.h
+[4.240s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/process_request__type_support.h
+[4.240s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/update_configure__functions.h
+[4.241s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/update_configure__struct.h
+[4.241s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/process_request__functions.c
+[4.241s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/process_request__struct.h
+[4.241s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/update_configure__functions.c
+[4.241s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/process_request__functions.h
+[4.242s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/environment/library_path.sh
+[4.242s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/environment/library_path.dsv
+[4.242s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib/libros_interface__rosidl_generator_c.so
+[4.243s] -- Set runtime path of "/home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib/libros_interface__rosidl_generator_c.so" to ""
+[4.243s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface
+[4.243s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg
+[4.243s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.243s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail
+[4.243s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[4.243s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv
+[4.243s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail
+[4.243s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/update_configure__rosidl_typesupport_fastrtps_c.h
+[4.243s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/process_request__rosidl_typesupport_fastrtps_c.h
+[4.244s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib/libros_interface__rosidl_typesupport_fastrtps_c.so
+[4.244s] -- Set runtime path of "/home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib/libros_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[4.244s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface
+[4.244s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg
+[4.244s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.245s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/sphere.hpp
+[4.245s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail
+[4.245s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail/sphere__struct.hpp
+[4.245s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail/sphere__builder.hpp
+[4.245s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail/sphere__type_support.hpp
+[4.245s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail/sphere__traits.hpp
+[4.245s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv
+[4.245s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/update_configure.hpp
+[4.246s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail
+[4.246s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/update_configure__traits.hpp
+[4.246s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/update_configure__struct.hpp
+[4.246s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/process_request__traits.hpp
+[4.246s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/process_request__type_support.hpp
+[4.246s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/update_configure__type_support.hpp
+[4.247s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/update_configure__builder.hpp
+[4.247s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/process_request__struct.hpp
+[4.247s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/process_request__builder.hpp
+[4.247s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/process_request.hpp
+[4.247s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface
+[4.247s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg
+[4.247s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.247s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail
+[4.248s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail/dds_fastrtps
+[4.248s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[4.248s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv
+[4.248s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail
+[4.248s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/dds_fastrtps
+[4.248s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/update_configure__rosidl_typesupport_fastrtps_cpp.hpp
+[4.248s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/process_request__rosidl_typesupport_fastrtps_cpp.hpp
+[4.249s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib/libros_interface__rosidl_typesupport_fastrtps_cpp.so
+[4.249s] -- Set runtime path of "/home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib/libros_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.249s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface
+[4.249s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg
+[4.249s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.249s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail
+[4.250s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail/sphere__type_support.c
+[4.250s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[4.250s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv
+[4.250s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail
+[4.250s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/update_configure__type_support.c
+[4.250s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/update_configure__rosidl_typesupport_introspection_c.h
+[4.250s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/process_request__rosidl_typesupport_introspection_c.h
+[4.250s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/process_request__type_support.c
+[4.251s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib/libros_interface__rosidl_typesupport_introspection_c.so
+[4.251s] -- Set runtime path of "/home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib/libros_interface__rosidl_typesupport_introspection_c.so" to ""
+[4.251s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib/libros_interface__rosidl_typesupport_c.so
+[4.252s] -- Set runtime path of "/home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib/libros_interface__rosidl_typesupport_c.so" to ""
+[4.252s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface
+[4.252s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg
+[4.252s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail
+[4.252s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail/sphere__type_support.cpp
+[4.252s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[4.252s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv
+[4.252s] -- Up-to-date: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail
+[4.252s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/update_configure__rosidl_typesupport_introspection_cpp.hpp
+[4.252s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/process_request__type_support.cpp
+[4.253s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/update_configure__type_support.cpp
+[4.253s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/include/ros_interface/ros_interface/srv/detail/process_request__rosidl_typesupport_introspection_cpp.hpp
+[4.253s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib/libros_interface__rosidl_typesupport_introspection_cpp.so
+[4.254s] -- Set runtime path of "/home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib/libros_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[4.254s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib/libros_interface__rosidl_typesupport_cpp.so
+[4.254s] -- Set runtime path of "/home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib/libros_interface__rosidl_typesupport_cpp.so" to ""
+[4.254s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/environment/pythonpath.sh
+[4.254s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/environment/pythonpath.dsv
+[4.255s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface-0.0.0-py3.10.egg-info
+[4.255s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface-0.0.0-py3.10.egg-info/top_level.txt
+[4.255s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[4.255s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.255s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.256s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface
+[4.256s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/_ros_interface_s.ep.rosidl_typesupport_c.c
+[4.256s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/_ros_interface_s.ep.rosidl_typesupport_introspection_c.c
+[4.256s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/msg
+[4.256s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/msg/_sphere.py
+[4.256s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/msg/_sphere_s.c
+[4.256s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/msg/__init__.py
+[4.257s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/srv
+[4.257s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/srv/_process_request.py
+[4.257s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/srv/_update_configure.py
+[4.257s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/srv/_update_configure_s.c
+[4.257s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/srv/__init__.py
+[4.257s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/srv/_process_request_s.c
+[4.258s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/ros_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.258s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/_ros_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.258s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/ros_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.258s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/__init__.py
+[4.259s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/libros_interface__rosidl_generator_py.so
+[4.259s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/ros_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.292s] Listing '/home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface'...
+[4.292s] Compiling '/home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/__init__.py'...
+[4.292s] Listing '/home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/msg'...
+[4.293s] Compiling '/home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/msg/__init__.py'...
+[4.293s] Compiling '/home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/msg/_sphere.py'...
+[4.293s] Listing '/home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/srv'...
+[4.293s] Compiling '/home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/srv/__init__.py'...
+[4.293s] Compiling '/home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/srv/_process_request.py'...
+[4.293s] Compiling '/home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/srv/_update_configure.py'...
+[4.298s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/ros_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.299s] -- Set runtime path of "/home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/ros_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.299s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/ros_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.299s] -- Set runtime path of "/home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/ros_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.299s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/ros_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.300s] -- Set runtime path of "/home/anhbaodz/Documents/ros2_wood/install/ros_interface/local/lib/python3.10/dist-packages/ros_interface/ros_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.300s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib/libros_interface__rosidl_generator_py.so
+[4.300s] -- Set runtime path of "/home/anhbaodz/Documents/ros2_wood/install/ros_interface/lib/libros_interface__rosidl_generator_py.so" to ""
+[4.300s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/msg/Sphere.idl
+[4.301s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/srv/ProcessRequest.idl
+[4.301s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/srv/UpdateConfigure.idl
+[4.301s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/msg/Sphere.msg
+[4.301s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/srv/ProcessRequest.srv
+[4.301s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/srv/ProcessRequest_Request.msg
+[4.302s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/srv/ProcessRequest_Response.msg
+[4.302s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/srv/UpdateConfigure.srv
+[4.302s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/srv/UpdateConfigure_Request.msg
+[4.302s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/srv/UpdateConfigure_Response.msg
+[4.302s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ament_index/resource_index/package_run_dependencies/ros_interface
+[4.303s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ament_index/resource_index/parent_prefix_path/ros_interface
+[4.303s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/environment/ament_prefix_path.sh
+[4.303s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/environment/ament_prefix_path.dsv
+[4.303s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/environment/path.sh
+[4.303s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/environment/path.dsv
+[4.304s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/local_setup.bash
+[4.304s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/local_setup.sh
+[4.304s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/local_setup.zsh
+[4.304s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/local_setup.dsv
+[4.304s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/package.dsv
+[4.305s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ament_index/resource_index/packages/ros_interface
+[4.305s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/export_ros_interface__rosidl_generator_cExport.cmake
+[4.305s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/export_ros_interface__rosidl_generator_cExport-noconfig.cmake
+[4.305s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/export_ros_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[4.305s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/export_ros_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.306s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/export_ros_interface__rosidl_generator_cppExport.cmake
+[4.306s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/export_ros_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.306s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/export_ros_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.306s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/ros_interface__rosidl_typesupport_introspection_cExport.cmake
+[4.306s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/ros_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.307s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/ros_interface__rosidl_typesupport_cExport.cmake
+[4.307s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/ros_interface__rosidl_typesupport_cExport-noconfig.cmake
+[4.307s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/ros_interface__rosidl_typesupport_introspection_cppExport.cmake
+[4.307s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/ros_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.307s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/ros_interface__rosidl_typesupport_cppExport.cmake
+[4.308s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/ros_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[4.308s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/export_ros_interface__rosidl_generator_pyExport.cmake
+[4.308s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/export_ros_interface__rosidl_generator_pyExport-noconfig.cmake
+[4.308s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/rosidl_cmake-extras.cmake
+[4.308s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.309s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.309s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[4.309s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/ament_cmake_export_targets-extras.cmake
+[4.309s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.309s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.309s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/ros_interfaceConfig.cmake
+[4.310s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/cmake/ros_interfaceConfig-version.cmake
+[4.310s] -- Installing: /home/anhbaodz/Documents/ros2_wood/install/ros_interface/share/ros_interface/package.xml
+[4.313s] Invoked command in '/home/anhbaodz/Documents/ros2_wood/build/ros_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake --install /home/anhbaodz/Documents/ros2_wood/build/ros_interface

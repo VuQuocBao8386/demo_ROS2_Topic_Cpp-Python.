@@ -6,7 +6,7 @@
 module ros_interface {
   module srv {
     struct ProcessRequest_Request {
-      string start_communication;
+      boolean start_requestdata;
     };
     struct ProcessRequest_Response {
       sequence<int32> data;

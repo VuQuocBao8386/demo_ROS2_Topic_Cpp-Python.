@@ -6,8 +6,6 @@
 module ros_interface {
   module srv {
     struct UpdateConfigure_Request {
-      boolean update;
-
       string command;
 
       string mode;

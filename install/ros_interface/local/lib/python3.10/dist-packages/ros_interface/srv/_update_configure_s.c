@@ -53,15 +53,6 @@ bool ros_interface__srv__update_configure__request__convert_from_py(PyObject * _
     assert(strncmp("ros_interface.srv._update_configure.UpdateConfigure_Request", full_classname_dest, 59) == 0);
   }
   ros_interface__srv__UpdateConfigure_Request * ros_message = _ros_message;
-  {  // update
-    PyObject * field = PyObject_GetAttrString(_pymsg, "update");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->update = (Py_True == field);
-    Py_DECREF(field);
-  }
   {  // command
     PyObject * field = PyObject_GetAttrString(_pymsg, "command");
     if (!field) {
@@ -141,17 +132,6 @@ PyObject * ros_interface__srv__update_configure__request__convert_to_py(void * r
     }
   }
   ros_interface__srv__UpdateConfigure_Request * ros_message = (ros_interface__srv__UpdateConfigure_Request *)raw_ros_message;
-  {  // update
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->update ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "update", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
   {  // command
     PyObject * field = NULL;
     field = PyUnicode_DecodeUTF8(

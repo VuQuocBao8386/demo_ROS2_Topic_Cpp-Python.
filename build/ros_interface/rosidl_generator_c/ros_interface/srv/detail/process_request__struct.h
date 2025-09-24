@@ -17,14 +17,10 @@ extern "C"
 
 // Constants defined in the message
 
-// Include directives for member types
-// Member 'start_communication'
-#include "rosidl_runtime_c/string.h"
-
 /// Struct defined in srv/ProcessRequest in the package ros_interface.
 typedef struct ros_interface__srv__ProcessRequest_Request
 {
-  rosidl_runtime_c__String start_communication;
+  bool start_requestdata;
 } ros_interface__srv__ProcessRequest_Request;
 
 // Struct for a sequence of ros_interface__srv__ProcessRequest_Request.

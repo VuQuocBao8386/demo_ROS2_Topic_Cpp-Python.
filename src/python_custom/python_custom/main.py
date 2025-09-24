@@ -1,7 +1,7 @@
 import rclpy
-from rclpy.executors import MultiThreadedExecutor
+import threading
+
 from python_custom.system_state import SystemState
-from python_custom.config_manager import ConfigManager
 from python_custom.camera_handler import CameraHandler
 from python_custom.image_processor import ImageProcessor
 from python_custom.ros_manager import RosInterfaces
@@ -14,22 +14,30 @@ path =  "/home/anhbaodz/Documents/ros2_wood/image/a.jpg"
 
 def main(args=None):
     rclpy.init(args=args)
-    state = SystemState()
-    config_manager = ConfigManager(state)
-    camera_handler = CameraHandler(state, path=path)
-    image_processor = ImageProcessor(state)
-    ros_interface = RosInterfaces(state, config_manager, camera_handler, image_processor)
+    path = "/home/anhbaodz/Documents/ros2_wood/image/a.jpg"
 
-    executor = MultiThreadedExecutor()
-    executor.add_node(ros_interface)
+    state = SystemState()
+    camera_event = threading.Event()
+    engine_event = threading.Event()
+
+    # Start worker threads
+    camera_thread = CameraHandler(state, camera_event, path)
+    engine_thread = ImageProcessor(state, engine_event)
+    camera_thread.start()
+    engine_thread.start()
     
+
+    config_node = RosInterfaces(state, camera_event, engine_event)
+
     try:
-        executor.spin()
+        rclpy.spin(config_node)  # wait for service requests
+    
     except KeyboardInterrupt:
-        print("Shutting down...")
+           pass
     finally:
-        ros_interface.destroy_node()
+        config_node.destroy_node()
         rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()

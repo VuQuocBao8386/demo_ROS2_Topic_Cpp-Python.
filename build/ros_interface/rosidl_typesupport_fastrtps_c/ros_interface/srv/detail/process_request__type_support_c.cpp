@@ -34,8 +34,6 @@ extern "C"
 {
 #endif
 
-#include "rosidl_runtime_c/string.h"  // start_communication
-#include "rosidl_runtime_c/string_functions.h"  // start_communication
 
 // forward declare type support functions
 
@@ -51,18 +49,9 @@ static bool _ProcessRequest_Request__cdr_serialize(
     return false;
   }
   const _ProcessRequest_Request__ros_msg_type * ros_message = static_cast<const _ProcessRequest_Request__ros_msg_type *>(untyped_ros_message);
-  // Field name: start_communication
+  // Field name: start_requestdata
   {
-    const rosidl_runtime_c__String * str = &ros_message->start_communication;
-    if (str->capacity == 0 || str->capacity <= str->size) {
-      fprintf(stderr, "string capacity not greater than size\n");
-      return false;
-    }
-    if (str->data[str->size] != '\0') {
-      fprintf(stderr, "string not null-terminated\n");
-      return false;
-    }
-    cdr << str->data;
+    cdr << (ros_message->start_requestdata ? true : false);
   }
 
   return true;
@@ -77,20 +66,11 @@ static bool _ProcessRequest_Request__cdr_deserialize(
     return false;
   }
   _ProcessRequest_Request__ros_msg_type * ros_message = static_cast<_ProcessRequest_Request__ros_msg_type *>(untyped_ros_message);
-  // Field name: start_communication
+  // Field name: start_requestdata
   {
-    std::string tmp;
+    uint8_t tmp;
     cdr >> tmp;
-    if (!ros_message->start_communication.data) {
-      rosidl_runtime_c__String__init(&ros_message->start_communication);
-    }
-    bool succeeded = rosidl_runtime_c__String__assign(
-      &ros_message->start_communication,
-      tmp.c_str());
-    if (!succeeded) {
-      fprintf(stderr, "failed to assign string into field 'start_communication'\n");
-      return false;
-    }
+    ros_message->start_requestdata = tmp ? true : false;
   }
 
   return true;
@@ -110,10 +90,12 @@ size_t get_serialized_size_ros_interface__srv__ProcessRequest_Request(
   (void)padding;
   (void)wchar_size;
 
-  // field.name start_communication
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->start_communication.size + 1);
+  // field.name start_requestdata
+  {
+    size_t item_size = sizeof(ros_message->start_requestdata);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
 
   return current_alignment - initial_alignment;
 }
@@ -143,17 +125,12 @@ size_t max_serialized_size_ros_interface__srv__ProcessRequest_Request(
   full_bounded = true;
   is_plain = true;
 
-  // member: start_communication
+  // member: start_requestdata
   {
     size_t array_size = 1;
 
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
   }
 
   size_t ret_val = current_alignment - initial_alignment;
@@ -164,7 +141,7 @@ size_t max_serialized_size_ros_interface__srv__ProcessRequest_Request(
     using DataType = ros_interface__srv__ProcessRequest_Request;
     is_plain =
       (
-      offsetof(DataType, start_communication) +
+      offsetof(DataType, start_requestdata) +
       last_member_size
       ) == ret_val;
   }

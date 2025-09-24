@@ -32,8 +32,6 @@ cdr_serialize(
   const ros_interface::srv::UpdateConfigure_Request & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: update
-  cdr << (ros_message.update ? true : false);
   // Member: command
   cdr << ros_message.command;
   // Member: mode
@@ -53,13 +51,6 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   ros_interface::srv::UpdateConfigure_Request & ros_message)
 {
-  // Member: update
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message.update = tmp ? true : false;
-  }
-
   // Member: command
   cdr >> ros_message.command;
 
@@ -91,12 +82,6 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: update
-  {
-    size_t item_size = sizeof(ros_message.update);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
   // Member: command
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
@@ -146,14 +131,6 @@ max_serialized_size_UpdateConfigure_Request(
   full_bounded = true;
   is_plain = true;
 
-
-  // Member: update
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
 
   // Member: command
   {

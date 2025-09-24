@@ -36,24 +36,7 @@ void ros_interface__srv__UpdateConfigure_Request__rosidl_typesupport_introspecti
   ros_interface__srv__UpdateConfigure_Request__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember ros_interface__srv__UpdateConfigure_Request__rosidl_typesupport_introspection_c__UpdateConfigure_Request_message_member_array[6] = {
-  {
-    "update",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(ros_interface__srv__UpdateConfigure_Request, update),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
-  },
+static rosidl_typesupport_introspection_c__MessageMember ros_interface__srv__UpdateConfigure_Request__rosidl_typesupport_introspection_c__UpdateConfigure_Request_message_member_array[5] = {
   {
     "command",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
@@ -144,7 +127,7 @@ static rosidl_typesupport_introspection_c__MessageMember ros_interface__srv__Upd
 static const rosidl_typesupport_introspection_c__MessageMembers ros_interface__srv__UpdateConfigure_Request__rosidl_typesupport_introspection_c__UpdateConfigure_Request_message_members = {
   "ros_interface__srv",  // message namespace
   "UpdateConfigure_Request",  // message name
-  6,  // number of fields
+  5,  // number of fields
   sizeof(ros_interface__srv__UpdateConfigure_Request),
   ros_interface__srv__UpdateConfigure_Request__rosidl_typesupport_introspection_c__UpdateConfigure_Request_message_member_array,  // message members
   ros_interface__srv__UpdateConfigure_Request__rosidl_typesupport_introspection_c__UpdateConfigure_Request_init_function,  // function to initialize message memory (memory has to be allocated)

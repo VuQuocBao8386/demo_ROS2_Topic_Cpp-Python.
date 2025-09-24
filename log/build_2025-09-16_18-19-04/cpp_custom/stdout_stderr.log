@@ -1,7 +1,0 @@
-[31mCMake Error at CMakeLists.txt:20 (ament_package):
-  Unknown CMake command "ament_package".
-
-[0m
--- Configuring incomplete, errors occurred!
-See also "/home/anhbaodz/Documents/ros2_wood/build/cpp_custom/CMakeFiles/CMakeOutput.log".
-gmake: *** [Makefile:429: cmake_check_build_system] Error 1

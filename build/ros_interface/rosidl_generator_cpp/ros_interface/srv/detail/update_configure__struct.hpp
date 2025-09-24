@@ -38,7 +38,6 @@ struct UpdateConfigure_Request_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->update = false;
       this->command = "";
       this->mode = "";
       this->area = 0ll;
@@ -54,7 +53,6 @@ struct UpdateConfigure_Request_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->update = false;
       this->command = "";
       this->mode = "";
       this->area = 0ll;
@@ -64,9 +62,6 @@ struct UpdateConfigure_Request_
   }
 
   // field types and members
-  using _update_type =
-    bool;
-  _update_type update;
   using _command_type =
     std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
   _command_type command;
@@ -84,12 +79,6 @@ struct UpdateConfigure_Request_
   _threshold_2_type threshold_2;
 
   // setters for named parameter idiom
-  Type & set__update(
-    const bool & _arg)
-  {
-    this->update = _arg;
-    return *this;
-  }
   Type & set__command(
     const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
   {
@@ -163,9 +152,6 @@ struct UpdateConfigure_Request_
   // comparison operators
   bool operator==(const UpdateConfigure_Request_ & other) const
   {
-    if (this->update != other.update) {
-      return false;
-    }
     if (this->command != other.command) {
       return false;
     }

@@ -1,3 +1,0 @@
-[console_scripts]
-reponse = python_custom.main:main
-

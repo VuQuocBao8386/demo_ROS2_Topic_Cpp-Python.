@@ -25,7 +25,6 @@ extern "C"
 /// Struct defined in srv/UpdateConfigure in the package ros_interface.
 typedef struct ros_interface__srv__UpdateConfigure_Request
 {
-  bool update;
   rosidl_runtime_c__String command;
   rosidl_runtime_c__String mode;
   int64_t area;

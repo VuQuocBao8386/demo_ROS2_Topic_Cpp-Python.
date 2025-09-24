@@ -51,11 +51,6 @@ static bool _UpdateConfigure_Request__cdr_serialize(
     return false;
   }
   const _UpdateConfigure_Request__ros_msg_type * ros_message = static_cast<const _UpdateConfigure_Request__ros_msg_type *>(untyped_ros_message);
-  // Field name: update
-  {
-    cdr << (ros_message->update ? true : false);
-  }
-
   // Field name: command
   {
     const rosidl_runtime_c__String * str = &ros_message->command;
@@ -111,13 +106,6 @@ static bool _UpdateConfigure_Request__cdr_deserialize(
     return false;
   }
   _UpdateConfigure_Request__ros_msg_type * ros_message = static_cast<_UpdateConfigure_Request__ros_msg_type *>(untyped_ros_message);
-  // Field name: update
-  {
-    uint8_t tmp;
-    cdr >> tmp;
-    ros_message->update = tmp ? true : false;
-  }
-
   // Field name: command
   {
     std::string tmp;
@@ -182,12 +170,6 @@ size_t get_serialized_size_ros_interface__srv__UpdateConfigure_Request(
   (void)padding;
   (void)wchar_size;
 
-  // field.name update
-  {
-    size_t item_size = sizeof(ros_message->update);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
   // field.name command
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
@@ -243,13 +225,6 @@ size_t max_serialized_size_ros_interface__srv__UpdateConfigure_Request(
   full_bounded = true;
   is_plain = true;
 
-  // member: update
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
-  }
   // member: command
   {
     size_t array_size = 1;

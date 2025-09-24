@@ -1,4 +1,3 @@
-bool update
 string command
 string mode
 int64 area

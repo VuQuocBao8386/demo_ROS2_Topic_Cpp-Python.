@@ -1,1 +1,1 @@
-string start_communication
+bool start_requestdata
