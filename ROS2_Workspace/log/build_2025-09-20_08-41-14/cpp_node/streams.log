@@ -1,0 +1,26 @@
+[0.021s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node -- -j12 -l12
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target request[0m
+[0.128s] [ 50%] [32mBuilding CXX object CMakeFiles/request.dir/src/main.cpp.o[0m
+[5.157s] [100%] [32m[1mLinking CXX executable request[0m
+[5.444s] [100%] Built target request
+[5.463s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node' returned '0': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node -- -j12 -l12
+[5.478s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node
+[5.489s] -- Install configuration: ""
+[5.489s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/lib/cpp_node/request
+[5.491s] -- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/lib/cpp_node/request" to ""
+[5.491s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/ament_index/resource_index/package_run_dependencies/cpp_node
+[5.491s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/ament_index/resource_index/parent_prefix_path/cpp_node
+[5.492s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/environment/ament_prefix_path.sh
+[5.492s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/environment/ament_prefix_path.dsv
+[5.492s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/environment/path.sh
+[5.492s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/environment/path.dsv
+[5.492s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/local_setup.bash
+[5.493s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/local_setup.sh
+[5.493s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/local_setup.zsh
+[5.493s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/local_setup.dsv
+[5.494s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/package.dsv
+[5.494s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/ament_index/resource_index/packages/cpp_node
+[5.494s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig.cmake
+[5.494s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig-version.cmake
+[5.495s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/package.xml
+[5.499s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node' returned '0': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node

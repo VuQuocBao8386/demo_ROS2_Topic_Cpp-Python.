@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.000160] (-) JobUnselected: {'identifier': 'python_node'}
+[0.000184] (-) JobUnselected: {'identifier': 'ros_serivce'}
+[0.000202] (cpp_node) JobQueued: {'identifier': 'cpp_node', 'dependencies': OrderedDict([('ros_serivce', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce')])}
+[0.000222] (cpp_node) JobStarted: {'identifier': 'cpp_node'}
+[0.016910] (cpp_node) JobProgress: {'identifier': 'cpp_node', 'progress': 'cmake'}
+[0.017390] (cpp_node) Command: {'cmd': ['/usr/bin/cmake', '/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node', '-DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node'], 'cwd': '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'anhbaodz'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/anhbaodz/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anhbaodz'), ('OLDPWD', '/home/anhbaodz/Documents'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1511'), ('SYSTEMD_EXEC_PID', '1677'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '25355'), ('_colcon_cd_root', '/opt/ros/rolling/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anhbaodz'), ('JOURNAL_STREAM', '8:6875'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anhbaodz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/anhbaodz/.local/bin:/home/anhbaodz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Inspiration:@/tmp/.ICE-unix/1641,unix/Inspiration:/tmp/.ICE-unix/1641'), ('INVOCATION_ID', 'd032d742ca46499fb5a04cca425a5bf8'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XFGGD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a78297ae-3c84-4f40-8543-569c52dbb6a8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ROS_MAIN_ID', '7'), ('PYTHONPATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble')]), 'shell': False}
+[0.082312] (cpp_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099188] (-) TimerEvent: {}
+[0.148822] (cpp_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.156762] (cpp_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199334] (-) TimerEvent: {}
+[0.240405] (cpp_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.246925] (cpp_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.247211] (cpp_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.247467] (cpp_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.250178] (cpp_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299529] (-) TimerEvent: {}
+[0.339350] (cpp_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.346155] (cpp_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.346440] (cpp_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.346876] (cpp_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.349540] (cpp_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399649] (-) TimerEvent: {}
+[0.490820] (cpp_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.499785] (-) TimerEvent: {}
+[0.573572] (cpp_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.599951] (-) TimerEvent: {}
+[0.609838] (cpp_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.613873] (cpp_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.621521] (cpp_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.632496] (cpp_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.646290] (cpp_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.683603] (cpp_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.685541] (cpp_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700059] (-) TimerEvent: {}
+[0.800388] (-) TimerEvent: {}
+[0.804383] (cpp_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.831502] (cpp_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.872789] (cpp_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.879940] (cpp_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.900542] (-) TimerEvent: {}
+[0.960661] (cpp_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.961067] (cpp_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.000690] (-) TimerEvent: {}
+[1.044109] (cpp_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.045159] (cpp_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.088837] (cpp_node) StdoutLine: {'line': b'-- Found ros_serivce: 0.0.0 (/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake)\n'}
+[1.100822] (-) TimerEvent: {}
+[1.114618] (cpp_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.187221] (cpp_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.187552] (cpp_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src>\n'}
+[1.187700] (cpp_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.188288] (cpp_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.190412] (cpp_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.190629] (cpp_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.190903] (cpp_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.191853] (cpp_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.200968] (-) TimerEvent: {}
+[1.202662] (cpp_node) StdoutLine: {'line': b'-- Generating done\n'}
+[1.206777] (cpp_node) StdoutLine: {'line': b'-- Build files have been written to: /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node\n'}
+[1.217174] (cpp_node) CommandEnded: {'returncode': 0}
+[1.218005] (cpp_node) JobProgress: {'identifier': 'cpp_node', 'progress': 'build'}
+[1.219117] (cpp_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node', '--', '-j12', '-l12'], 'cwd': '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'anhbaodz'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/anhbaodz/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anhbaodz'), ('OLDPWD', '/home/anhbaodz/Documents'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1511'), ('SYSTEMD_EXEC_PID', '1677'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '25355'), ('_colcon_cd_root', '/opt/ros/rolling/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anhbaodz'), ('JOURNAL_STREAM', '8:6875'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anhbaodz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/anhbaodz/.local/bin:/home/anhbaodz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Inspiration:@/tmp/.ICE-unix/1641,unix/Inspiration:/tmp/.ICE-unix/1641'), ('INVOCATION_ID', 'd032d742ca46499fb5a04cca425a5bf8'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XFGGD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a78297ae-3c84-4f40-8543-569c52dbb6a8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ROS_MAIN_ID', '7'), ('PYTHONPATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble')]), 'shell': False}
+[1.265759] (cpp_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target request\x1b[0m\n'}
+[1.294801] (cpp_node) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/request.dir/src/demo/communication/ros_Service.cpp.o\x1b[0m\n'}
+[1.295248] (cpp_node) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o\x1b[0m\n'}
+[1.301111] (-) TimerEvent: {}
+[1.401529] (-) TimerEvent: {}
+[1.501928] (-) TimerEvent: {}
+[1.602326] (-) TimerEvent: {}
+[1.703173] (-) TimerEvent: {}
+[1.803829] (-) TimerEvent: {}
+[1.904553] (-) TimerEvent: {}
+[2.005017] (-) TimerEvent: {}
+[2.105518] (-) TimerEvent: {}
+[2.206077] (-) TimerEvent: {}
+[2.306569] (-) TimerEvent: {}
+[2.407051] (-) TimerEvent: {}
+[2.507540] (-) TimerEvent: {}
+[2.607991] (-) TimerEvent: {}
+[2.708493] (-) TimerEvent: {}
+[2.808928] (-) TimerEvent: {}
+[2.909625] (-) TimerEvent: {}
+[3.010231] (-) TimerEvent: {}
+[3.110668] (-) TimerEvent: {}
+[3.211091] (-) TimerEvent: {}
+[3.311733] (-) TimerEvent: {}
+[3.412163] (-) TimerEvent: {}
+[3.496245] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool Ros_Cpp::send_update_config(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.496564] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:16:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kelse\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.496678] (cpp_node) StderrLine: {'line': b'   16 |     if \x1b[01;31m\x1b[Ke\x1b[m\x1b[K\x1b[32m\x1b[Klse\x1b[m\x1b[K(command == "update" && _dataBase_) {\n'}
+[3.496776] (cpp_node) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[3.496869] (cpp_node) StderrLine: {'line': b'      |        \x1b[32m\x1b[K(\x1b[m\x1b[K\n'}
+[3.496961] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:23:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kelse\x1b[m\x1b[K\xe2\x80\x99 without a previous \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.497057] (cpp_node) StderrLine: {'line': b'   23 |     \x1b[01;31m\x1b[Kelse\x1b[m\x1b[K\n'}
+[3.497149] (cpp_node) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.512688] (-) TimerEvent: {}
+[3.613145] (-) TimerEvent: {}
+[3.713662] (-) TimerEvent: {}
+[3.814103] (-) TimerEvent: {}
+[3.914533] (-) TimerEvent: {}
+[4.014948] (-) TimerEvent: {}
+[4.115365] (-) TimerEvent: {}
+[4.149771] (cpp_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/request.dir/build.make:76: CMakeFiles/request.dir/src/demo/communication/ros_Service.cpp.o] Error 1\n'}
+[4.150034] (cpp_node) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[4.215525] (-) TimerEvent: {}
+[4.315968] (-) TimerEvent: {}
+[4.416411] (-) TimerEvent: {}
+[4.516828] (-) TimerEvent: {}
+[4.617190] (-) TimerEvent: {}
+[4.645312] (cpp_node) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2\n'}
+[4.645549] (cpp_node) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.649120] (cpp_node) CommandEnded: {'returncode': 2}
+[4.658456] (cpp_node) JobEnded: {'identifier': 'cpp_node', 'rc': 2}
+[4.669199] (-) EventReactorShutdown: {}

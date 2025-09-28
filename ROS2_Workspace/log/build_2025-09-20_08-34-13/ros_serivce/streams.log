@@ -1,0 +1,309 @@
+[0.015s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/anhbaodz/Documents/ROS2_Workspace/src/ros_serivce -DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce
+[0.108s] -- The C compiler identification is GNU 11.4.0
+[0.200s] -- The CXX compiler identification is GNU 11.4.0
+[0.213s] -- Detecting C compiler ABI info
+[0.325s] -- Detecting C compiler ABI info - done
+[0.336s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.336s] -- Detecting C compile features
+[0.336s] -- Detecting C compile features - done
+[0.340s] -- Detecting CXX compiler ABI info
+[0.471s] -- Detecting CXX compiler ABI info - done
+[0.481s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.481s] -- Detecting CXX compile features
+[0.482s] -- Detecting CXX compile features - done
+[0.485s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.693s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.826s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.871s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.877s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.887s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.902s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.922s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.980s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.407s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.004s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.235s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.266s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.274s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.310s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.310s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.310s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.310s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.338s] -- Found PythonExtra: .so  
+[2.426s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.450s] -- Added test 'lint_cmake' to check CMake code style
+[2.452s] -- Added test 'xmllint' to check XML markup files
+[2.456s] -- Configuring done
+[2.511s] -- Generating done
+[2.528s] -- Build files have been written to: /home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce
+[2.543s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/anhbaodz/Documents/ROS2_Workspace/src/ros_serivce -DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce
+[2.547s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce -- -j12 -l12
+[2.609s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.626s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.638s] [  4%] Built target ament_cmake_python_copy_ros_serivce
+[2.916s] running egg_info
+[2.917s] creating ros_serivce.egg-info
+[2.917s] writing ros_serivce.egg-info/PKG-INFO
+[2.917s] writing dependency_links to ros_serivce.egg-info/dependency_links.txt
+[2.918s] writing top-level names to ros_serivce.egg-info/top_level.txt
+[2.918s] writing manifest file 'ros_serivce.egg-info/SOURCES.txt'
+[2.920s] reading manifest file 'ros_serivce.egg-info/SOURCES.txt'
+[2.921s] writing manifest file 'ros_serivce.egg-info/SOURCES.txt'
+[2.962s] [  4%] Built target ament_cmake_python_build_ros_serivce_egg
+[3.144s] [  4%] Built target ros_serivce__cpp
+[3.147s] [  8%] [32mBuilding C object CMakeFiles/ros_serivce__rosidl_generator_c.dir/rosidl_generator_c/ros_serivce/srv/detail/update_config__functions.c.o[0m
+[3.147s] [  8%] [32mBuilding C object CMakeFiles/ros_serivce__rosidl_generator_c.dir/rosidl_generator_c/ros_serivce/msg/detail/sphere__functions.c.o[0m
+[3.147s] [ 10%] [32mBuilding C object CMakeFiles/ros_serivce__rosidl_generator_c.dir/rosidl_generator_c/ros_serivce/srv/detail/request_data__functions.c.o[0m
+[3.161s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.162s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.165s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.230s] [ 19%] [32m[1mLinking C shared library libros_serivce__rosidl_generator_c.so[0m
+[3.291s] [ 19%] Built target ros_serivce__rosidl_generator_c
+[3.307s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.307s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.307s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.555s] [ 27%] [32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_serivce/msg/sphere__type_support.cpp.o[0m
+[3.559s] [ 31%] [32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_serivce/srv/request_data__type_support.cpp.o[0m
+[3.560s] [ 31%] [32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_serivce/srv/update_config__type_support.cpp.o[0m
+[3.672s] [ 34%] [32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_serivce/msg/detail/sphere__type_support.cpp.o[0m
+[3.683s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_serivce/srv/detail/update_config__type_support.cpp.o[0m
+[3.684s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_serivce/srv/detail/request_data__type_support.cpp.o[0m
+[3.718s] [ 42%] [32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_serivce/srv/detail/dds_fastrtps/update_config__type_support.cpp.o[0m
+[3.718s] [ 42%] [32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_serivce/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[3.718s] [ 44%] [32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_serivce/srv/detail/dds_fastrtps/request_data__type_support.cpp.o[0m
+[3.838s] [ 46%] [32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_serivce/msg/sphere__type_support.cpp.o[0m
+[3.920s] [ 48%] [32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_serivce/srv/update_config__type_support.cpp.o[0m
+[3.969s] [ 51%] [32mBuilding C object CMakeFiles/ros_serivce__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_serivce/msg/detail/sphere__type_support.c.o[0m
+[3.997s] [ 53%] [32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_serivce/srv/request_data__type_support.cpp.o[0m
+[4.044s] [ 55%] [32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_serivce/msg/detail/sphere__type_support_c.cpp.o[0m
+[4.070s] [ 59%] [32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_serivce/srv/detail/update_config__type_support_c.cpp.o[0m
+[4.071s] [ 59%] [32mBuilding C object CMakeFiles/ros_serivce__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_serivce/srv/detail/update_config__type_support.c.o[0m
+[4.082s] [ 61%] [32m[1mLinking CXX shared library libros_serivce__rosidl_typesupport_c.so[0m
+[4.107s] [ 63%] [32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_serivce/srv/detail/request_data__type_support_c.cpp.o[0m
+[4.115s] [ 65%] [32m[1mLinking CXX shared library libros_serivce__rosidl_typesupport_cpp.so[0m
+[4.166s] [ 68%] [32mBuilding C object CMakeFiles/ros_serivce__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_serivce/srv/detail/request_data__type_support.c.o[0m
+[4.191s] [ 68%] Built target ros_serivce__rosidl_typesupport_c
+[4.222s] [ 68%] Built target ros_serivce__rosidl_typesupport_cpp
+[4.245s] [ 70%] [32m[1mLinking C shared library libros_serivce__rosidl_typesupport_introspection_c.so[0m
+[4.309s] [ 70%] Built target ros_serivce__rosidl_typesupport_introspection_c
+[4.531s] [ 72%] [32m[1mLinking CXX shared library libros_serivce__rosidl_typesupport_introspection_cpp.so[0m
+[4.629s] [ 74%] [32m[1mLinking CXX shared library libros_serivce__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.695s] [ 74%] Built target ros_serivce__rosidl_typesupport_introspection_cpp
+[4.737s] [ 76%] [32m[1mLinking CXX shared library libros_serivce__rosidl_typesupport_fastrtps_c.so[0m
+[4.780s] [ 76%] Built target ros_serivce__rosidl_typesupport_fastrtps_cpp
+[4.878s] [ 76%] Built target ros_serivce__rosidl_typesupport_fastrtps_c
+[4.910s] [ 76%] Built target ros_serivce
+[4.942s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.676s] [ 78%] Built target ros_serivce__py
+[5.709s] [ 80%] [32mBuilding C object CMakeFiles/ros_serivce__rosidl_generator_py.dir/rosidl_generator_py/ros_serivce/msg/_sphere_s.c.o[0m
+[5.709s] [ 82%] [32mBuilding C object CMakeFiles/ros_serivce__rosidl_generator_py.dir/rosidl_generator_py/ros_serivce/srv/_update_config_s.c.o[0m
+[5.710s] [ 85%] [32mBuilding C object CMakeFiles/ros_serivce__rosidl_generator_py.dir/rosidl_generator_py/ros_serivce/srv/_request_data_s.c.o[0m
+[5.864s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/ros_serivce/libros_serivce__rosidl_generator_py.so[0m
+[5.930s] [ 87%] Built target ros_serivce__rosidl_generator_py
+[5.960s] [ 89%] [32mBuilding C object CMakeFiles/ros_serivce__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_serivce/_ros_serivce_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.961s] [ 93%] [32mBuilding C object CMakeFiles/ros_serivce__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_serivce/_ros_serivce_s.ep.rosidl_typesupport_c.c.o[0m
+[5.961s] [ 93%] [32mBuilding C object CMakeFiles/ros_serivce__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_serivce/_ros_serivce_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.116s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros_serivce/ros_serivce_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.116s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros_serivce/ros_serivce_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.116s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros_serivce/ros_serivce_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.178s] [100%] Built target ros_serivce__rosidl_typesupport_introspection_c__pyext
+[6.178s] [100%] Built target ros_serivce__rosidl_typesupport_fastrtps_c__pyext
+[6.178s] [100%] Built target ros_serivce__rosidl_typesupport_c__pyext
+[6.198s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce -- -j12 -l12
+[6.213s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce
+[6.225s] -- Install configuration: ""
+[6.225s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ament_index/resource_index/rosidl_interfaces/ros_serivce
+[6.225s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce
+[6.226s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg
+[6.226s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/rosidl_generator_c__visibility_control.h
+[6.226s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/sphere.h
+[6.227s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail
+[6.227s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__struct.h
+[6.227s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__type_support.h
+[6.227s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__functions.c
+[6.227s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__functions.h
+[6.228s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv
+[6.228s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/update_config.h
+[6.228s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail
+[6.228s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__functions.h
+[6.228s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__struct.h
+[6.228s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__functions.c
+[6.228s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__functions.c
+[6.228s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__type_support.h
+[6.228s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__functions.h
+[6.228s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__type_support.h
+[6.229s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__struct.h
+[6.229s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/request_data.h
+[6.229s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/environment/library_path.sh
+[6.229s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/environment/library_path.dsv
+[6.230s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_generator_c.so
+[6.230s] -- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_generator_c.so" to ""
+[6.230s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce
+[6.230s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg
+[6.230s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.231s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail
+[6.231s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[6.231s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv
+[6.231s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail
+[6.231s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__rosidl_typesupport_fastrtps_c.h
+[6.231s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__rosidl_typesupport_fastrtps_c.h
+[6.231s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_fastrtps_c.so
+[6.232s] -- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_fastrtps_c.so" to ""
+[6.232s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce
+[6.232s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg
+[6.232s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.232s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/sphere.hpp
+[6.232s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail
+[6.232s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__struct.hpp
+[6.233s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__builder.hpp
+[6.233s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__type_support.hpp
+[6.233s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__traits.hpp
+[6.233s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv
+[6.233s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/update_config.hpp
+[6.233s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/request_data.hpp
+[6.233s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail
+[6.234s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__type_support.hpp
+[6.234s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__struct.hpp
+[6.234s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__builder.hpp
+[6.234s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__struct.hpp
+[6.234s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__traits.hpp
+[6.235s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__builder.hpp
+[6.235s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__traits.hpp
+[6.235s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__type_support.hpp
+[6.235s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce
+[6.235s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg
+[6.235s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.236s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail
+[6.236s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/dds_fastrtps
+[6.236s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[6.236s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv
+[6.236s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail
+[6.236s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__rosidl_typesupport_fastrtps_cpp.hpp
+[6.236s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/dds_fastrtps
+[6.236s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__rosidl_typesupport_fastrtps_cpp.hpp
+[6.237s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_fastrtps_cpp.so
+[6.237s] -- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.237s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce
+[6.237s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg
+[6.237s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.238s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail
+[6.238s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__type_support.c
+[6.238s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[6.238s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv
+[6.238s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail
+[6.238s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__type_support.c
+[6.238s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__rosidl_typesupport_introspection_c.h
+[6.238s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__rosidl_typesupport_introspection_c.h
+[6.239s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__type_support.c
+[6.239s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_introspection_c.so
+[6.239s] -- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_introspection_c.so" to ""
+[6.239s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_c.so
+[6.240s] -- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_c.so" to ""
+[6.240s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce
+[6.240s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg
+[6.240s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail
+[6.240s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__type_support.cpp
+[6.240s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[6.241s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv
+[6.241s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail
+[6.241s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__rosidl_typesupport_introspection_cpp.hpp
+[6.241s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__type_support.cpp
+[6.241s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__type_support.cpp
+[6.241s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__rosidl_typesupport_introspection_cpp.hpp
+[6.242s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_introspection_cpp.so
+[6.242s] -- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_introspection_cpp.so" to ""
+[6.242s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_cpp.so
+[6.243s] -- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_cpp.so" to ""
+[6.243s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/environment/pythonpath.sh
+[6.243s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/environment/pythonpath.dsv
+[6.243s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce-0.0.0-py3.10.egg-info
+[6.243s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce-0.0.0-py3.10.egg-info/top_level.txt
+[6.244s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce-0.0.0-py3.10.egg-info/PKG-INFO
+[6.244s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.244s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.244s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce
+[6.244s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/_ros_serivce_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.245s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/_ros_serivce_s.ep.rosidl_typesupport_introspection_c.c
+[6.245s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/libros_serivce__rosidl_generator_py.so
+[6.245s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/msg
+[6.245s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/msg/_sphere.py
+[6.246s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/msg/_sphere_s.c
+[6.246s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/msg/__init__.py
+[6.246s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/srv
+[6.246s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/srv/_update_config.py
+[6.246s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/srv/_request_data_s.c
+[6.246s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/srv/_update_config_s.c
+[6.247s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/srv/__init__.py
+[6.247s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/srv/_request_data.py
+[6.247s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/_ros_serivce_s.ep.rosidl_typesupport_c.c
+[6.247s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/__init__.py
+[6.247s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/ros_serivce_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.248s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/ros_serivce_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.248s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/ros_serivce_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.294s] Listing '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce'...
+[6.294s] Compiling '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/__init__.py'...
+[6.295s] Listing '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/msg'...
+[6.295s] Compiling '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/msg/__init__.py'...
+[6.295s] Compiling '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/msg/_sphere.py'...
+[6.295s] Listing '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/srv'...
+[6.295s] Compiling '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/srv/__init__.py'...
+[6.295s] Compiling '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/srv/_request_data.py'...
+[6.295s] Compiling '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/srv/_update_config.py'...
+[6.301s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/ros_serivce_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.302s] -- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/ros_serivce_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.302s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/ros_serivce_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.303s] -- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/ros_serivce_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.303s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/ros_serivce_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.304s] -- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/ros_serivce_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.304s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_generator_py.so
+[6.304s] -- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_generator_py.so" to ""
+[6.305s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/msg/Sphere.idl
+[6.305s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/srv/UpdateConfig.idl
+[6.305s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/srv/RequestData.idl
+[6.305s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/msg/Sphere.msg
+[6.305s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/srv/UpdateConfig.srv
+[6.306s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/srv/UpdateConfig_Request.msg
+[6.306s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/srv/UpdateConfig_Response.msg
+[6.306s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/srv/RequestData.srv
+[6.306s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/srv/RequestData_Request.msg
+[6.307s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/srv/RequestData_Response.msg
+[6.307s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ament_index/resource_index/package_run_dependencies/ros_serivce
+[6.307s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ament_index/resource_index/parent_prefix_path/ros_serivce
+[6.307s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/environment/ament_prefix_path.sh
+[6.308s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/environment/ament_prefix_path.dsv
+[6.308s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/environment/path.sh
+[6.308s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/environment/path.dsv
+[6.308s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/local_setup.bash
+[6.308s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/local_setup.sh
+[6.309s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/local_setup.zsh
+[6.309s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/local_setup.dsv
+[6.309s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/package.dsv
+[6.309s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ament_index/resource_index/packages/ros_serivce
+[6.310s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/export_ros_serivce__rosidl_generator_cExport.cmake
+[6.310s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/export_ros_serivce__rosidl_generator_cExport-noconfig.cmake
+[6.310s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/export_ros_serivce__rosidl_typesupport_fastrtps_cExport.cmake
+[6.310s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/export_ros_serivce__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.311s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/export_ros_serivce__rosidl_generator_cppExport.cmake
+[6.311s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/export_ros_serivce__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.311s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/export_ros_serivce__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.311s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ros_serivce__rosidl_typesupport_introspection_cExport.cmake
+[6.312s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ros_serivce__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.312s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ros_serivce__rosidl_typesupport_cExport.cmake
+[6.312s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ros_serivce__rosidl_typesupport_cExport-noconfig.cmake
+[6.312s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ros_serivce__rosidl_typesupport_introspection_cppExport.cmake
+[6.313s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ros_serivce__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.313s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ros_serivce__rosidl_typesupport_cppExport.cmake
+[6.313s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ros_serivce__rosidl_typesupport_cppExport-noconfig.cmake
+[6.313s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/export_ros_serivce__rosidl_generator_pyExport.cmake
+[6.313s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/export_ros_serivce__rosidl_generator_pyExport-noconfig.cmake
+[6.314s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/rosidl_cmake-extras.cmake
+[6.314s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.314s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.315s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ament_cmake_export_libraries-extras.cmake
+[6.315s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ament_cmake_export_targets-extras.cmake
+[6.315s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.315s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.315s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ros_serivceConfig.cmake
+[6.315s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ros_serivceConfig-version.cmake
+[6.316s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/package.xml
+[6.320s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce

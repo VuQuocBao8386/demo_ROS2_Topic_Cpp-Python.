@@ -1,0 +1,144 @@
+[0.013s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake /home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node
+[0.077s] -- The C compiler identification is GNU 11.4.0
+[0.139s] -- The CXX compiler identification is GNU 11.4.0
+[0.146s] -- Detecting C compiler ABI info
+[0.227s] -- Detecting C compiler ABI info - done
+[0.234s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.234s] -- Detecting C compile features
+[0.234s] -- Detecting C compile features - done
+[0.237s] -- Detecting CXX compiler ABI info
+[0.327s] -- Detecting CXX compiler ABI info - done
+[0.334s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.334s] -- Detecting CXX compile features
+[0.334s] -- Detecting CXX compile features - done
+[0.337s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.481s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.565s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.612s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.618s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.626s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.638s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.654s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.696s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.699s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.811s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.839s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.884s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.892s] -- Looking for pthread.h
+[0.983s] -- Looking for pthread.h - found
+[0.983s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.065s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.066s] -- Found Threads: TRUE  
+[1.111s] -- Found ros_serivce: 0.0.0 (/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake)
+[1.138s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.214s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.214s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src>
+[1.214s] -- Configured cppcheck exclude dirs and/or files: 
+[1.215s] -- Added test 'lint_cmake' to check CMake code style
+[1.218s] -- Added test 'uncrustify' to check C / C++ code style
+[1.218s] -- Configured uncrustify additional arguments: 
+[1.218s] -- Added test 'xmllint' to check XML markup files
+[1.219s] -- Configuring done
+[1.233s] -- Generating done
+[1.238s] -- Build files have been written to: /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node
+[1.251s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake /home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node
+[1.253s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node -- -j12 -l12
+[1.302s] [35m[1mConsolidate compiler generated dependencies of target request[0m
+[1.334s] [ 37%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/communication/ros_Service.cpp.o[0m
+[1.334s] [ 37%] [32mBuilding CXX object CMakeFiles/request.dir/src/main.cpp.o[0m
+[1.334s] [ 37%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o[0m
+[5.329s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:[m[K In member function ‘[01m[Kbool Ros_Cpp::send_update_config(const string&)[m[K’:
+[5.329s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:11:37:[m[K [01;31m[Kerror: [m[K‘[01m[KUpdateConfigure[m[K’ was not declared in this scope; did you mean ‘[01m[KUpdateConfig[m[K’?
+[5.329s]    11 |     auto request = std::make_shared<[01;31m[KUpdateConfigure[m[K::Request>();
+[5.329s]       |                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.329s]       |                                     [32m[KUpdateConfig[m[K
+[5.330s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:11:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[5.330s]    11 |     auto request = std::[01;31m[Kmake_shared<UpdateConfigure::Request>[m[K();
+[5.330s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.330s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:11:62:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[5.330s]    11 |     auto request = [01;31m[Kstd::make_shared<UpdateConfigure::Request>()[m[K;
+[5.330s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[5.331s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[5.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[5.331s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5[m[K,
+[5.331s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:1[m[K:
+[5.331s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[5.331s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[5.331s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[5.331s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.331s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:11:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.332s]    11 |     auto request = [01;31m[Kstd::make_shared<UpdateConfigure::Request>()[m[K;
+[5.332s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[5.332s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:16:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::string DataBase::mode[m[K’ is private within this context
+[5.332s]    16 |         request->mode        = _dataBase_->[01;31m[Kmode[m[K;
+[5.332s]       |                                            [01;31m[K^~~~[m[K
+[5.332s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:9[m[K,
+[5.332s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:1[m[K:
+[5.332s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/database/DataBase.hpp:67:17:[m[K [01;36m[Knote: [m[Kdeclared private here
+[5.332s]    67 |     std::string [01;36m[Kmode[m[K = "";
+[5.332s]       |                 [01;36m[K^~~~[m[K
+[5.332s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:17:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kint DataBase::area[m[K’ is private within this context
+[5.332s]    17 |         request->area        = _dataBase_->[01;31m[Karea[m[K;
+[5.332s]       |                                            [01;31m[K^~~~[m[K
+[5.333s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:9[m[K,
+[5.333s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:1[m[K:
+[5.333s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/database/DataBase.hpp:68:9:[m[K [01;36m[Knote: [m[Kdeclared private here
+[5.333s]    68 |     int [01;36m[Karea[m[K = 0 ;
+[5.333s]       |         [01;36m[K^~~~[m[K
+[5.333s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:18:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kint DataBase::threshold_1[m[K’ is private within this context
+[5.333s]    18 |         request->threshold_1 = _dataBase_->[01;31m[Kthreshold_1[m[K;
+[5.333s]       |                                            [01;31m[K^~~~~~~~~~~[m[K
+[5.333s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:9[m[K,
+[5.333s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:1[m[K:
+[5.333s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/database/DataBase.hpp:69:9:[m[K [01;36m[Knote: [m[Kdeclared private here
+[5.333s]    69 |     int [01;36m[Kthreshold_1[m[K = 0;
+[5.333s]       |         [01;36m[K^~~~~~~~~~~[m[K
+[5.334s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:19:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kint DataBase::threshold_2[m[K’ is private within this context
+[5.334s]    19 |         request->threshold_2 = _dataBase_->[01;31m[Kthreshold_2[m[K;
+[5.334s]       |                                            [01;31m[K^~~~~~~~~~~[m[K
+[5.334s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:9[m[K,
+[5.334s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:1[m[K:
+[5.334s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/database/DataBase.hpp:70:9:[m[K [01;36m[Knote: [m[Kdeclared private here
+[5.334s]    70 |     int [01;36m[Kthreshold_2[m[K = 0;
+[5.334s]       |         [01;36m[K^~~~~~~~~~~[m[K
+[5.334s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:[m[K At global scope:
+[5.334s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:38:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool Ros_Cpp::send_process_request(const string&)[m[K’
+[5.334s]    38 | bool [01;31m[KRos_Cpp[m[K::send_process_request(const std::string &command)
+[5.334s]       |      [01;31m[K^~~~~~~[m[K
+[5.334s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:38:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kbool Ros_Cpp::send_process_request(const string&)[m[K’
+[5.335s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:1[m[K:
+[5.335s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:20:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Ros_Cpp[m[K’ defined here
+[5.335s]    20 | class [01;36m[KRos_Cpp[m[K : public rclcpp::Node
+[5.335s]       |       [01;36m[K^~~~~~~[m[K
+[5.347s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:[m[K In member function ‘[01m[Kvoid Ros_Cpp::check_services()[m[K’:
+[5.347s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:80:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kprocess_client_[m[K’ was not declared in this scope; did you mean ‘[01m[Krequest_client_[m[K’?
+[5.347s]    80 |     bool process_ok = [01;31m[Kprocess_client_[m[K->wait_for_service(std::chrono::seconds(0));
+[5.347s]       |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.347s]       |                       [32m[Krequest_client_[m[K
+[5.378s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kvoid MachineController::rosLoop()[m[K’:
+[5.378s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:11:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Ros_Cpp[m[K’ {aka ‘[01m[Kclass Ros_Cpp[m[K’} has no member named ‘[01m[Kspin_some[m[K’
+[5.378s]    11 |     void MachineController::rosLoop()     { ros_->[01;31m[Kspin_some[m[K(); store_data_->pushROS("ros-event"); }
+[5.378s]       |                                                   [01;31m[K^~~~~~~~~[m[K
+[5.388s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:11:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kstore_data_[m[K’ was not declared in this scope
+[5.389s]    11 |     void MachineController::rosLoop()     { ros_->spin_some(); [01;31m[Kstore_data_[m[K->pushROS("ros-event"); }
+[5.389s]       |                                                                [01;31m[K^~~~~~~~~~~[m[K
+[5.389s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kvoid MachineController::mcuLoop()[m[K’:
+[5.389s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:23:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class serial_UART[m[K’ {aka ‘[01m[Kclass serial_UART[m[K’} has no member named ‘[01m[KreadData[m[K’
+[5.389s]    23 |     void MachineController::mcuLoop()     { auto d = serial_UART_->[01;31m[KreadData[m[K(); store_data_->pushMCU(d); }
+[5.389s]       |                                                                    [01;31m[K^~~~~~~~[m[K
+[5.397s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:23:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kstore_data_[m[K’ was not declared in this scope
+[5.398s]    23 |     void MachineController::mcuLoop()     { auto d = serial_UART_->readData(); [01;31m[Kstore_data_[m[K->pushMCU(d); }
+[5.398s]       |                                                                                [01;31m[K^~~~~~~~~~~[m[K
+[5.398s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kvoid MachineController::engineLoop()[m[K’:
+[5.398s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:29:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Engine[m[K’ {aka ‘[01m[Kclass Engine[m[K’} has no member named ‘[01m[KrunOnce[m[K’
+[5.398s]    29 |     void MachineController::engineLoop()  { auto r = engine_->[01;31m[KrunOnce[m[K(); store_data_->pushEngine(r); }
+[5.398s]       |                                                               [01;31m[K^~~~~~~[m[K
+[5.407s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:29:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kstore_data_[m[K’ was not declared in this scope
+[5.407s]    29 |     void MachineController::engineLoop()  { auto r = engine_->runOnce(); [01;31m[Kstore_data_[m[K->pushEngine(r); }
+[5.407s]       |                                                                          [01;31m[K^~~~~~~~~~~[m[K
+[6.089s] gmake[2]: *** [CMakeFiles/request.dir/build.make:76: CMakeFiles/request.dir/src/demo/communication/ros_Service.cpp.o] Error 1
+[6.089s] gmake[2]: *** Waiting for unfinished jobs....
+[6.214s] gmake[2]: *** [CMakeFiles/request.dir/build.make:146: CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o] Error 1
+[7.308s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2
+[7.309s] gmake: *** [Makefile:146: all] Error 2
+[7.312s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node' returned '2': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node -- -j12 -l12

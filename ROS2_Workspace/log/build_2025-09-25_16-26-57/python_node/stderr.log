@@ -1,0 +1,6 @@
+/home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node/ros_manager.py:47: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if request.area is not 0:
+/home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node/ros_manager.py:49: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if request.threshold_1 is not 0:
+/home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node/ros_manager.py:51: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if request.threshold_2 is not 0:

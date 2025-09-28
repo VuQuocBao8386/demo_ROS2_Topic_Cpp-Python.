@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target request[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/request.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable request[0m
+[100%] Built target request
+-- Install configuration: ""
+-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/lib/cpp_node/request
+-- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/lib/cpp_node/request" to ""
+-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/ament_index/resource_index/package_run_dependencies/cpp_node
+-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/ament_index/resource_index/parent_prefix_path/cpp_node
+-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/environment/ament_prefix_path.sh
+-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/environment/ament_prefix_path.dsv
+-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/environment/path.sh
+-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/environment/path.dsv
+-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/local_setup.bash
+-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/local_setup.sh
+-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/local_setup.zsh
+-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/local_setup.dsv
+-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/package.dsv
+-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/ament_index/resource_index/packages/cpp_node
+-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig.cmake
+-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig-version.cmake
+-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/package.xml

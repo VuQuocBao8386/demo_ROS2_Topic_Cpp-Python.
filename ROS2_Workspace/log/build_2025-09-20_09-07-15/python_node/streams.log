@@ -1,0 +1,28 @@
+[0.818s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/src/python_node': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/build/python_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_node build --build-base /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build install --record /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/install.log --single-version-externally-managed install_data
+[1.104s] running egg_info
+[1.104s] writing ../../build/python_node/python_node.egg-info/PKG-INFO
+[1.105s] writing dependency_links to ../../build/python_node/python_node.egg-info/dependency_links.txt
+[1.105s] writing entry points to ../../build/python_node/python_node.egg-info/entry_points.txt
+[1.105s] writing requirements to ../../build/python_node/python_node.egg-info/requires.txt
+[1.105s] writing top-level names to ../../build/python_node/python_node.egg-info/top_level.txt
+[1.108s] reading manifest file '../../build/python_node/python_node.egg-info/SOURCES.txt'
+[1.111s] adding license file 'LICENSE'
+[1.112s] writing manifest file '../../build/python_node/python_node.egg-info/SOURCES.txt'
+[1.113s] running build
+[1.113s] running build_py
+[1.113s] copying python_node/main.py -> /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node
+[1.113s] copying python_node/image_processor.py -> /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node
+[1.114s] running install
+[1.114s] running install_lib
+[1.115s] copying /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node/main.py -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node
+[1.115s] copying /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node/image_processor.py -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node
+[1.116s] byte-compiling /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node/main.py to main.cpython-310.pyc
+[1.117s] byte-compiling /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node/image_processor.py to image_processor.cpython-310.pyc
+[1.118s] running install_data
+[1.118s] running install_egg_info
+[1.121s] removing '/home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node-0.0.0-py3.10.egg-info' (and everything under it)
+[1.121s] Copying ../../build/python_node/python_node.egg-info to /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node-0.0.0-py3.10.egg-info
+[1.122s] running install_scripts
+[1.151s] Installing ros_response script to /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python_node
+[1.152s] writing list of installed files to '/home/anhbaodz/Documents/ROS2_Workspace/build/python_node/install.log'
+[1.212s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/src/python_node' returned '0': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/build/python_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_node build --build-base /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build install --record /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/install.log --single-version-externally-managed install_data

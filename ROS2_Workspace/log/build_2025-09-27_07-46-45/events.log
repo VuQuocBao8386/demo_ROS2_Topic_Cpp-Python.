@@ -1,0 +1,856 @@
+[0.000000] (-) TimerEvent: {}
+[0.000578] (-) JobUnselected: {'identifier': 'python_node'}
+[0.000604] (-) JobUnselected: {'identifier': 'ros_serivce'}
+[0.000622] (cpp_node) JobQueued: {'identifier': 'cpp_node', 'dependencies': OrderedDict([('ros_serivce', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce')])}
+[0.000643] (cpp_node) JobStarted: {'identifier': 'cpp_node'}
+[0.013733] (cpp_node) JobProgress: {'identifier': 'cpp_node', 'progress': 'cmake'}
+[0.014201] (cpp_node) Command: {'cmd': ['/usr/bin/cmake', '/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node', '-DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node'], 'cwd': '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'anhbaodz'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/anhbaodz/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anhbaodz'), ('OLDPWD', '/home/anhbaodz/Documents'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1508'), ('SYSTEMD_EXEC_PID', '1675'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4689'), ('_colcon_cd_root', '/opt/ros/rolling/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anhbaodz'), ('JOURNAL_STREAM', '8:11216'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anhbaodz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/anhbaodz/.local/bin:/home/anhbaodz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Inspiration:@/tmp/.ICE-unix/1639,unix/Inspiration:/tmp/.ICE-unix/1639'), ('INVOCATION_ID', '94bbd3eeefa6401abe336ea52da6cc86'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MO6HD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node:/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f999cc64-c592-4100-8b56-8592c8fa6a4a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ROS_MAIN_ID', '7'), ('PYTHONPATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages:/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble')]), 'shell': False}
+[0.082114] (cpp_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099494] (-) TimerEvent: {}
+[0.144543] (cpp_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.153449] (cpp_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199665] (-) TimerEvent: {}
+[0.231699] (cpp_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.238291] (cpp_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.238671] (cpp_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.239085] (cpp_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.242408] (cpp_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299807] (-) TimerEvent: {}
+[0.331143] (cpp_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.337891] (cpp_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.338247] (cpp_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.338534] (cpp_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.341953] (cpp_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399927] (-) TimerEvent: {}
+[0.481990] (cpp_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500062] (-) TimerEvent: {}
+[0.600458] (-) TimerEvent: {}
+[0.600903] (cpp_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.646487] (cpp_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.652243] (cpp_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.685300] (cpp_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.700591] (-) TimerEvent: {}
+[0.701446] (cpp_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.720074] (cpp_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.766453] (cpp_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.769632] (cpp_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800729] (-) TimerEvent: {}
+[0.894529] (cpp_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.900861] (-) TimerEvent: {}
+[0.922356] (cpp_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.965092] (cpp_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.974359] (cpp_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.000997] (-) TimerEvent: {}
+[1.050124] (cpp_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.050589] (cpp_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.101139] (-) TimerEvent: {}
+[1.131847] (cpp_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.132762] (cpp_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.185032] (cpp_node) StdoutLine: {'line': b'-- Found ros_serivce: 0.0.0 (/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake)\n'}
+[1.201266] (-) TimerEvent: {}
+[1.214748] (cpp_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.292878] (cpp_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.293278] (cpp_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src>\n'}
+[1.293436] (cpp_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.293981] (cpp_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.296328] (cpp_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.296506] (cpp_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.296883] (cpp_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.298329] (cpp_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.301360] (-) TimerEvent: {}
+[1.311325] (cpp_node) StdoutLine: {'line': b'-- Generating done\n'}
+[1.315217] (cpp_node) StdoutLine: {'line': b'-- Build files have been written to: /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node\n'}
+[1.324919] (cpp_node) CommandEnded: {'returncode': 0}
+[1.325868] (cpp_node) JobProgress: {'identifier': 'cpp_node', 'progress': 'build'}
+[1.327023] (cpp_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node', '--', '-j12', '-l12'], 'cwd': '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'anhbaodz'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/anhbaodz/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anhbaodz'), ('OLDPWD', '/home/anhbaodz/Documents'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1508'), ('SYSTEMD_EXEC_PID', '1675'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4689'), ('_colcon_cd_root', '/opt/ros/rolling/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anhbaodz'), ('JOURNAL_STREAM', '8:11216'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anhbaodz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/anhbaodz/.local/bin:/home/anhbaodz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Inspiration:@/tmp/.ICE-unix/1639,unix/Inspiration:/tmp/.ICE-unix/1639'), ('INVOCATION_ID', '94bbd3eeefa6401abe336ea52da6cc86'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MO6HD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node:/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f999cc64-c592-4100-8b56-8592c8fa6a4a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ROS_MAIN_ID', '7'), ('PYTHONPATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages:/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble')]), 'shell': False}
+[1.381813] (cpp_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target request\x1b[0m\n'}
+[1.401512] (-) TimerEvent: {}
+[1.406622] (cpp_node) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o\x1b[0m\n'}
+[1.407076] (cpp_node) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/request.dir/src/main.cpp.o\x1b[0m\n'}
+[1.501647] (-) TimerEvent: {}
+[1.602087] (-) TimerEvent: {}
+[1.702469] (-) TimerEvent: {}
+[1.802909] (-) TimerEvent: {}
+[1.903383] (-) TimerEvent: {}
+[2.003904] (-) TimerEvent: {}
+[2.104389] (-) TimerEvent: {}
+[2.204991] (-) TimerEvent: {}
+[2.305607] (-) TimerEvent: {}
+[2.406347] (-) TimerEvent: {}
+[2.506768] (-) TimerEvent: {}
+[2.607485] (-) TimerEvent: {}
+[2.708111] (-) TimerEvent: {}
+[2.808553] (-) TimerEvent: {}
+[2.909332] (-) TimerEvent: {}
+[3.009757] (-) TimerEvent: {}
+[3.110530] (-) TimerEvent: {}
+[3.211188] (-) TimerEvent: {}
+[3.311887] (-) TimerEvent: {}
+[3.412512] (-) TimerEvent: {}
+[3.512986] (-) TimerEvent: {}
+[3.613391] (-) TimerEvent: {}
+[3.622658] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:36:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[3.623000] (cpp_node) StderrLine: {'line': b'   36 | }\n'}
+[3.623105] (cpp_node) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.623195] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[3.623288] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:17:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.623380] (cpp_node) StderrLine: {'line': b'   17 | class MachineController \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[3.623468] (cpp_node) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.627926] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMachineController::MachineController(std::shared_ptr<Ros_Cpp>, std::shared_ptr<serial_UART>, std::shared_ptr<DataBase>, std::shared_ptr<Engine>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.628178] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:27:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KMachineController\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kros_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.628282] (cpp_node) StderrLine: {'line': b'   27 |         : \x1b[01;31m\x1b[Kros_\x1b[m\x1b[K(roscpp),\n'}
+[3.628375] (cpp_node) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.628468] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:28:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KMachineController\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kserial_UART_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.628585] (cpp_node) StderrLine: {'line': b'   28 |           \x1b[01;31m\x1b[Kserial_UART_\x1b[m\x1b[K(serialuart),\n'}
+[3.628681] (cpp_node) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.628768] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:29:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KMachineController\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kdata_Base_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.628886] (cpp_node) StderrLine: {'line': b'   29 |           \x1b[01;31m\x1b[Kdata_Base_\x1b[m\x1b[K(database),\n'}
+[3.628976] (cpp_node) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.629065] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:30:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KMachineController\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kengine_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.629155] (cpp_node) StderrLine: {'line': b'   30 |           \x1b[01;31m\x1b[Kengine_\x1b[m\x1b[K(engine),\n'}
+[3.629244] (cpp_node) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.629330] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:31:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KMachineController\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kstop_flag\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.629374] (cpp_node) StderrLine: {'line': b'   31 |           \x1b[01;31m\x1b[Kstop_flag\x1b[m\x1b[K(false) {}\n'}
+[3.629415] (cpp_node) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.632588] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:\x1b[m\x1b[K In destructor \xe2\x80\x98\x1b[01m\x1b[KMachineController::~MachineController()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.632839] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:33:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstop\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.632954] (cpp_node) StderrLine: {'line': b'   33 |     ~MachineController() { \x1b[01;31m\x1b[Kstop\x1b[m\x1b[K(); joinThreads(); }\n'}
+[3.633047] (cpp_node) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.638400] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:33:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KjoinThreads\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.638596] (cpp_node) StderrLine: {'line': b'   33 |     ~MachineController() { stop(); \x1b[01;31m\x1b[KjoinThreads\x1b[m\x1b[K(); }\n'}
+[3.638643] (cpp_node) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.642392] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:5:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[KMachineController::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[KrosIdle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.642724] (cpp_node) StderrLine: {'line': b'    5 | bool \x1b[01;31m\x1b[KMachineController\x1b[m\x1b[K::rosIdle()\n'}
+[3.642815] (cpp_node) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.642865] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:22:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[KMachineController::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[KrosSetup\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.642925] (cpp_node) StderrLine: {'line': b'   22 | bool \x1b[01;31m\x1b[KMachineController\x1b[m\x1b[K::rosSetup() {\n'}
+[3.642964] (cpp_node) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.643002] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:37:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[KMachineController::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[KrosLoop\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.643043] (cpp_node) StderrLine: {'line': b'   37 |     void \x1b[01;31m\x1b[KMachineController\x1b[m\x1b[K::rosLoop()    {}\n'}
+[3.643082] (cpp_node) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.643120] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:38:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[KMachineController::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[KrosError\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.643161] (cpp_node) StderrLine: {'line': b'   38 |     void \x1b[01;31m\x1b[KMachineController\x1b[m\x1b[K::rosError()   {}\n'}
+[3.643199] (cpp_node) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.643237] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:39:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[KMachineController::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[KrosShutdown\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.643282] (cpp_node) StderrLine: {'line': b'   39 |     void \x1b[01;31m\x1b[KMachineController\x1b[m\x1b[K::rosShutdown(){}\n'}
+[3.643321] (cpp_node) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.643359] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:45:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[KMachineController::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[KmcuIdle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.643400] (cpp_node) StderrLine: {'line': b'   45 | bool \x1b[01;31m\x1b[KMachineController\x1b[m\x1b[K::mcuIdle() {\n'}
+[3.643440] (cpp_node) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.643485] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:61:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[KMachineController::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[KmcuLoop\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.643646] (cpp_node) StderrLine: {'line': b'   61 |     void \x1b[01;31m\x1b[KMachineController\x1b[m\x1b[K::mcuLoop()   {}\n'}
+[3.643691] (cpp_node) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.643731] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:62:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[KMachineController::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[KmcuError\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.643788] (cpp_node) StderrLine: {'line': b'   62 |     void \x1b[01;31m\x1b[KMachineController\x1b[m\x1b[K::mcuError()   {}\n'}
+[3.643844] (cpp_node) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.643883] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:63:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[KMachineController::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[KmcuShutdown\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.643931] (cpp_node) StderrLine: {'line': b'   63 |     void \x1b[01;31m\x1b[KMachineController\x1b[m\x1b[K::mcuShutdown(){}\n'}
+[3.643971] (cpp_node) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.644008] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:67:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[KMachineController::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[KengineLoop\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.644048] (cpp_node) StderrLine: {'line': b'   67 |     void \x1b[01;31m\x1b[KMachineController\x1b[m\x1b[K::engineLoop() {}\n'}
+[3.644085] (cpp_node) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.644124] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:68:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[KMachineController::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[KengineError\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.644170] (cpp_node) StderrLine: {'line': b'   68 |     void \x1b[01;31m\x1b[KMachineController\x1b[m\x1b[K::engineError() {}\n'}
+[3.644210] (cpp_node) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.644250] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:69:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[KMachineController::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[KengineShutdown\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.644292] (cpp_node) StderrLine: {'line': b'   69 |     void \x1b[01;31m\x1b[KMachineController\x1b[m\x1b[K::engineShutdown(){}\n'}
+[3.644332] (cpp_node) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.644376] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:75:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[KMachineController::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[Ksetup_User\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.644420] (cpp_node) StderrLine: {'line': b'   75 | int \x1b[01;31m\x1b[KMachineController\x1b[m\x1b[K::setup_User() {\n'}
+[3.644462] (cpp_node) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.644506] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:150:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[3.644548] (cpp_node) StderrLine: {'line': b'  150 | }\n'}
+[3.644588] (cpp_node) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.644628] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[3.644670] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:17:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.644712] (cpp_node) StderrLine: {'line': b'   17 | class MachineController \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[3.644752] (cpp_node) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.644809] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MachineController::start()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.644854] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:37:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kthreads\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kread\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.644897] (cpp_node) StderrLine: {'line': b'   37 |         \x1b[01;31m\x1b[Kthreads\x1b[m\x1b[K.emplace_back(&MachineController::runROS2, this);\n'}
+[3.644937] (cpp_node) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.644977] (cpp_node) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kread\x1b[m\x1b[K\n'}
+[3.645017] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:37:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KrunROS2\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KMachineController\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.645063] (cpp_node) StderrLine: {'line': b'   37 |         threads.emplace_back(&MachineController::\x1b[01;31m\x1b[KrunROS2\x1b[m\x1b[K, this);\n'}
+[3.645103] (cpp_node) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.645144] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:38:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KrunMCU\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KMachineController\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.645191] (cpp_node) StderrLine: {'line': b'   38 |         threads.emplace_back(&MachineController::\x1b[01;31m\x1b[KrunMCU\x1b[m\x1b[K, this);\n'}
+[3.645232] (cpp_node) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.645295] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:39:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KrunEngine\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KMachineController\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.645336] (cpp_node) StderrLine: {'line': b'   39 |         threads.emplace_back(&MachineController::\x1b[01;31m\x1b[KrunEngine\x1b[m\x1b[K, this);\n'}
+[3.645376] (cpp_node) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.647526] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMachineController::MachineController(std::shared_ptr<Ros_Cpp>, std::shared_ptr<serial_UART>, std::shared_ptr<DataBase>, std::shared_ptr<Engine>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.647638] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:27:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KMachineController\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kros_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.647702] (cpp_node) StderrLine: {'line': b'   27 |         : \x1b[01;31m\x1b[Kros_\x1b[m\x1b[K(roscpp),\n'}
+[3.647744] (cpp_node) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.647797] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:28:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KMachineController\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kserial_UART_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.647846] (cpp_node) StderrLine: {'line': b'   28 |           \x1b[01;31m\x1b[Kserial_UART_\x1b[m\x1b[K(serialuart),\n'}
+[3.647887] (cpp_node) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.647927] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:29:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KMachineController\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kdata_Base_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.647968] (cpp_node) StderrLine: {'line': b'   29 |           \x1b[01;31m\x1b[Kdata_Base_\x1b[m\x1b[K(database),\n'}
+[3.648009] (cpp_node) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.648048] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:30:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KMachineController\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kengine_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.648089] (cpp_node) StderrLine: {'line': b'   30 |           \x1b[01;31m\x1b[Kengine_\x1b[m\x1b[K(engine),\n'}
+[3.648129] (cpp_node) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.648169] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:31:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KMachineController\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kstop_flag\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.648215] (cpp_node) StderrLine: {'line': b'   31 |           \x1b[01;31m\x1b[Kstop_flag\x1b[m\x1b[K(false) {}\n'}
+[3.648255] (cpp_node) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.649895] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MachineController::setState(MachineController::State)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.650019] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:44:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstate_mutex\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.650066] (cpp_node) StderrLine: {'line': b'   44 |             std::lock_guard<std::mutex> lock(\x1b[01;31m\x1b[Kstate_mutex\x1b[m\x1b[K);\n'}
+[3.650109] (cpp_node) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.651839] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:\x1b[m\x1b[K In destructor \xe2\x80\x98\x1b[01m\x1b[KMachineController::~MachineController()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.651953] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:33:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstop\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.652001] (cpp_node) StderrLine: {'line': b'   33 |     ~MachineController() { \x1b[01;31m\x1b[Kstop\x1b[m\x1b[K(); joinThreads(); }\n'}
+[3.652043] (cpp_node) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.656493] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:45:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_state\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.656721] (cpp_node) StderrLine: {'line': b'   45 |             \x1b[01;31m\x1b[Kcurrent_state\x1b[m\x1b[K = new_state;\n'}
+[3.656845] (cpp_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.657399] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:33:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KjoinThreads\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.657544] (cpp_node) StderrLine: {'line': b'   33 |     ~MachineController() { stop(); \x1b[01;31m\x1b[KjoinThreads\x1b[m\x1b[K(); }\n'}
+[3.657645] (cpp_node) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.661106] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:50:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv_ros\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.661326] (cpp_node) StderrLine: {'line': b'   50 |                 \x1b[01;31m\x1b[Kcv_ros\x1b[m\x1b[K.notify_one();\n'}
+[3.661427] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.661856] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MachineController::start()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.662019] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:37:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kthreads\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kread\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.662142] (cpp_node) StderrLine: {'line': b'   37 |         \x1b[01;31m\x1b[Kthreads\x1b[m\x1b[K.emplace_back(&MachineController::runROS2, this);\n'}
+[3.662242] (cpp_node) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.662330] (cpp_node) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kread\x1b[m\x1b[K\n'}
+[3.662419] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:37:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KrunROS2\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KMachineController\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.662510] (cpp_node) StderrLine: {'line': b'   37 |         threads.emplace_back(&MachineController::\x1b[01;31m\x1b[KrunROS2\x1b[m\x1b[K, this);\n'}
+[3.662597] (cpp_node) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.662685] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:38:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KrunMCU\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KMachineController\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.662784] (cpp_node) StderrLine: {'line': b'   38 |         threads.emplace_back(&MachineController::\x1b[01;31m\x1b[KrunMCU\x1b[m\x1b[K, this);\n'}
+[3.662887] (cpp_node) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.662976] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:39:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KrunEngine\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KMachineController\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.663065] (cpp_node) StderrLine: {'line': b'   39 |         threads.emplace_back(&MachineController::\x1b[01;31m\x1b[KrunEngine\x1b[m\x1b[K, this);\n'}
+[3.663153] (cpp_node) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.665865] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:51:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv_mcu\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.666018] (cpp_node) StderrLine: {'line': b'   51 |                 \x1b[01;31m\x1b[Kcv_mcu\x1b[m\x1b[K.notify_one();\n'}
+[3.666066] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.667419] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MachineController::setState(MachineController::State)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.667516] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:44:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstate_mutex\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.667563] (cpp_node) StderrLine: {'line': b'   44 |             std::lock_guard<std::mutex> lock(\x1b[01;31m\x1b[Kstate_mutex\x1b[m\x1b[K);\n'}
+[3.667605] (cpp_node) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.670512] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:53:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KmcuIdle\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.670749] (cpp_node) StderrLine: {'line': b'   53 |                 if (\x1b[01;31m\x1b[KmcuIdle\x1b[m\x1b[K() && rosIdle())\n'}
+[3.670874] (cpp_node) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.673870] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:45:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_state\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.674052] (cpp_node) StderrLine: {'line': b'   45 |             \x1b[01;31m\x1b[Kcurrent_state\x1b[m\x1b[K = new_state;\n'}
+[3.674153] (cpp_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.675199] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:53:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KrosIdle\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.675406] (cpp_node) StderrLine: {'line': b'   53 |                 if (mcuIdle() && \x1b[01;31m\x1b[KrosIdle\x1b[m\x1b[K())\n'}
+[3.675461] (cpp_node) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.677616] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:50:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv_ros\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.677733] (cpp_node) StderrLine: {'line': b'   50 |                 \x1b[01;31m\x1b[Kcv_ros\x1b[m\x1b[K.notify_one();\n'}
+[3.677788] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.681173] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:64:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksetup_User\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.681396] (cpp_node) StderrLine: {'line': b'   64 |                     int action = \x1b[01;31m\x1b[Ksetup_User\x1b[m\x1b[K();  // return user choice\n'}
+[3.681498] (cpp_node) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.681589] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:70:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.681681] (cpp_node) StderrLine: {'line': b'   70 |                             log(\x1b[01;31m\x1b[K"Update successful \xe2\x9c\x85"\x1b[m\x1b[K);\n'}
+[3.681857] (cpp_node) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.681963] (cpp_node) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.682058] (cpp_node) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[3.682148] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[3.682240] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[3.682390] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[3.682809] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.682932] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.683026] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.683133] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.683221] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.683309] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.683397] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.683462] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.683503] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.683543] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.683583] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[3.683622] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.683663] (cpp_node) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[3.683703] (cpp_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.683743] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:51:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv_mcu\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.683796] (cpp_node) StderrLine: {'line': b'   51 |                 \x1b[01;31m\x1b[Kcv_mcu\x1b[m\x1b[K.notify_one();\n'}
+[3.683842] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.683882] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:70:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.683923] (cpp_node) StderrLine: {'line': b'   70 |                             log(\x1b[01;31m\x1b[K"Update successful \xe2\x9c\x85"\x1b[m\x1b[K);\n'}
+[3.683963] (cpp_node) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.684003] (cpp_node) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.684043] (cpp_node) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[3.684083] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[3.684122] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[3.684162] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[3.684202] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.684242] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.684287] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.684327] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.684367] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.684407] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.684448] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.684489] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.684529] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.684573] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.684613] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5\x1b[m\x1b[K,\n'}
+[3.684653] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[3.684694] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[3.684734] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.684777] (cpp_node) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[3.684827] (cpp_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.684867] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[3.684907] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:82:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.684947] (cpp_node) StderrLine: {'line': b'   82 |                             log(\x1b[01;31m\x1b[K"Invalid choice, try again."\x1b[m\x1b[K);\n'}
+[3.684988] (cpp_node) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.685028] (cpp_node) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.685067] (cpp_node) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[3.685116] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[3.685157] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[3.685197] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[3.685237] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.685285] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.685325] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.685365] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.685405] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.685445] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.685485] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.685525] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.685565] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.685604] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.685644] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5\x1b[m\x1b[K,\n'}
+[3.685684] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[3.685724] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[3.685764] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.685816] (cpp_node) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[3.685858] (cpp_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.685898] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[3.685938] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:89:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[3.685978] (cpp_node) StderrLine: {'line': b'   89 |             case State::\x1b[01;31m\x1b[KRUNNING\x1b[m\x1b[K:\n'}
+[3.686018] (cpp_node) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.686059] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kbool done\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.686100] (cpp_node) StderrLine: {'line': b'   61 |                 bool \x1b[01;36m\x1b[Kdone\x1b[m\x1b[K = false;\n'}
+[3.686140] (cpp_node) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.686186] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:92:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[3.686227] (cpp_node) StderrLine: {'line': b'   92 |             case State::\x1b[01;31m\x1b[KERROR\x1b[m\x1b[K:\n'}
+[3.686271] (cpp_node) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.686311] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kbool done\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.686351] (cpp_node) StderrLine: {'line': b'   61 |                 bool \x1b[01;36m\x1b[Kdone\x1b[m\x1b[K = false;\n'}
+[3.686496] (cpp_node) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.686572] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:95:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[3.686625] (cpp_node) StderrLine: {'line': b'   95 |             case State::\x1b[01;31m\x1b[KSHUTDOWN\x1b[m\x1b[K:\n'}
+[3.686669] (cpp_node) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.686713] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kbool done\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.686760] (cpp_node) StderrLine: {'line': b'   61 |                 bool \x1b[01;36m\x1b[Kdone\x1b[m\x1b[K = false;\n'}
+[3.687074] (cpp_node) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.687128] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[3.687173] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:75:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KrosSetup\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.687234] (cpp_node) StderrLine: {'line': b'   75 |                             if (\x1b[01;31m\x1b[KrosSetup\x1b[m\x1b[K()) {\n'}
+[3.687421] (cpp_node) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.687477] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:82:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.687522] (cpp_node) StderrLine: {'line': b'   82 |                             log(\x1b[01;31m\x1b[K"Invalid choice, try again."\x1b[m\x1b[K);\n'}
+[3.687564] (cpp_node) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.687604] (cpp_node) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.687644] (cpp_node) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[3.687684] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[3.687723] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[3.687763] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[3.687819] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.687862] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.687912] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.687951] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.687991] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.688032] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.688072] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.688111] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.688152] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.688191] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.688231] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[3.688271] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.688312] (cpp_node) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[3.688351] (cpp_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.688391] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[3.688430] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:89:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[3.688480] (cpp_node) StderrLine: {'line': b'   89 |             case State::\x1b[01;31m\x1b[KRUNNING\x1b[m\x1b[K:\n'}
+[3.688519] (cpp_node) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.688559] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kbool done\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.688599] (cpp_node) StderrLine: {'line': b'   61 |                 bool \x1b[01;36m\x1b[Kdone\x1b[m\x1b[K = false;\n'}
+[3.688638] (cpp_node) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.688677] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:92:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[3.688717] (cpp_node) StderrLine: {'line': b'   92 |             case State::\x1b[01;31m\x1b[KERROR\x1b[m\x1b[K:\n'}
+[3.688756] (cpp_node) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.688806] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kbool done\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.688848] (cpp_node) StderrLine: {'line': b'   61 |                 bool \x1b[01;36m\x1b[Kdone\x1b[m\x1b[K = false;\n'}
+[3.688893] (cpp_node) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.688932] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:95:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[3.688976] (cpp_node) StderrLine: {'line': b'   95 |             case State::\x1b[01;31m\x1b[KSHUTDOWN\x1b[m\x1b[K:\n'}
+[3.689017] (cpp_node) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.689057] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kbool done\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.689101] (cpp_node) StderrLine: {'line': b'   61 |                 bool \x1b[01;36m\x1b[Kdone\x1b[m\x1b[K = false;\n'}
+[3.689141] (cpp_node) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.689180] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:98:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv_engine\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KEngine\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.689222] (cpp_node) StderrLine: {'line': b'   98 |                 \x1b[01;31m\x1b[Kcv_engine\x1b[m\x1b[K.notify_one();\n'}
+[3.689262] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.689301] (cpp_node) StderrLine: {'line': b'      |                 \x1b[32m\x1b[KEngine\x1b[m\x1b[K\n'}
+[3.689340] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:100:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[3.689379] (cpp_node) StderrLine: {'line': b'  100 |             \x1b[01;31m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[3.689418] (cpp_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.689457] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kbool done\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.689499] (cpp_node) StderrLine: {'line': b'   61 |                 bool \x1b[01;36m\x1b[Kdone\x1b[m\x1b[K = false;\n'}
+[3.689539] (cpp_node) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.689578] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:48:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kenumeration value \xe2\x80\x98\x1b[01m\x1b[KRUNNING\x1b[m\x1b[K\xe2\x80\x99 not handled in switch [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch\x07-Wswitch\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.689619] (cpp_node) StderrLine: {'line': b'   48 |         switch \x1b[01;35m\x1b[K(\x1b[m\x1b[Knew_state) {\n'}
+[3.689660] (cpp_node) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.689699] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:48:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kenumeration value \xe2\x80\x98\x1b[01m\x1b[KERROR\x1b[m\x1b[K\xe2\x80\x99 not handled in switch [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch\x07-Wswitch\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.689741] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:48:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kenumeration value \xe2\x80\x98\x1b[01m\x1b[KSHUTDOWN\x1b[m\x1b[K\xe2\x80\x99 not handled in switch [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch\x07-Wswitch\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.689799] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:106:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ka function-definition is not allowed here before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.689844] (cpp_node) StderrLine: {'line': b'  106 |     void stop() \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[3.689884] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.689923] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:113:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.689963] (cpp_node) StderrLine: {'line': b'  113 | \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[3.690007] (cpp_node) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.692454] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:98:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv_engine\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KEngine\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.692671] (cpp_node) StderrLine: {'line': b'   98 |                 \x1b[01;31m\x1b[Kcv_engine\x1b[m\x1b[K.notify_one();\n'}
+[3.692788] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.692895] (cpp_node) StderrLine: {'line': b'      |                 \x1b[32m\x1b[KEngine\x1b[m\x1b[K\n'}
+[3.692984] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:100:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[3.693074] (cpp_node) StderrLine: {'line': b'  100 |             \x1b[01;31m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[3.693161] (cpp_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.693247] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kbool done\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.693362] (cpp_node) StderrLine: {'line': b'   61 |                 bool \x1b[01;36m\x1b[Kdone\x1b[m\x1b[K = false;\n'}
+[3.693451] (cpp_node) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.693538] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:48:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kenumeration value \xe2\x80\x98\x1b[01m\x1b[KRUNNING\x1b[m\x1b[K\xe2\x80\x99 not handled in switch [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch\x07-Wswitch\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.693630] (cpp_node) StderrLine: {'line': b'   48 |         switch \x1b[01;35m\x1b[K(\x1b[m\x1b[Knew_state) {\n'}
+[3.693726] (cpp_node) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.693839] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:48:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kenumeration value \xe2\x80\x98\x1b[01m\x1b[KERROR\x1b[m\x1b[K\xe2\x80\x99 not handled in switch [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch\x07-Wswitch\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.693937] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:48:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kenumeration value \xe2\x80\x98\x1b[01m\x1b[KSHUTDOWN\x1b[m\x1b[K\xe2\x80\x99 not handled in switch [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch\x07-Wswitch\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.694038] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:106:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ka function-definition is not allowed here before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.694127] (cpp_node) StderrLine: {'line': b'  106 |     void stop() \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[3.694215] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.694301] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:113:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.694390] (cpp_node) StderrLine: {'line': b'  113 | \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[3.694462] (cpp_node) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.696056] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:128:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ka function-definition is not allowed here before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.696263] (cpp_node) StderrLine: {'line': b'  128 |     void runROS2() \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[3.696315] (cpp_node) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.696360] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:156:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ka function-definition is not allowed here before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.696403] (cpp_node) StderrLine: {'line': b'  156 |     void runMCU() \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[3.696446] (cpp_node) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.696488] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:184:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ka function-definition is not allowed here before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.696533] (cpp_node) StderrLine: {'line': b'  184 |     void runEngine() \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[3.696573] (cpp_node) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.696614] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:200:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kempty parentheses were disambiguated as a function declaration [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse\x07-Wvexing-parse\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.696660] (cpp_node) StderrLine: {'line': b'  200 |     bool rosIdle\x1b[01;35m\x1b[K()\x1b[m\x1b[K;     // check ros serivce already\n'}
+[3.696702] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.696742] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:200:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kremove parentheses to default-initialize a variable\n'}
+[3.696945] (cpp_node) StderrLine: {'line': b'  200 |     bool rosIdle\x1b[01;36m\x1b[K()\x1b[m\x1b[K;     // check ros serivce already\n'}
+[3.697002] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.697051] (cpp_node) StderrLine: {'line': b'      |                 \x1b[31m\x1b[K--\x1b[m\x1b[K\n'}
+[3.697089] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:200:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kor replace parentheses with braces to value-initialize a variable\n'}
+[3.697129] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:201:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kempty parentheses were disambiguated as a function declaration [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse\x07-Wvexing-parse\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.697174] (cpp_node) StderrLine: {'line': b'  201 |     bool rosSetup\x1b[01;35m\x1b[K()\x1b[m\x1b[K;\n'}
+[3.697212] (cpp_node) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.697250] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:201:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kremove parentheses to default-initialize a variable\n'}
+[3.697288] (cpp_node) StderrLine: {'line': b'  201 |     bool rosSetup\x1b[01;36m\x1b[K()\x1b[m\x1b[K;\n'}
+[3.697325] (cpp_node) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.697362] (cpp_node) StderrLine: {'line': b'      |                  \x1b[31m\x1b[K--\x1b[m\x1b[K\n'}
+[3.697399] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:201:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kor replace parentheses with braces to value-initialize a variable\n'}
+[3.697472] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:206:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kempty parentheses were disambiguated as a function declaration [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse\x07-Wvexing-parse\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.697561] (cpp_node) StderrLine: {'line': b'  206 |     bool mcuIdle\x1b[01;35m\x1b[K()\x1b[m\x1b[K;    // check Mcu Serial already\n'}
+[3.697649] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.697736] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:206:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kremove parentheses to default-initialize a variable\n'}
+[3.697849] (cpp_node) StderrLine: {'line': b'  206 |     bool mcuIdle\x1b[01;36m\x1b[K()\x1b[m\x1b[K;    // check Mcu Serial already\n'}
+[3.697941] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.698028] (cpp_node) StderrLine: {'line': b'      |                 \x1b[31m\x1b[K--\x1b[m\x1b[K\n'}
+[3.698114] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:206:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kor replace parentheses with braces to value-initialize a variable\n'}
+[3.698202] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:216:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ka function-definition is not allowed here before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.698290] (cpp_node) StderrLine: {'line': b'  216 |     void joinThreads() \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[3.698376] (cpp_node) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.698458] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:219:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ka function-definition is not allowed here before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.698509] (cpp_node) StderrLine: {'line': b'  219 |     void log(const std::string &msg) \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[3.698549] (cpp_node) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.698588] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:223:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kempty parentheses were disambiguated as a function declaration [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse\x07-Wvexing-parse\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.698631] (cpp_node) StderrLine: {'line': b'  223 |     int setup_User\x1b[01;35m\x1b[K()\x1b[m\x1b[K;\n'}
+[3.698670] (cpp_node) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.698710] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:223:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kremove parentheses to default-initialize a variable\n'}
+[3.698750] (cpp_node) StderrLine: {'line': b'  223 |     int setup_User\x1b[01;36m\x1b[K()\x1b[m\x1b[K;\n'}
+[3.698801] (cpp_node) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.698845] (cpp_node) StderrLine: {'line': b'      |                   \x1b[31m\x1b[K--\x1b[m\x1b[K\n'}
+[3.698884] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:223:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kor replace parentheses with braces to value-initialize a variable\n'}
+[3.698924] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:120:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kstop_flag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.698972] (cpp_node) StderrLine: {'line': b'  120 |     std::atomic<bool> \x1b[01;35m\x1b[Kstop_flag\x1b[m\x1b[K;\n'}
+[3.699015] (cpp_node) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.701433] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:128:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ka function-definition is not allowed here before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.701890] (cpp_node) StderrLine: {'line': b'  128 |     void runROS2() \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[3.702011] (cpp_node) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.702107] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:156:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ka function-definition is not allowed here before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.702207] (cpp_node) StderrLine: {'line': b'  156 |     void runMCU() \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[3.702299] (cpp_node) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.702393] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:184:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ka function-definition is not allowed here before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.702489] (cpp_node) StderrLine: {'line': b'  184 |     void runEngine() \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[3.702630] (cpp_node) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.702718] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:200:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kempty parentheses were disambiguated as a function declaration [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse\x07-Wvexing-parse\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.702843] (cpp_node) StderrLine: {'line': b'  200 |     bool rosIdle\x1b[01;35m\x1b[K()\x1b[m\x1b[K;     // check ros serivce already\n'}
+[3.702937] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.703021] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:200:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kremove parentheses to default-initialize a variable\n'}
+[3.703109] (cpp_node) StderrLine: {'line': b'  200 |     bool rosIdle\x1b[01;36m\x1b[K()\x1b[m\x1b[K;     // check ros serivce already\n'}
+[3.703196] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.703282] (cpp_node) StderrLine: {'line': b'      |                 \x1b[31m\x1b[K--\x1b[m\x1b[K\n'}
+[3.703368] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:200:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kor replace parentheses with braces to value-initialize a variable\n'}
+[3.703444] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:201:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kempty parentheses were disambiguated as a function declaration [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse\x07-Wvexing-parse\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.703489] (cpp_node) StderrLine: {'line': b'  201 |     bool rosSetup\x1b[01;35m\x1b[K()\x1b[m\x1b[K;\n'}
+[3.703529] (cpp_node) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.703568] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:201:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kremove parentheses to default-initialize a variable\n'}
+[3.703609] (cpp_node) StderrLine: {'line': b'  201 |     bool rosSetup\x1b[01;36m\x1b[K()\x1b[m\x1b[K;\n'}
+[3.703648] (cpp_node) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.703687] (cpp_node) StderrLine: {'line': b'      |                  \x1b[31m\x1b[K--\x1b[m\x1b[K\n'}
+[3.703727] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:201:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kor replace parentheses with braces to value-initialize a variable\n'}
+[3.703767] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:206:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kempty parentheses were disambiguated as a function declaration [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse\x07-Wvexing-parse\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.703826] (cpp_node) StderrLine: {'line': b'  206 |     bool mcuIdle\x1b[01;35m\x1b[K()\x1b[m\x1b[K;    // check Mcu Serial already\n'}
+[3.703869] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.703908] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:206:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kremove parentheses to default-initialize a variable\n'}
+[3.703958] (cpp_node) StderrLine: {'line': b'  206 |     bool mcuIdle\x1b[01;36m\x1b[K()\x1b[m\x1b[K;    // check Mcu Serial already\n'}
+[3.703998] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.704037] (cpp_node) StderrLine: {'line': b'      |                 \x1b[31m\x1b[K--\x1b[m\x1b[K\n'}
+[3.704077] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:206:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kor replace parentheses with braces to value-initialize a variable\n'}
+[3.704125] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:216:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ka function-definition is not allowed here before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.704167] (cpp_node) StderrLine: {'line': b'  216 |     void joinThreads() \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[3.704206] (cpp_node) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.704246] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:219:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ka function-definition is not allowed here before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.704286] (cpp_node) StderrLine: {'line': b'  219 |     void log(const std::string &msg) \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[3.704326] (cpp_node) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.704365] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:223:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kempty parentheses were disambiguated as a function declaration [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse\x07-Wvexing-parse\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.704407] (cpp_node) StderrLine: {'line': b'  223 |     int setup_User\x1b[01;35m\x1b[K()\x1b[m\x1b[K;\n'}
+[3.704447] (cpp_node) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.704486] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:223:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kremove parentheses to default-initialize a variable\n'}
+[3.704535] (cpp_node) StderrLine: {'line': b'  223 |     int setup_User\x1b[01;36m\x1b[K()\x1b[m\x1b[K;\n'}
+[3.704575] (cpp_node) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.704615] (cpp_node) StderrLine: {'line': b'      |                   \x1b[31m\x1b[K--\x1b[m\x1b[K\n'}
+[3.704654] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:223:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kor replace parentheses with braces to value-initialize a variable\n'}
+[3.704694] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:120:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kstop_flag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.704736] (cpp_node) StderrLine: {'line': b'  120 |     std::atomic<bool> \x1b[01;35m\x1b[Kstop_flag\x1b[m\x1b[K;\n'}
+[3.704786] (cpp_node) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.704838] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool MachineController::rosIdle()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.704885] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:7:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstop_flag\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.704926] (cpp_node) StderrLine: {'line': b'    7 |     if (\x1b[01;31m\x1b[Kstop_flag\x1b[m\x1b[K) return false;\n'}
+[3.704966] (cpp_node) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.705661] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint MachineController::main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.705859] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:33:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MachineController\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kstop\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.706026] (cpp_node) StderrLine: {'line': b'   33 |     stateMachine.\x1b[01;31m\x1b[Kstop\x1b[m\x1b[K();\n'}
+[3.706299] (cpp_node) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.706352] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.706396] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:36:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[3.706438] (cpp_node) StderrLine: {'line': b'   36 | }\n'}
+[3.706481] (cpp_node) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.706521] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:9:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.706562] (cpp_node) StderrLine: {'line': b'    9 |     if (\x1b[01;31m\x1b[Kros_\x1b[m\x1b[K->Ros_Connect()) {\n'}
+[3.706602] (cpp_node) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.706641] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:10:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.706697] (cpp_node) StderrLine: {'line': b'   10 |         log(\x1b[01;31m\x1b[K"[ROS] connected!"\x1b[m\x1b[K);\n'}
+[3.706737] (cpp_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.706794] (cpp_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.706846] (cpp_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[3.706886] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[3.706931] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[3.706972] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[3.707012] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.707051] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.707096] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.707135] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.707174] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.707214] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.707253] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.707293] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.707333] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.707372] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.707412] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5\x1b[m\x1b[K,\n'}
+[3.707456] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[3.707496] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[3.707536] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.707577] (cpp_node) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[3.707617] (cpp_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.707655] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:15:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.707695] (cpp_node) StderrLine: {'line': b'   15 |         log( \x1b[01;31m\x1b[K"[ROS] waiting for services..."\x1b[m\x1b[K);\n'}
+[3.707735] (cpp_node) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.707779] (cpp_node) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.707829] (cpp_node) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[3.707869] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[3.707908] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[3.707948] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[3.707988] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.708027] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.708073] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.708113] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.708152] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.708191] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.708230] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.708274] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.708314] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.708354] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.708394] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5\x1b[m\x1b[K,\n'}
+[3.708434] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[3.708473] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[3.708521] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.708562] (cpp_node) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[3.708601] (cpp_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.711313] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool MachineController::rosSetup()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.711490] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:23:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdata_Base_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KDataBase\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.711594] (cpp_node) StderrLine: {'line': b'   23 |     std::string demand = \x1b[01;31m\x1b[Kdata_Base_\x1b[m\x1b[K->get_Ros2_Demand();\n'}
+[3.711684] (cpp_node) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.711790] (cpp_node) StderrLine: {'line': b'      |                          \x1b[32m\x1b[KDataBase\x1b[m\x1b[K\n'}
+[3.713506] (-) TimerEvent: {}
+[3.715262] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:25:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.715495] (cpp_node) StderrLine: {'line': b'   25 |     while (!\x1b[01;31m\x1b[Kros_\x1b[m\x1b[K->send_update_config(demand)) {\n'}
+[3.715553] (cpp_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.721350] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool MachineController::mcuIdle()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.721626] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:47:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstop_flag\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.721729] (cpp_node) StderrLine: {'line': b'   47 |     if (\x1b[01;31m\x1b[Kstop_flag\x1b[m\x1b[K) return false;\n'}
+[3.721848] (cpp_node) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.725394] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:49:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kserial_UART_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kserial_UART\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.725799] (cpp_node) StderrLine: {'line': b'   49 |     if (\x1b[01;31m\x1b[Kserial_UART_\x1b[m\x1b[K->checking_Serial()) {\n'}
+[3.726068] (cpp_node) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.726124] (cpp_node) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kserial_UART\x1b[m\x1b[K\n'}
+[3.726331] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:50:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.726385] (cpp_node) StderrLine: {'line': b'   50 |         log(\x1b[01;31m\x1b[K"[MCU] Connected !"\x1b[m\x1b[K);\n'}
+[3.726426] (cpp_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.726466] (cpp_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.726504] (cpp_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[3.726568] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[3.726653] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[3.726741] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[3.726859] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.726952] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.727058] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.727146] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.727233] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.727320] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.727405] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.727492] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.727549] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.727598] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.727638] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5\x1b[m\x1b[K,\n'}
+[3.727678] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[3.727723] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[3.727763] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.727822] (cpp_node) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[3.727864] (cpp_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.727903] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:53:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.727944] (cpp_node) StderrLine: {'line': b'   53 |         log(\x1b[01;31m\x1b[K"[MCU] Waiting for connecting serial..."\x1b[m\x1b[K);\n'}
+[3.727984] (cpp_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.728023] (cpp_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.728062] (cpp_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[3.728102] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[3.728141] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[3.728181] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[3.728221] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.728271] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.728311] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.728350] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.728393] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.728433] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.728472] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.728512] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.728556] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.728602] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.728641] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5\x1b[m\x1b[K,\n'}
+[3.728681] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[3.728720] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[3.728760] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.728827] (cpp_node) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[3.728870] (cpp_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.728910] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint MachineController::setup_User()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.728950] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:76:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.728991] (cpp_node) StderrLine: {'line': b'   76 |     log(\x1b[01;31m\x1b[K"______________ Type your option: ______________"\x1b[m\x1b[K);\n'}
+[3.729031] (cpp_node) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.729070] (cpp_node) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.729109] (cpp_node) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[3.729149] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[3.729188] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[3.729228] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[3.729268] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.729314] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.729353] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.729392] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.729432] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.729471] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.729511] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.729551] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.729595] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.729634] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.729674] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5\x1b[m\x1b[K,\n'}
+[3.729713] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[3.729753] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[3.729814] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.729862] (cpp_node) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[3.729902] (cpp_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.729941] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:88:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.729982] (cpp_node) StderrLine: {'line': b'   88 |         log(\x1b[01;31m\x1b[K"Invalid input (non-numeric)."\x1b[m\x1b[K);\n'}
+[3.730022] (cpp_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.730061] (cpp_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.730101] (cpp_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[3.730140] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[3.730179] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[3.730219] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[3.730259] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.730304] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.730345] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.730384] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.730423] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.730463] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.730504] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.730545] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.730589] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.730629] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.730668] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5\x1b[m\x1b[K,\n'}
+[3.730708] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[3.730747] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[3.730802] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.730849] (cpp_node) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[3.730888] (cpp_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.732069] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:99:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdata_Base_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KDataBase\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.732474] (cpp_node) StderrLine: {'line': b'   99 |             \x1b[01;31m\x1b[Kdata_Base_\x1b[m\x1b[K->create_WoodBar(name, _length, _width);\n'}
+[3.732527] (cpp_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.732571] (cpp_node) StderrLine: {'line': b'      |             \x1b[32m\x1b[KDataBase\x1b[m\x1b[K\n'}
+[3.732612] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:100:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.732654] (cpp_node) StderrLine: {'line': b'  100 |             log(\x1b[01;31m\x1b[K"User information updated."\x1b[m\x1b[K);\n'}
+[3.732695] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.732735] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.732788] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[3.732838] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[3.732879] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[3.732921] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[3.732961] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.733001] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.733052] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.733092] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.733136] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.733176] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.733216] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.733255] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.733295] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.733333] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.733375] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5\x1b[m\x1b[K,\n'}
+[3.733413] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[3.733451] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[3.733489] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.733571] (cpp_node) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[3.733656] (cpp_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.733743] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:105:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.733862] (cpp_node) StderrLine: {'line': b'  105 |             log(\x1b[01;31m\x1b[K"Create demand segments..."\x1b[m\x1b[K);\n'}
+[3.733955] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.734042] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.734128] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[3.734214] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[3.734301] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[3.734388] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[3.734475] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.734547] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.734589] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.734629] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.734679] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.734724] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.734764] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.734825] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.734867] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.734907] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.734947] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5\x1b[m\x1b[K,\n'}
+[3.734986] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[3.735026] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[3.735066] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.735106] (cpp_node) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[3.735147] (cpp_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.738375] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:117:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdata_Base_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KDataBase\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.738864] (cpp_node) StderrLine: {'line': b'  117 |                     \x1b[01;31m\x1b[Kdata_Base_\x1b[m\x1b[K->create_DemandSegment(l, w, q);\n'}
+[3.738993] (cpp_node) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.739087] (cpp_node) StderrLine: {'line': b'      |                     \x1b[32m\x1b[KDataBase\x1b[m\x1b[K\n'}
+[3.739175] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:119:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.739289] (cpp_node) StderrLine: {'line': b'  119 |             log(\x1b[01;31m\x1b[K"Demand segments updated."\x1b[m\x1b[K);\n'}
+[3.739438] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.739571] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.739694] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[3.739866] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[3.740004] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[3.740127] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[3.740274] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.740399] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.740522] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.740590] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.740649] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.740704] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.740757] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.740835] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.740877] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.740915] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.740953] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5\x1b[m\x1b[K,\n'}
+[3.740991] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[3.741030] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[3.741069] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.741110] (cpp_node) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[3.741148] (cpp_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.744886] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:135:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdata_Base_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KDataBase\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.745167] (cpp_node) StderrLine: {'line': b'  135 |             \x1b[01;31m\x1b[Kdata_Base_\x1b[m\x1b[K->set_Ros2_Config(demand, mode, area, t1, t2);\n'}
+[3.745276] (cpp_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.745373] (cpp_node) StderrLine: {'line': b'      |             \x1b[32m\x1b[KDataBase\x1b[m\x1b[K\n'}
+[3.745469] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:136:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.745567] (cpp_node) StderrLine: {'line': b'  136 |             log(\x1b[01;31m\x1b[K"Camera configuration updated."\x1b[m\x1b[K);\n'}
+[3.745664] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.745977] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.746083] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[3.746171] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[3.746256] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[3.746341] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[3.746425] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.746523] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.746578] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.746616] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.746653] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.746690] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.746727] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.746766] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.746820] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.746862] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.746901] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5\x1b[m\x1b[K,\n'}
+[3.746940] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[3.746979] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[3.747019] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.747060] (cpp_node) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[3.747099] (cpp_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.747136] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:144:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.747175] (cpp_node) StderrLine: {'line': b'  144 |             log(\x1b[01;31m\x1b[K"Exiting setup..."\x1b[m\x1b[K);\n'}
+[3.747213] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.747250] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.747294] (cpp_node) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[3.747331] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[3.747369] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[3.747406] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[3.747445] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.747484] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.747524] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.747564] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.747611] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.747650] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.747689] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.747728] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.747768] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.747821] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.747863] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5\x1b[m\x1b[K,\n'}
+[3.747902] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5\x1b[m\x1b[K,\n'}
+[3.747942] (cpp_node) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1\x1b[m\x1b[K:\n'}
+[3.747981] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble log(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.748028] (cpp_node) StderrLine: {'line': b'  104 | \x1b[01;36m\x1b[K_\x1b[m\x1b[K_MATHCALL_VEC (log,, (_Mdouble_ __x));\n'}
+[3.748068] (cpp_node) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.748107] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.748151] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:150:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[3.748191] (cpp_node) StderrLine: {'line': b'  150 | }\n'}
+[3.748230] (cpp_node) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.814016] (-) TimerEvent: {}
+[3.914659] (-) TimerEvent: {}
+[4.015413] (-) TimerEvent: {}
+[4.116028] (-) TimerEvent: {}
+[4.216840] (-) TimerEvent: {}
+[4.270216] (cpp_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/request.dir/build.make:160: CMakeFiles/request.dir/src/main.cpp.o] Error 1\n'}
+[4.270446] (cpp_node) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[4.274689] (cpp_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/request.dir/build.make:146: CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o] Error 1\n'}
+[4.275151] (cpp_node) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2\n'}
+[4.275521] (cpp_node) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.279009] (cpp_node) CommandEnded: {'returncode': 2}
+[4.291512] (cpp_node) JobEnded: {'identifier': 'cpp_node', 'rc': 2}
+[4.307946] (-) EventReactorShutdown: {}

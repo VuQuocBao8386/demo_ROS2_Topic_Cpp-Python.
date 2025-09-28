@@ -1,0 +1,152 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ros_serivce: 0.0.0 (/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node
+[35m[1mConsolidate compiler generated dependencies of target request[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/engine/Engine.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/database/DataBase.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/communication/ros_Service.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/request.dir/src/main.cpp.o[0m
+In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::setState(MachineController::State)[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:88:25:[m[K [01;31m[Kerror: [m[Kjump to case label
+   88 |             case State::[01;31m[KRUNNING[m[K:
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kbool done[m[K’
+   61 |                 bool [01;36m[Kdone[m[K = false;
+      |                      [01;36m[K^~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:91:25:[m[K [01;31m[Kerror: [m[Kjump to case label
+   91 |             case State::[01;31m[KERROR[m[K:
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kbool done[m[K’
+   61 |                 bool [01;36m[Kdone[m[K = false;
+      |                      [01;36m[K^~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:94:25:[m[K [01;31m[Kerror: [m[Kjump to case label
+   94 |             case State::[01;31m[KSHUTDOWN[m[K:
+      |                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kbool done[m[K’
+   61 |                 bool [01;36m[Kdone[m[K = false;
+      |                      [01;36m[K^~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:99:13:[m[K [01;31m[Kerror: [m[Kjump to case label
+   99 |             [01;31m[Kdefault[m[K:
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kbool done[m[K’
+   61 |                 bool [01;36m[Kdone[m[K = false;
+      |                      [01;36m[K^~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:48:16:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KRUNNING[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+   48 |         switch [01;35m[K([m[Knew_state) {
+      |                [01;35m[K^[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:48:16:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KERROR[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:48:16:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSHUTDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::runROS2()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:143:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K:[m[K’ before ‘[01m[KrosSetup[m[K’
+  143 |                 case State::READY     [01;31m[KrosSetup[m[K(); break;
+      |                                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kbool MachineController::rosIdle()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:7:20:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kbool[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+    7 |     if (stop_flag) [01;31m[Kreturn[m[K;
+      |                    [01;31m[K^~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kbool MachineController::rosSetup()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:23:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRos_Cpp::send_update_config()[m[K’
+   23 |     while (![01;31m[Kros_->send_update_config()[m[K) {
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+                 from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:44:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool Ros_Cpp::send_update_config(const string&)[m[K’
+   44 |     bool [01;36m[Ksend_update_config[m[K(const std::string& command);
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:44:10:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kbool MachineController::mcuIdle()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:42:20:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kbool[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   42 |     if (stop_flag) [01;31m[Kreturn[m[K;
+      |                    [01;31m[K^~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K At global scope:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:70:5:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint MachineController::setup_User()[m[K’
+   70 | int [01;31m[KMachineController[m[K::setup_User() {
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:222:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kbool MachineController::setup_User()[m[K’
+  222 |     bool [01;36m[Ksetup_User[m[K();
+      |          [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:17:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MachineController[m[K’ defined here
+   17 | class [01;36m[KMachineController[m[K {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:6[m[K:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::setState(MachineController::State)[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:88:25:[m[K [01;31m[Kerror: [m[Kjump to case label
+   88 |             case State::[01;31m[KRUNNING[m[K:
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kbool done[m[K’
+   61 |                 bool [01;36m[Kdone[m[K = false;
+      |                      [01;36m[K^~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:91:25:[m[K [01;31m[Kerror: [m[Kjump to case label
+   91 |             case State::[01;31m[KERROR[m[K:
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kbool done[m[K’
+   61 |                 bool [01;36m[Kdone[m[K = false;
+      |                      [01;36m[K^~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:94:25:[m[K [01;31m[Kerror: [m[Kjump to case label
+   94 |             case State::[01;31m[KSHUTDOWN[m[K:
+      |                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kbool done[m[K’
+   61 |                 bool [01;36m[Kdone[m[K = false;
+      |                      [01;36m[K^~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:99:13:[m[K [01;31m[Kerror: [m[Kjump to case label
+   99 |             [01;31m[Kdefault[m[K:
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kbool done[m[K’
+   61 |                 bool [01;36m[Kdone[m[K = false;
+      |                      [01;36m[K^~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:48:16:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KRUNNING[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+   48 |         switch [01;35m[K([m[Knew_state) {
+      |                [01;35m[K^[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:48:16:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KERROR[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:48:16:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSHUTDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::runROS2()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:143:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K:[m[K’ before ‘[01m[KrosSetup[m[K’
+  143 |                 case State::READY     [01;31m[KrosSetup[m[K(); break;
+      |                                       [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/request.dir/build.make:146: CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/request.dir/build.make:160: CMakeFiles/request.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

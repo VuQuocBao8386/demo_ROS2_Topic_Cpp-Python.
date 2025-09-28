@@ -1,0 +1,15 @@
+In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:6[m[K:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::runROS2()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:144:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K:[m[K’ before ‘[01m[KrosSetup[m[K’
+  144 |                 case State::READY     [01;31m[KrosSetup[m[K(); break;
+      |                                       [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::runROS2()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:144:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K:[m[K’ before ‘[01m[KrosSetup[m[K’
+  144 |                 case State::READY     [01;31m[KrosSetup[m[K(); break;
+      |                                       [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/request.dir/build.make:160: CMakeFiles/request.dir/src/main.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/request.dir/build.make:146: CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

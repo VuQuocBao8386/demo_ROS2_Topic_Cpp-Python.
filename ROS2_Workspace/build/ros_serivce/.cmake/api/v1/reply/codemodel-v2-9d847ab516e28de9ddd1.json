@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b7c242c66707e7a2277e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "ros_serivce__py",
+					"jsonFile" : "directory-ros_serivce__py-b32f4bf83b43b95bdfeb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce/ros_serivce__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ros_serivce",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ros_serivce_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ros_serivce_egg-6aaf14b769474c1b60e5.json",
+					"name" : "ament_cmake_python_build_ros_serivce_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ros_serivce::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ros_serivce-e4d4927ca692ae98956d.json",
+					"name" : "ament_cmake_python_copy_ros_serivce",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_serivce::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_serivce-cf15b008a86b480c3ad5.json",
+					"name" : "ros_serivce",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_serivce__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_serivce__cpp-47c24f73ff6140299412.json",
+					"name" : "ros_serivce__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ros_serivce__py::@cb70934caa4a6c8c989e",
+					"jsonFile" : "target-ros_serivce__py-dc231b2bde9cd8df3376.json",
+					"name" : "ros_serivce__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_serivce__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_serivce__rosidl_generator_c-c1dfc8cdda9ce9fe71b3.json",
+					"name" : "ros_serivce__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_serivce__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_serivce__rosidl_generator_py-80962ebcd366bcd7c0ad.json",
+					"name" : "ros_serivce__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_serivce__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_serivce__rosidl_typesupport_c-035fccf4132053a35541.json",
+					"name" : "ros_serivce__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_serivce__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_serivce__rosidl_typesupport_c__pyext-6533a0cc09b926666293.json",
+					"name" : "ros_serivce__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_serivce__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_serivce__rosidl_typesupport_cpp-a86c15c35ad641503cb6.json",
+					"name" : "ros_serivce__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_serivce__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_serivce__rosidl_typesupport_fastrtps_c-d1552c76d8cb372203c2.json",
+					"name" : "ros_serivce__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_serivce__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_serivce__rosidl_typesupport_fastrtps_c__pyext-1560f836d490d89352e4.json",
+					"name" : "ros_serivce__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_serivce__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_serivce__rosidl_typesupport_fastrtps_cpp-d6d7db1d7c423e79e064.json",
+					"name" : "ros_serivce__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_serivce__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_serivce__rosidl_typesupport_introspection_c-8652f641e9cd184e798c.json",
+					"name" : "ros_serivce__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_serivce__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_serivce__rosidl_typesupport_introspection_c__pyext-2ae0aa375e31cee4454f.json",
+					"name" : "ros_serivce__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_serivce__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_serivce__rosidl_typesupport_introspection_cpp-cd82f6ed342b9481ea99.json",
+					"name" : "ros_serivce__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_serivce_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_serivce_uninstall-7e670c1d5c589033badd.json",
+					"name" : "ros_serivce_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-96a14f17e658d3a4b2a5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce",
+		"source" : "/home/anhbaodz/Documents/ROS2_Workspace/src/ros_serivce"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

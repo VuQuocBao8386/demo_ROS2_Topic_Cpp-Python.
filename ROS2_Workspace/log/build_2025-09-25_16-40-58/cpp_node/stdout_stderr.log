@@ -1,0 +1,88 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ros_serivce: 0.0.0 (/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node
+[35m[1mConsolidate compiler generated dependencies of target request[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/database/DataBase.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/communication/ros_Service.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/communication/serial_UART.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/setup/Setup.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/engine/Engine.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/request.dir/src/main.cpp.o[0m
+In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/setup/Setup.cpp:1[m[K:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/setup/Setup.hpp:[m[K In constructor ‘[01m[KUser::Input_WoodBar::Input_WoodBar(const string&, uint8_t, uint8_t)[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/setup/Setup.hpp:15:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KUser::Input_WoodBar::userName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   15 |     std::string [01;35m[KuserName[m[K;
+      |                 [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/database/DataBase.hpp:5[m[K,
+                 from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/engine/Engine.hpp:5[m[K,
+                 from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/engine/Engine.cpp:1[m[K:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/setup/Setup.hpp:[m[K In constructor ‘[01m[KUser::Input_WoodBar::Input_WoodBar(const string&, uint8_t, uint8_t)[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/setup/Setup.hpp:15:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KUser::Input_WoodBar::userName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   15 |     std::string [01;35m[KuserName[m[K;
+      |                 [01;35m[K^~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/setup/Setup.hpp:13:17:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kuint8_t User::Input_WoodBar::_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   13 |     uint8_t     [01;35m[K_length[m[K = 0;
+      |                 [01;35m[K^~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/setup/Setup.hpp:21:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   21 |     [01;35m[KInput_WoodBar[m[K(const std::string& name, uint8_t l, uint8_t w)
+      |     [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/setup/Setup.hpp:13:17:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kuint8_t User::Input_WoodBar::_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   13 |     uint8_t     [01;35m[K_length[m[K = 0;
+      |                 [01;35m[K^~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/setup/Setup.hpp:21:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   21 |     [01;35m[KInput_WoodBar[m[K(const std::string& name, uint8_t l, uint8_t w)
+      |     [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/database/DataBase.hpp:5[m[K,
+                 from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/database/DataBase.cpp:1[m[K:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/setup/Setup.hpp:[m[K In constructor ‘[01m[KUser::Input_WoodBar::Input_WoodBar(const string&, uint8_t, uint8_t)[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/setup/Setup.hpp:15:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KUser::Input_WoodBar::userName[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   15 |     std::string [01;35m[KuserName[m[K;
+      |                 [01;35m[K^~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/setup/Setup.hpp:13:17:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kuint8_t User::Input_WoodBar::_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   13 |     uint8_t     [01;35m[K_length[m[K = 0;
+      |                 [01;35m[K^~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/setup/Setup.hpp:21:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   21 |     [01;35m[KInput_WoodBar[m[K(const std::string& name, uint8_t l, uint8_t w)
+      |     [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:2[m[K:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kdemo/ros_interface/srv/update_configure.hpp: No such file or directory
+    6 | #include [01;31m[K"demo/ros_interface/srv/update_configure.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+                 from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kdemo/ros_interface/srv/update_configure.hpp: No such file or directory
+    6 | #include [01;31m[K"demo/ros_interface/srv/update_configure.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/request.dir/build.make:146: CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/request.dir/build.make:160: CMakeFiles/request.dir/src/main.cpp.o] Error 1
+In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:1[m[K:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kdemo/ros_interface/srv/update_configure.hpp: No such file or directory
+    6 | #include [01;31m[K"demo/ros_interface/srv/update_configure.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/request.dir/build.make:76: CMakeFiles/request.dir/src/demo/communication/ros_Service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

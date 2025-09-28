@@ -1,0 +1,4 @@
+Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce -- -j12 -l12
+Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce -- -j12 -l12
+Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce
+Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce

@@ -1,0 +1,44 @@
+In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::start()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:37:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kthreads[m[K’ was not declared in this scope; did you mean ‘[01m[Kread[m[K’?
+   37 |         [01;31m[Kthreads[m[K.emplace_back(&MachineController::runROS2, this);
+      |         [01;31m[K^~~~~~~[m[K
+      |         [32m[Kread[m[K
+In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:6[m[K:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::start()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:37:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kthreads[m[K’ was not declared in this scope; did you mean ‘[01m[Kread[m[K’?
+   37 |         [01;31m[Kthreads[m[K.emplace_back(&MachineController::runROS2, this);
+      |         [01;31m[K^~~~~~~[m[K
+      |         [32m[Kread[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::runROS2()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:144:39:[m[K [01;31m[Kerror: [m[K‘[01m[KrosReady[m[K’ was not declared in this scope
+  144 |                 case State::READY:    [01;31m[KrosReady[m[K(); break;
+      |                                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::runROS2()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:144:39:[m[K [01;31m[Kerror: [m[K‘[01m[KrosReady[m[K’ was not declared in this scope
+  144 |                 case State::READY:    [01;31m[KrosReady[m[K(); break;
+      |                                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::joinThreads()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:217:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kthreads[m[K’ was not declared in this scope; did you mean ‘[01m[Kread[m[K’?
+  217 |         for (auto &t : [01;31m[Kthreads[m[K) if (t.joinable()) t.join();
+      |                        [01;31m[K^~~~~~~[m[K
+      |                        [32m[Kread[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K At global scope:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:22:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool MachineController::rosReady()[m[K’
+   22 | bool [01;31m[KMachineController[m[K::rosReady() {
+      |      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:22:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kbool MachineController::rosReady()[m[K’
+In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:17:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MachineController[m[K’ defined here
+   17 | class [01;36m[KMachineController[m[K {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::joinThreads()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:217:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kthreads[m[K’ was not declared in this scope; did you mean ‘[01m[Kread[m[K’?
+  217 |         for (auto &t : [01;31m[Kthreads[m[K) if (t.joinable()) t.join();
+      |                        [01;31m[K^~~~~~~[m[K
+      |                        [32m[Kread[m[K
+gmake[2]: *** [CMakeFiles/request.dir/build.make:146: CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/request.dir/build.make:160: CMakeFiles/request.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

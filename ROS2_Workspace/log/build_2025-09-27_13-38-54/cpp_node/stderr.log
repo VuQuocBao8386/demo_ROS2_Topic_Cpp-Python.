@@ -1,0 +1,11 @@
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kbool MachineController::rosReady()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:26:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+   26 |         log("[ROS] Update Configuration is Sucessful..!")
+      |                                                          [01;31m[K^[m[K
+      |                                                          [32m[K;[m[K
+   27 |         [32m[Kreturn[m[K true; // only when successful
+      |         [32m[K~~~~~~[m[K                                            
+gmake[2]: *** [CMakeFiles/request.dir/build.make:146: CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

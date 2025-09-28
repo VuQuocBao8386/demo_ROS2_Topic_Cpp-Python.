@@ -1,0 +1,31 @@
+In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In lambda function:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:95:44:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Kstd::atomic<bool>::atomic(const std::atomic<bool>&)[m[K’
+   95 |             cv_mcu.wait(lock, [&] { return [01;31m[Kstop_flag[m[K;});
+      |                                            [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/future:41[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5[m[K,
+                 from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+                 from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[01m[K/usr/include/c++/11/atomic:72:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   72 |     [01;36m[Katomic[m[K(const atomic&) = delete;
+      |     [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:6[m[K:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In lambda function:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:95:44:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Kstd::atomic<bool>::atomic(const std::atomic<bool>&)[m[K’
+   95 |             cv_mcu.wait(lock, [&] { return [01;31m[Kstop_flag[m[K;});
+      |                                            [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/future:41[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:1[m[K:
+[01m[K/usr/include/c++/11/atomic:72:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   72 |     [01;36m[Katomic[m[K(const atomic&) = delete;
+      |     [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/request.dir/build.make:146: CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/request.dir/build.make:160: CMakeFiles/request.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,17 @@
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:[m[K In member function ‘[01m[Kbool Ros_Cpp::send_update_config(const string&)[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:16:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Kelse[m[K’
+   16 |     if [01;31m[Ke[m[K[32m[Klse[m[K(command == "update" && _dataBase_) {
+      |        [01;31m[K^[m[K[32m[K~~~[m[K
+      |        [32m[K([m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:23:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+   23 |     [01;31m[Kelse[m[K
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kvoid MachineController::rosIdle()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:7:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Ros_Cpp[m[K’ {aka ‘[01m[Kclass Ros_Cpp[m[K’} has no member named ‘[01m[Kcheck_services_ready[m[K’
+    7 |     while (!ros_->[01;31m[Kcheck_services_ready[m[K() && !stop_flag) {
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/request.dir/build.make:146: CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/request.dir/build.make:76: CMakeFiles/request.dir/src/demo/communication/ros_Service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

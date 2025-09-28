@@ -1,0 +1,58 @@
+[0.014s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node
+[0.079s] -- The C compiler identification is GNU 11.4.0
+[0.141s] -- The CXX compiler identification is GNU 11.4.0
+[0.151s] -- Detecting C compiler ABI info
+[0.229s] -- Detecting C compiler ABI info - done
+[0.236s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.236s] -- Detecting C compile features
+[0.236s] -- Detecting C compile features - done
+[0.239s] -- Detecting CXX compiler ABI info
+[0.329s] -- Detecting CXX compiler ABI info - done
+[0.335s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.336s] -- Detecting CXX compile features
+[0.336s] -- Detecting CXX compile features - done
+[0.338s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.480s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.560s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.599s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.604s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.611s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.622s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.637s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.677s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.679s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.791s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.820s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.863s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.871s] -- Looking for pthread.h
+[0.954s] -- Looking for pthread.h - found
+[0.954s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.034s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.035s] -- Found Threads: TRUE  
+[1.079s] -- Found ros_serivce: 0.0.0 (/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake)
+[1.107s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.182s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.182s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src>
+[1.182s] -- Configured cppcheck exclude dirs and/or files: 
+[1.182s] -- Added test 'lint_cmake' to check CMake code style
+[1.185s] -- Added test 'uncrustify' to check C / C++ code style
+[1.185s] -- Configured uncrustify additional arguments: 
+[1.185s] -- Added test 'xmllint' to check XML markup files
+[1.186s] -- Configuring done
+[1.199s] -- Generating done
+[1.204s] -- Build files have been written to: /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node
+[1.216s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node' returned '0': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node
+[1.218s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node -- -j12 -l12
+[1.267s] [35m[1mConsolidate compiler generated dependencies of target request[0m
+[1.296s] [ 25%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o[0m
+[1.296s] [ 25%] [32mBuilding CXX object CMakeFiles/request.dir/src/main.cpp.o[0m
+[3.588s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kbool MachineController::rosReady()[m[K’:
+[3.588s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:29:13:[m[K [01;31m[Kerror: [m[K‘[01m[Keturn[m[K’ was not declared in this scope; did you mean ‘[01m[Kextern[m[K’?
+[3.588s]    29 |             [01;31m[Keturn[m[K true; // only when successful
+[3.588s]       |             [01;31m[K^~~~~[m[K
+[3.589s]       |             [32m[Kextern[m[K
+[4.201s] gmake[2]: *** [CMakeFiles/request.dir/build.make:146: CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o] Error 1
+[4.201s] gmake[2]: *** Waiting for unfinished jobs....
+[4.346s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2
+[4.346s] gmake: *** [Makefile:146: all] Error 2
+[4.353s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node' returned '2': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node -- -j12 -l12

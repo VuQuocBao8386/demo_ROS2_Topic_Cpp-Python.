@@ -1,0 +1,94 @@
+[0.024s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node
+[0.156s] -- The C compiler identification is GNU 11.4.0
+[0.267s] -- The CXX compiler identification is GNU 11.4.0
+[0.283s] -- Detecting C compiler ABI info
+[0.401s] -- Detecting C compiler ABI info - done
+[0.412s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.412s] -- Detecting C compile features
+[0.413s] -- Detecting C compile features - done
+[0.418s] -- Detecting CXX compiler ABI info
+[0.548s] -- Detecting CXX compiler ABI info - done
+[0.558s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.558s] -- Detecting CXX compile features
+[0.559s] -- Detecting CXX compile features - done
+[0.568s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.781s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.942s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.014s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.023s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.036s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.058s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.083s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.156s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.161s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.336s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.382s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.445s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.459s] -- Looking for pthread.h
+[1.577s] -- Looking for pthread.h - found
+[1.578s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.701s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.703s] -- Found Threads: TRUE  
+[1.783s] -- Found ros_serivce: 0.0.0 (/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake)
+[1.829s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.941s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.941s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src>
+[1.941s] -- Configured cppcheck exclude dirs and/or files: 
+[1.943s] -- Added test 'lint_cmake' to check CMake code style
+[1.947s] -- Added test 'uncrustify' to check C / C++ code style
+[1.947s] -- Configured uncrustify additional arguments: 
+[1.947s] -- Added test 'xmllint' to check XML markup files
+[1.950s] -- Configuring done
+[1.968s] -- Generating done
+[1.974s] -- Build files have been written to: /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node
+[1.990s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node' returned '0': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node
+[1.993s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node -- -j12 -l12
+[2.065s] [35m[1mConsolidate compiler generated dependencies of target request[0m
+[2.108s] [ 25%] [32mBuilding CXX object CMakeFiles/request.dir/src/main.cpp.o[0m
+[2.109s] [ 25%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/communication/ros_Service.cpp.o[0m
+[2.110s] [ 37%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o[0m
+[5.372s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[5.373s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::start()[m[K’:
+[5.373s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:37:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kthreads[m[K’ was not declared in this scope; did you mean ‘[01m[Kread[m[K’?
+[5.373s]    37 |         [01;31m[Kthreads[m[K.emplace_back(&MachineController::runROS2, this);
+[5.373s]       |         [01;31m[K^~~~~~~[m[K
+[5.373s]       |         [32m[Kread[m[K
+[5.375s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:6[m[K:
+[5.375s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::start()[m[K’:
+[5.375s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:37:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kthreads[m[K’ was not declared in this scope; did you mean ‘[01m[Kread[m[K’?
+[5.375s]    37 |         [01;31m[Kthreads[m[K.emplace_back(&MachineController::runROS2, this);
+[5.375s]       |         [01;31m[K^~~~~~~[m[K
+[5.376s]       |         [32m[Kread[m[K
+[5.381s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::runROS2()[m[K’:
+[5.382s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:144:39:[m[K [01;31m[Kerror: [m[K‘[01m[KrosReady[m[K’ was not declared in this scope
+[5.382s]   144 |                 case State::READY:    [01;31m[KrosReady[m[K(); break;
+[5.382s]       |                                       [01;31m[K^~~~~~~~[m[K
+[5.384s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::runROS2()[m[K’:
+[5.385s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:144:39:[m[K [01;31m[Kerror: [m[K‘[01m[KrosReady[m[K’ was not declared in this scope
+[5.385s]   144 |                 case State::READY:    [01;31m[KrosReady[m[K(); break;
+[5.385s]       |                                       [01;31m[K^~~~~~~~[m[K
+[5.390s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::joinThreads()[m[K’:
+[5.391s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:217:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kthreads[m[K’ was not declared in this scope; did you mean ‘[01m[Kread[m[K’?
+[5.391s]   217 |         for (auto &t : [01;31m[Kthreads[m[K) if (t.joinable()) t.join();
+[5.391s]       |                        [01;31m[K^~~~~~~[m[K
+[5.391s]       |                        [32m[Kread[m[K
+[5.391s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K At global scope:
+[5.392s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:22:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool MachineController::rosReady()[m[K’
+[5.392s]    22 | bool [01;31m[KMachineController[m[K::rosReady() {
+[5.392s]       |      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.392s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:22:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kbool MachineController::rosReady()[m[K’
+[5.392s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[5.392s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:17:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MachineController[m[K’ defined here
+[5.392s]    17 | class [01;36m[KMachineController[m[K {
+[5.392s]       |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[5.394s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::joinThreads()[m[K’:
+[5.394s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:217:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kthreads[m[K’ was not declared in this scope; did you mean ‘[01m[Kread[m[K’?
+[5.394s]   217 |         for (auto &t : [01;31m[Kthreads[m[K) if (t.joinable()) t.join();
+[5.394s]       |                        [01;31m[K^~~~~~~[m[K
+[5.394s]       |                        [32m[Kread[m[K
+[6.219s] gmake[2]: *** [CMakeFiles/request.dir/build.make:146: CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o] Error 1
+[6.219s] gmake[2]: *** Waiting for unfinished jobs....
+[6.232s] gmake[2]: *** [CMakeFiles/request.dir/build.make:160: CMakeFiles/request.dir/src/main.cpp.o] Error 1
+[6.714s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2
+[6.714s] gmake: *** [Makefile:146: all] Error 2
+[6.720s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node' returned '2': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node -- -j12 -l12

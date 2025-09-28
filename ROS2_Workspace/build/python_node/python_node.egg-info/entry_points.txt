@@ -1,0 +1,3 @@
+[console_scripts]
+ros_response = python_node.main:main
+

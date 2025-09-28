@@ -1,0 +1,574 @@
+[0.000000] (-) TimerEvent: {}
+[0.000621] (ros_serivce) JobQueued: {'identifier': 'ros_serivce', 'dependencies': OrderedDict()}
+[0.000697] (cpp_node) JobQueued: {'identifier': 'cpp_node', 'dependencies': OrderedDict([('ros_serivce', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce')])}
+[0.000778] (python_node) JobQueued: {'identifier': 'python_node', 'dependencies': OrderedDict([('ros_serivce', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce')])}
+[0.000845] (ros_serivce) JobStarted: {'identifier': 'ros_serivce'}
+[0.011391] (ros_serivce) JobProgress: {'identifier': 'ros_serivce', 'progress': 'cmake'}
+[0.012519] (ros_serivce) Command: {'cmd': ['/usr/bin/cmake', '/home/anhbaodz/Documents/ROS2_Workspace/src/ros_serivce', '-DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce'], 'cwd': '/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'anhbaodz'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/anhbaodz/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anhbaodz'), ('OLDPWD', '/home/anhbaodz/Documents/ROS2_Workspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1484'), ('SYSTEMD_EXEC_PID', '1641'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5110'), ('_colcon_cd_root', '/opt/ros/rolling/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anhbaodz'), ('JOURNAL_STREAM', '8:4011'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anhbaodz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/anhbaodz/.local/bin:/home/anhbaodz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Inspiration:@/tmp/.ICE-unix/1615,unix/Inspiration:/tmp/.ICE-unix/1615'), ('INVOCATION_ID', '7a032fdbff604c7ba89e3db70ba37574'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MNUMC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:edaa9acb-a222-499f-83b2-e3d16171d155'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ROS_MAIN_ID', '7'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098683] (-) TimerEvent: {}
+[0.108788] (ros_serivce) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.198850] (-) TimerEvent: {}
+[0.200420] (ros_serivce) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.213367] (ros_serivce) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299045] (-) TimerEvent: {}
+[0.325964] (ros_serivce) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.335986] (ros_serivce) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.336668] (ros_serivce) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.336922] (ros_serivce) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.340801] (ros_serivce) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399191] (-) TimerEvent: {}
+[0.471697] (ros_serivce) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.481797] (ros_serivce) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.482212] (ros_serivce) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.482781] (ros_serivce) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.485709] (ros_serivce) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499341] (-) TimerEvent: {}
+[0.599866] (-) TimerEvent: {}
+[0.693685] (ros_serivce) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.700107] (-) TimerEvent: {}
+[0.800620] (-) TimerEvent: {}
+[0.826341] (ros_serivce) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.871513] (ros_serivce) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.877585] (ros_serivce) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.887803] (ros_serivce) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.900728] (-) TimerEvent: {}
+[0.902937] (ros_serivce) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.922984] (ros_serivce) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.980426] (ros_serivce) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.000902] (-) TimerEvent: {}
+[1.101434] (-) TimerEvent: {}
+[1.201978] (-) TimerEvent: {}
+[1.302507] (-) TimerEvent: {}
+[1.403002] (-) TimerEvent: {}
+[1.407500] (ros_serivce) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.503193] (-) TimerEvent: {}
+[1.603722] (-) TimerEvent: {}
+[1.704328] (-) TimerEvent: {}
+[1.804853] (-) TimerEvent: {}
+[1.905429] (-) TimerEvent: {}
+[2.004733] (ros_serivce) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.005536] (-) TimerEvent: {}
+[2.106184] (-) TimerEvent: {}
+[2.206789] (-) TimerEvent: {}
+[2.235205] (ros_serivce) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.266710] (ros_serivce) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.274756] (ros_serivce) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.306965] (-) TimerEvent: {}
+[2.310387] (ros_serivce) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.310704] (ros_serivce) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.310897] (ros_serivce) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.311101] (ros_serivce) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.339043] (ros_serivce) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.407124] (-) TimerEvent: {}
+[2.426430] (ros_serivce) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.450712] (ros_serivce) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.453065] (ros_serivce) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.457179] (ros_serivce) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.507300] (-) TimerEvent: {}
+[2.512179] (ros_serivce) StdoutLine: {'line': b'-- Generating done\n'}
+[2.528714] (ros_serivce) StdoutLine: {'line': b'-- Build files have been written to: /home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce\n'}
+[2.543191] (ros_serivce) CommandEnded: {'returncode': 0}
+[2.544304] (ros_serivce) JobProgress: {'identifier': 'ros_serivce', 'progress': 'build'}
+[2.546903] (ros_serivce) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce', '--', '-j12', '-l12'], 'cwd': '/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'anhbaodz'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/anhbaodz/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anhbaodz'), ('OLDPWD', '/home/anhbaodz/Documents/ROS2_Workspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1484'), ('SYSTEMD_EXEC_PID', '1641'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5110'), ('_colcon_cd_root', '/opt/ros/rolling/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anhbaodz'), ('JOURNAL_STREAM', '8:4011'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anhbaodz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/anhbaodz/.local/bin:/home/anhbaodz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Inspiration:@/tmp/.ICE-unix/1615,unix/Inspiration:/tmp/.ICE-unix/1615'), ('INVOCATION_ID', '7a032fdbff604c7ba89e3db70ba37574'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MNUMC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:edaa9acb-a222-499f-83b2-e3d16171d155'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ROS_MAIN_ID', '7'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.607469] (-) TimerEvent: {}
+[2.609847] (ros_serivce) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.626697] (ros_serivce) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.638286] (ros_serivce) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_ros_serivce\n'}
+[2.707618] (-) TimerEvent: {}
+[2.808089] (-) TimerEvent: {}
+[2.908549] (-) TimerEvent: {}
+[2.916959] (ros_serivce) StdoutLine: {'line': b'running egg_info\n'}
+[2.917687] (ros_serivce) StdoutLine: {'line': b'creating ros_serivce.egg-info\n'}
+[2.917956] (ros_serivce) StdoutLine: {'line': b'writing ros_serivce.egg-info/PKG-INFO\n'}
+[2.918207] (ros_serivce) StdoutLine: {'line': b'writing dependency_links to ros_serivce.egg-info/dependency_links.txt\n'}
+[2.918393] (ros_serivce) StdoutLine: {'line': b'writing top-level names to ros_serivce.egg-info/top_level.txt\n'}
+[2.918662] (ros_serivce) StdoutLine: {'line': b"writing manifest file 'ros_serivce.egg-info/SOURCES.txt'\n"}
+[2.921073] (ros_serivce) StdoutLine: {'line': b"reading manifest file 'ros_serivce.egg-info/SOURCES.txt'\n"}
+[2.921612] (ros_serivce) StdoutLine: {'line': b"writing manifest file 'ros_serivce.egg-info/SOURCES.txt'\n"}
+[2.962876] (ros_serivce) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_ros_serivce_egg\n'}
+[3.008956] (-) TimerEvent: {}
+[3.109518] (-) TimerEvent: {}
+[3.145080] (ros_serivce) StdoutLine: {'line': b'[  4%] Built target ros_serivce__cpp\n'}
+[3.147167] (ros_serivce) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/ros_serivce__rosidl_generator_c.dir/rosidl_generator_c/ros_serivce/srv/detail/update_config__functions.c.o\x1b[0m\n'}
+[3.147524] (ros_serivce) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/ros_serivce__rosidl_generator_c.dir/rosidl_generator_c/ros_serivce/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[3.147839] (ros_serivce) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/ros_serivce__rosidl_generator_c.dir/rosidl_generator_c/ros_serivce/srv/detail/request_data__functions.c.o\x1b[0m\n'}
+[3.162076] (ros_serivce) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.162405] (ros_serivce) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.165485] (ros_serivce) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.209621] (-) TimerEvent: {}
+[3.230715] (ros_serivce) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libros_serivce__rosidl_generator_c.so\x1b[0m\n'}
+[3.291858] (ros_serivce) StdoutLine: {'line': b'[ 19%] Built target ros_serivce__rosidl_generator_c\n'}
+[3.307300] (ros_serivce) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.307596] (ros_serivce) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.307701] (ros_serivce) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.309731] (-) TimerEvent: {}
+[3.410133] (-) TimerEvent: {}
+[3.510558] (-) TimerEvent: {}
+[3.555600] (ros_serivce) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_serivce/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.560168] (ros_serivce) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_serivce/srv/request_data__type_support.cpp.o\x1b[0m\n'}
+[3.560485] (ros_serivce) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_serivce/srv/update_config__type_support.cpp.o\x1b[0m\n'}
+[3.611135] (-) TimerEvent: {}
+[3.672158] (ros_serivce) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_serivce/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.683907] (ros_serivce) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_serivce/srv/detail/update_config__type_support.cpp.o\x1b[0m\n'}
+[3.684405] (ros_serivce) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_serivce/srv/detail/request_data__type_support.cpp.o\x1b[0m\n'}
+[3.711315] (-) TimerEvent: {}
+[3.718282] (ros_serivce) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_serivce/srv/detail/dds_fastrtps/update_config__type_support.cpp.o\x1b[0m\n'}
+[3.718694] (ros_serivce) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_serivce/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.718834] (ros_serivce) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_serivce/srv/detail/dds_fastrtps/request_data__type_support.cpp.o\x1b[0m\n'}
+[3.812583] (-) TimerEvent: {}
+[3.838612] (ros_serivce) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_serivce/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.912769] (-) TimerEvent: {}
+[3.920202] (ros_serivce) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_serivce/srv/update_config__type_support.cpp.o\x1b[0m\n'}
+[3.969914] (ros_serivce) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/ros_serivce__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_serivce/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[3.997935] (ros_serivce) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_serivce/srv/request_data__type_support.cpp.o\x1b[0m\n'}
+[4.012954] (-) TimerEvent: {}
+[4.044654] (ros_serivce) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_serivce/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[4.070898] (ros_serivce) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_serivce/srv/detail/update_config__type_support_c.cpp.o\x1b[0m\n'}
+[4.071415] (ros_serivce) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/ros_serivce__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_serivce/srv/detail/update_config__type_support.c.o\x1b[0m\n'}
+[4.082447] (ros_serivce) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libros_serivce__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.107976] (ros_serivce) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/ros_serivce__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_serivce/srv/detail/request_data__type_support_c.cpp.o\x1b[0m\n'}
+[4.115197] (-) TimerEvent: {}
+[4.115859] (ros_serivce) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libros_serivce__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.166547] (ros_serivce) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/ros_serivce__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_serivce/srv/detail/request_data__type_support.c.o\x1b[0m\n'}
+[4.191127] (ros_serivce) StdoutLine: {'line': b'[ 68%] Built target ros_serivce__rosidl_typesupport_c\n'}
+[4.216392] (-) TimerEvent: {}
+[4.222790] (ros_serivce) StdoutLine: {'line': b'[ 68%] Built target ros_serivce__rosidl_typesupport_cpp\n'}
+[4.245869] (ros_serivce) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libros_serivce__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.309220] (ros_serivce) StdoutLine: {'line': b'[ 70%] Built target ros_serivce__rosidl_typesupport_introspection_c\n'}
+[4.316563] (-) TimerEvent: {}
+[4.420389] (-) TimerEvent: {}
+[4.521530] (-) TimerEvent: {}
+[4.531762] (ros_serivce) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libros_serivce__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.621735] (-) TimerEvent: {}
+[4.629462] (ros_serivce) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libros_serivce__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.696098] (ros_serivce) StdoutLine: {'line': b'[ 74%] Built target ros_serivce__rosidl_typesupport_introspection_cpp\n'}
+[4.721861] (-) TimerEvent: {}
+[4.737982] (ros_serivce) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libros_serivce__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.780812] (ros_serivce) StdoutLine: {'line': b'[ 76%] Built target ros_serivce__rosidl_typesupport_fastrtps_cpp\n'}
+[4.822046] (-) TimerEvent: {}
+[4.878692] (ros_serivce) StdoutLine: {'line': b'[ 76%] Built target ros_serivce__rosidl_typesupport_fastrtps_c\n'}
+[4.910919] (ros_serivce) StdoutLine: {'line': b'[ 76%] Built target ros_serivce\n'}
+[4.922179] (-) TimerEvent: {}
+[4.942521] (ros_serivce) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.022332] (-) TimerEvent: {}
+[5.122762] (-) TimerEvent: {}
+[5.223190] (-) TimerEvent: {}
+[5.323593] (-) TimerEvent: {}
+[5.424040] (-) TimerEvent: {}
+[5.524443] (-) TimerEvent: {}
+[5.624838] (-) TimerEvent: {}
+[5.677009] (ros_serivce) StdoutLine: {'line': b'[ 78%] Built target ros_serivce__py\n'}
+[5.709702] (ros_serivce) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/ros_serivce__rosidl_generator_py.dir/rosidl_generator_py/ros_serivce/msg/_sphere_s.c.o\x1b[0m\n'}
+[5.710170] (ros_serivce) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/ros_serivce__rosidl_generator_py.dir/rosidl_generator_py/ros_serivce/srv/_update_config_s.c.o\x1b[0m\n'}
+[5.710803] (ros_serivce) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/ros_serivce__rosidl_generator_py.dir/rosidl_generator_py/ros_serivce/srv/_request_data_s.c.o\x1b[0m\n'}
+[5.725013] (-) TimerEvent: {}
+[5.825539] (-) TimerEvent: {}
+[5.864385] (ros_serivce) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_serivce/libros_serivce__rosidl_generator_py.so\x1b[0m\n'}
+[5.925957] (-) TimerEvent: {}
+[5.930977] (ros_serivce) StdoutLine: {'line': b'[ 87%] Built target ros_serivce__rosidl_generator_py\n'}
+[5.960784] (ros_serivce) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/ros_serivce__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_serivce/_ros_serivce_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.961862] (ros_serivce) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/ros_serivce__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_serivce/_ros_serivce_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.962174] (ros_serivce) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/ros_serivce__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_serivce/_ros_serivce_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.026137] (-) TimerEvent: {}
+[6.116296] (ros_serivce) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_serivce/ros_serivce_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.116660] (ros_serivce) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_serivce/ros_serivce_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.116974] (ros_serivce) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_serivce/ros_serivce_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.126297] (-) TimerEvent: {}
+[6.178117] (ros_serivce) StdoutLine: {'line': b'[100%] Built target ros_serivce__rosidl_typesupport_introspection_c__pyext\n'}
+[6.178541] (ros_serivce) StdoutLine: {'line': b'[100%] Built target ros_serivce__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.178733] (ros_serivce) StdoutLine: {'line': b'[100%] Built target ros_serivce__rosidl_typesupport_c__pyext\n'}
+[6.198539] (ros_serivce) CommandEnded: {'returncode': 0}
+[6.200392] (ros_serivce) JobProgress: {'identifier': 'ros_serivce', 'progress': 'install'}
+[6.213724] (ros_serivce) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce'], 'cwd': '/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'anhbaodz'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/anhbaodz/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anhbaodz'), ('OLDPWD', '/home/anhbaodz/Documents/ROS2_Workspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1484'), ('SYSTEMD_EXEC_PID', '1641'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5110'), ('_colcon_cd_root', '/opt/ros/rolling/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anhbaodz'), ('JOURNAL_STREAM', '8:4011'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anhbaodz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/anhbaodz/.local/bin:/home/anhbaodz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Inspiration:@/tmp/.ICE-unix/1615,unix/Inspiration:/tmp/.ICE-unix/1615'), ('INVOCATION_ID', '7a032fdbff604c7ba89e3db70ba37574'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MNUMC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:edaa9acb-a222-499f-83b2-e3d16171d155'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ROS_MAIN_ID', '7'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.225304] (ros_serivce) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.225685] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ament_index/resource_index/rosidl_interfaces/ros_serivce\n'}
+[6.225970] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce\n'}
+[6.226261] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg\n'}
+[6.226502] (-) TimerEvent: {}
+[6.226741] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.226986] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/sphere.h\n'}
+[6.227205] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail\n'}
+[6.227525] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__struct.h\n'}
+[6.227708] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__type_support.h\n'}
+[6.227888] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__functions.c\n'}
+[6.228172] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__functions.h\n'}
+[6.228341] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv\n'}
+[6.228434] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/update_config.h\n'}
+[6.228527] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail\n'}
+[6.228619] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__functions.h\n'}
+[6.228711] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__struct.h\n'}
+[6.228861] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__functions.c\n'}
+[6.228953] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__functions.c\n'}
+[6.229104] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__type_support.h\n'}
+[6.229204] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__functions.h\n'}
+[6.229297] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__type_support.h\n'}
+[6.229439] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__struct.h\n'}
+[6.229534] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/request_data.h\n'}
+[6.229656] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/environment/library_path.sh\n'}
+[6.229873] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/environment/library_path.dsv\n'}
+[6.230334] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_generator_c.so\n'}
+[6.230878] (ros_serivce) StdoutLine: {'line': b'-- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_generator_c.so" to ""\n'}
+[6.231099] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce\n'}
+[6.231204] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg\n'}
+[6.231297] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.231447] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail\n'}
+[6.231547] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[6.231664] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv\n'}
+[6.231756] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail\n'}
+[6.231848] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__rosidl_typesupport_fastrtps_c.h\n'}
+[6.231983] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__rosidl_typesupport_fastrtps_c.h\n'}
+[6.232129] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_fastrtps_c.so\n'}
+[6.232526] (ros_serivce) StdoutLine: {'line': b'-- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.232676] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce\n'}
+[6.232780] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg\n'}
+[6.232915] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.233009] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/sphere.hpp\n'}
+[6.233152] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail\n'}
+[6.233246] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__struct.hpp\n'}
+[6.233369] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__builder.hpp\n'}
+[6.233493] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__type_support.hpp\n'}
+[6.233673] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__traits.hpp\n'}
+[6.233875] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv\n'}
+[6.234008] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/update_config.hpp\n'}
+[6.234152] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/request_data.hpp\n'}
+[6.234302] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail\n'}
+[6.234434] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__type_support.hpp\n'}
+[6.234560] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__struct.hpp\n'}
+[6.234718] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__builder.hpp\n'}
+[6.234907] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__struct.hpp\n'}
+[6.235148] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__traits.hpp\n'}
+[6.235339] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__builder.hpp\n'}
+[6.235522] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__traits.hpp\n'}
+[6.235717] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__type_support.hpp\n'}
+[6.235934] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce\n'}
+[6.236095] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg\n'}
+[6.236190] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.236346] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail\n'}
+[6.236448] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/dds_fastrtps\n'}
+[6.236564] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.236707] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv\n'}
+[6.236804] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail\n'}
+[6.236934] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.237088] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/dds_fastrtps\n'}
+[6.237201] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.237346] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.237885] (ros_serivce) StdoutLine: {'line': b'-- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.238015] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce\n'}
+[6.238140] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg\n'}
+[6.238219] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.238339] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail\n'}
+[6.238420] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__type_support.c\n'}
+[6.238528] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[6.238669] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv\n'}
+[6.238789] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail\n'}
+[6.238873] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__type_support.c\n'}
+[6.238989] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__rosidl_typesupport_introspection_c.h\n'}
+[6.239216] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__rosidl_typesupport_introspection_c.h\n'}
+[6.239400] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__type_support.c\n'}
+[6.239659] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_introspection_c.so\n'}
+[6.240159] (ros_serivce) StdoutLine: {'line': b'-- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.240331] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_c.so\n'}
+[6.240721] (ros_serivce) StdoutLine: {'line': b'-- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_c.so" to ""\n'}
+[6.240836] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce\n'}
+[6.240987] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg\n'}
+[6.241087] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail\n'}
+[6.241183] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__type_support.cpp\n'}
+[6.241256] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.241366] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv\n'}
+[6.241480] (ros_serivce) StdoutLine: {'line': b'-- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail\n'}
+[6.241561] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.241661] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/request_data__type_support.cpp\n'}
+[6.241815] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__type_support.cpp\n'}
+[6.242030] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/include/ros_serivce/ros_serivce/srv/detail/update_config__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.242340] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_introspection_cpp.so\n'}
+[6.242915] (ros_serivce) StdoutLine: {'line': b'-- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.243064] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_cpp.so\n'}
+[6.243480] (ros_serivce) StdoutLine: {'line': b'-- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_typesupport_cpp.so" to ""\n'}
+[6.243613] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/environment/pythonpath.sh\n'}
+[6.243749] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/environment/pythonpath.dsv\n'}
+[6.243970] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce-0.0.0-py3.10.egg-info\n'}
+[6.244229] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[6.244401] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[6.244600] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.244764] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.245188] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce\n'}
+[6.245328] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/_ros_serivce_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.245574] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/_ros_serivce_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.245801] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/libros_serivce__rosidl_generator_py.so\n'}
+[6.246073] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/msg\n'}
+[6.246234] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/msg/_sphere.py\n'}
+[6.246415] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/msg/_sphere_s.c\n'}
+[6.246596] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/msg/__init__.py\n'}
+[6.246771] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/srv\n'}
+[6.246938] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/srv/_update_config.py\n'}
+[6.247113] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/srv/_request_data_s.c\n'}
+[6.247246] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/srv/_update_config_s.c\n'}
+[6.247464] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/srv/__init__.py\n'}
+[6.247648] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/srv/_request_data.py\n'}
+[6.247852] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/_ros_serivce_s.ep.rosidl_typesupport_c.c\n'}
+[6.248089] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/__init__.py\n'}
+[6.248235] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/ros_serivce_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.248451] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/ros_serivce_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.248708] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/ros_serivce_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.294904] (ros_serivce) StdoutLine: {'line': b"Listing '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce'...\n"}
+[6.295225] (ros_serivce) StdoutLine: {'line': b"Compiling '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/__init__.py'...\n"}
+[6.295342] (ros_serivce) StdoutLine: {'line': b"Listing '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/msg'...\n"}
+[6.295450] (ros_serivce) StdoutLine: {'line': b"Compiling '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/msg/__init__.py'...\n"}
+[6.295554] (ros_serivce) StdoutLine: {'line': b"Compiling '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/msg/_sphere.py'...\n"}
+[6.295656] (ros_serivce) StdoutLine: {'line': b"Listing '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/srv'...\n"}
+[6.295760] (ros_serivce) StdoutLine: {'line': b"Compiling '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/srv/__init__.py'...\n"}
+[6.295899] (ros_serivce) StdoutLine: {'line': b"Compiling '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/srv/_request_data.py'...\n"}
+[6.296003] (ros_serivce) StdoutLine: {'line': b"Compiling '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/srv/_update_config.py'...\n"}
+[6.302074] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/ros_serivce_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.302582] (ros_serivce) StdoutLine: {'line': b'-- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/ros_serivce_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.303078] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/ros_serivce_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.303816] (ros_serivce) StdoutLine: {'line': b'-- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/ros_serivce_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.304086] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/ros_serivce_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.304594] (ros_serivce) StdoutLine: {'line': b'-- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages/ros_serivce/ros_serivce_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.304753] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_generator_py.so\n'}
+[6.305229] (ros_serivce) StdoutLine: {'line': b'-- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib/libros_serivce__rosidl_generator_py.so" to ""\n'}
+[6.305396] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/msg/Sphere.idl\n'}
+[6.305677] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/srv/UpdateConfig.idl\n'}
+[6.305888] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/srv/RequestData.idl\n'}
+[6.306094] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/msg/Sphere.msg\n'}
+[6.306317] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/srv/UpdateConfig.srv\n'}
+[6.306518] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/srv/UpdateConfig_Request.msg\n'}
+[6.306717] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/srv/UpdateConfig_Response.msg\n'}
+[6.306934] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/srv/RequestData.srv\n'}
+[6.307156] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/srv/RequestData_Request.msg\n'}
+[6.307370] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/srv/RequestData_Response.msg\n'}
+[6.307701] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ament_index/resource_index/package_run_dependencies/ros_serivce\n'}
+[6.307995] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ament_index/resource_index/parent_prefix_path/ros_serivce\n'}
+[6.308224] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/environment/ament_prefix_path.sh\n'}
+[6.308434] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/environment/ament_prefix_path.dsv\n'}
+[6.308650] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/environment/path.sh\n'}
+[6.308857] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/environment/path.dsv\n'}
+[6.309094] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/local_setup.bash\n'}
+[6.309283] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/local_setup.sh\n'}
+[6.309498] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/local_setup.zsh\n'}
+[6.309708] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/local_setup.dsv\n'}
+[6.309913] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/package.dsv\n'}
+[6.310211] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ament_index/resource_index/packages/ros_serivce\n'}
+[6.310495] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/export_ros_serivce__rosidl_generator_cExport.cmake\n'}
+[6.310722] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/export_ros_serivce__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.310958] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/export_ros_serivce__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.311198] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/export_ros_serivce__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.311432] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/export_ros_serivce__rosidl_generator_cppExport.cmake\n'}
+[6.311667] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/export_ros_serivce__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.311895] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/export_ros_serivce__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.312175] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ros_serivce__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.312432] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ros_serivce__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.312667] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ros_serivce__rosidl_typesupport_cExport.cmake\n'}
+[6.312893] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ros_serivce__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.313134] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ros_serivce__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.313363] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ros_serivce__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.313553] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ros_serivce__rosidl_typesupport_cppExport.cmake\n'}
+[6.313776] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ros_serivce__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.314017] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/export_ros_serivce__rosidl_generator_pyExport.cmake\n'}
+[6.314291] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/export_ros_serivce__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.314513] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/rosidl_cmake-extras.cmake\n'}
+[6.314757] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.315169] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.315348] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.315516] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.315654] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.315875] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.316132] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ros_serivceConfig.cmake\n'}
+[6.316321] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake/ros_serivceConfig-version.cmake\n'}
+[6.316548] (ros_serivce) StdoutLine: {'line': b'-- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/package.xml\n'}
+[6.320423] (ros_serivce) CommandEnded: {'returncode': 0}
+[6.326665] (-) TimerEvent: {}
+[6.345179] (ros_serivce) JobEnded: {'identifier': 'ros_serivce', 'rc': 0}
+[6.347400] (cpp_node) JobStarted: {'identifier': 'cpp_node'}
+[6.350560] (python_node) JobStarted: {'identifier': 'python_node'}
+[6.358834] (cpp_node) JobProgress: {'identifier': 'cpp_node', 'progress': 'cmake'}
+[6.360374] (cpp_node) Command: {'cmd': ['/usr/bin/cmake', '/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node', '-DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node'], 'cwd': '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'anhbaodz'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/anhbaodz/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anhbaodz'), ('OLDPWD', '/home/anhbaodz/Documents/ROS2_Workspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1484'), ('SYSTEMD_EXEC_PID', '1641'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5110'), ('_colcon_cd_root', '/opt/ros/rolling/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anhbaodz'), ('JOURNAL_STREAM', '8:4011'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anhbaodz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/anhbaodz/.local/bin:/home/anhbaodz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Inspiration:@/tmp/.ICE-unix/1615,unix/Inspiration:/tmp/.ICE-unix/1615'), ('INVOCATION_ID', '7a032fdbff604c7ba89e3db70ba37574'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MNUMC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:edaa9acb-a222-499f-83b2-e3d16171d155'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ROS_MAIN_ID', '7'), ('PYTHONPATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble')]), 'shell': False}
+[6.426806] (-) TimerEvent: {}
+[6.447098] (cpp_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[6.526975] (-) TimerEvent: {}
+[6.529685] (cpp_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.541299] (cpp_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.627175] (-) TimerEvent: {}
+[6.650254] (cpp_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.660336] (cpp_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.660746] (cpp_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.661128] (cpp_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.665193] (cpp_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.727336] (-) TimerEvent: {}
+[6.787377] (cpp_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.797432] (cpp_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.797775] (cpp_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.798401] (cpp_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.801607] (cpp_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.827483] (-) TimerEvent: {}
+[6.927932] (-) TimerEvent: {}
+[6.995704] (cpp_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.028299] (-) TimerEvent: {}
+[7.077835] (python_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/python_node', 'build', '--build-base', '/home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build', 'install', '--record', '/home/anhbaodz/Documents/ROS2_Workspace/build/python_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/anhbaodz/Documents/ROS2_Workspace/src/python_node', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'anhbaodz', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'STM32CubeMX_PATH': '/home/anhbaodz/STM32CubeMX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/anhbaodz', 'OLDPWD': '/home/anhbaodz/Documents/ROS2_Workspace/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '1484', 'SYSTEMD_EXEC_PID': '1641', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5110', '_colcon_cd_root': '/opt/ros/rolling/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/anhbaodz/Documents/ROS2_Workspace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'anhbaodz', 'JOURNAL_STREAM': '8:4011', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'anhbaodz', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/anhbaodz/.local/bin:/home/anhbaodz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Inspiration:@/tmp/.ICE-unix/1615,unix/Inspiration:/tmp/.ICE-unix/1615', 'INVOCATION_ID': '7a032fdbff604c7ba89e3db70ba37574', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MNUMC3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:edaa9acb-a222-499f-83b2-e3d16171d155', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/anhbaodz/Documents/ROS2_Workspace/build/python_node', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'ROS_MAIN_ID': '7', 'PYTHONPATH': '/home/anhbaodz/Documents/ROS2_Workspace/build/python_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages:/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce'}, 'shell': False}
+[7.118388] (cpp_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.131096] (-) TimerEvent: {}
+[7.178220] (cpp_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.184600] (cpp_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.195179] (cpp_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.210726] (cpp_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.231201] (cpp_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.231497] (-) TimerEvent: {}
+[7.286617] (cpp_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.289633] (cpp_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.331870] (-) TimerEvent: {}
+[7.347383] (python_node) StdoutLine: {'line': b'running egg_info\n'}
+[7.348095] (python_node) StdoutLine: {'line': b'creating ../../build/python_node/python_node.egg-info\n'}
+[7.348463] (python_node) StdoutLine: {'line': b'writing ../../build/python_node/python_node.egg-info/PKG-INFO\n'}
+[7.348793] (python_node) StdoutLine: {'line': b'writing dependency_links to ../../build/python_node/python_node.egg-info/dependency_links.txt\n'}
+[7.349037] (python_node) StdoutLine: {'line': b'writing entry points to ../../build/python_node/python_node.egg-info/entry_points.txt\n'}
+[7.349330] (python_node) StdoutLine: {'line': b'writing requirements to ../../build/python_node/python_node.egg-info/requires.txt\n'}
+[7.349467] (python_node) StdoutLine: {'line': b'writing top-level names to ../../build/python_node/python_node.egg-info/top_level.txt\n'}
+[7.349541] (python_node) StdoutLine: {'line': b"writing manifest file '../../build/python_node/python_node.egg-info/SOURCES.txt'\n"}
+[7.351123] (python_node) StdoutLine: {'line': b"reading manifest file '../../build/python_node/python_node.egg-info/SOURCES.txt'\n"}
+[7.351339] (python_node) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[7.352282] (python_node) StdoutLine: {'line': b"writing manifest file '../../build/python_node/python_node.egg-info/SOURCES.txt'\n"}
+[7.352497] (python_node) StdoutLine: {'line': b'running build\n'}
+[7.352579] (python_node) StdoutLine: {'line': b'running build_py\n'}
+[7.352695] (python_node) StdoutLine: {'line': b'creating /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build\n'}
+[7.352813] (python_node) StdoutLine: {'line': b'creating /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib\n'}
+[7.352892] (python_node) StdoutLine: {'line': b'creating /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node\n'}
+[7.352992] (python_node) StdoutLine: {'line': b'copying python_node/main.py -> /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node\n'}
+[7.353089] (python_node) StdoutLine: {'line': b'copying python_node/Util.py -> /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node\n'}
+[7.353192] (python_node) StdoutLine: {'line': b'copying python_node/camera_handler.py -> /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node\n'}
+[7.353330] (python_node) StdoutLine: {'line': b'copying python_node/image_processor.py -> /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node\n'}
+[7.353490] (python_node) StdoutLine: {'line': b'copying python_node/__init__.py -> /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node\n'}
+[7.353593] (python_node) StdoutLine: {'line': b'copying python_node/system_state.py -> /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node\n'}
+[7.353741] (python_node) StdoutLine: {'line': b'copying python_node/ros_manager.py -> /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node\n'}
+[7.354015] (python_node) StdoutLine: {'line': b'running install\n'}
+[7.354414] (python_node) StdoutLine: {'line': b'running install_lib\n'}
+[7.355302] (python_node) StdoutLine: {'line': b'creating /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node\n'}
+[7.355531] (python_node) StdoutLine: {'line': b'copying /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node/main.py -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node\n'}
+[7.355729] (python_node) StdoutLine: {'line': b'copying /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node/Util.py -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node\n'}
+[7.355929] (python_node) StdoutLine: {'line': b'copying /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node/camera_handler.py -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node\n'}
+[7.356134] (python_node) StdoutLine: {'line': b'copying /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node/image_processor.py -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node\n'}
+[7.356365] (python_node) StdoutLine: {'line': b'copying /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node/__init__.py -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node\n'}
+[7.356495] (python_node) StdoutLine: {'line': b'copying /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node/system_state.py -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node\n'}
+[7.356570] (python_node) StdoutLine: {'line': b'copying /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node/ros_manager.py -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node\n'}
+[7.356953] (python_node) StdoutLine: {'line': b'byte-compiling /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node/main.py to main.cpython-310.pyc\n'}
+[7.358700] (python_node) StdoutLine: {'line': b'byte-compiling /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node/Util.py to Util.cpython-310.pyc\n'}
+[7.360498] (python_node) StdoutLine: {'line': b'byte-compiling /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node/camera_handler.py to camera_handler.cpython-310.pyc\n'}
+[7.361005] (python_node) StdoutLine: {'line': b'byte-compiling /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node/image_processor.py to image_processor.cpython-310.pyc\n'}
+[7.361652] (python_node) StdoutLine: {'line': b'byte-compiling /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node/__init__.py to __init__.cpython-310.pyc\n'}
+[7.361859] (python_node) StdoutLine: {'line': b'byte-compiling /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node/system_state.py to system_state.cpython-310.pyc\n'}
+[7.362430] (python_node) StdoutLine: {'line': b'byte-compiling /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node/ros_manager.py to ros_manager.cpython-310.pyc\n'}
+[7.363158] (python_node) StdoutLine: {'line': b'running install_data\n'}
+[7.363322] (python_node) StdoutLine: {'line': b'creating /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/share/ament_index\n'}
+[7.363476] (python_node) StdoutLine: {'line': b'creating /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/share/ament_index/resource_index\n'}
+[7.363560] (python_node) StdoutLine: {'line': b'creating /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/share/ament_index/resource_index/packages\n'}
+[7.363637] (python_node) StdoutLine: {'line': b'copying resource/python_node -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/share/ament_index/resource_index/packages\n'}
+[7.363758] (python_node) StdoutLine: {'line': b'copying package.xml -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/share/python_node\n'}
+[7.363840] (python_node) StdoutLine: {'line': b'creating /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/share/python_node/config\n'}
+[7.363959] (python_node) StdoutLine: {'line': b'copying config/default_config.json -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/share/python_node/config\n'}
+[7.364057] (python_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.366195] (python_node) StdoutLine: {'line': b'Copying ../../build/python_node/python_node.egg-info to /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node-0.0.0-py3.10.egg-info\n'}
+[7.367678] (python_node) StdoutLine: {'line': b'running install_scripts\n'}
+[7.394130] (python_node) StdoutLine: {'line': b'Installing ros_response script to /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python_node\n'}
+[7.394672] (python_node) StdoutLine: {'line': b"writing list of installed files to '/home/anhbaodz/Documents/ROS2_Workspace/build/python_node/install.log'\n"}
+[7.432084] (-) TimerEvent: {}
+[7.439977] (python_node) CommandEnded: {'returncode': 0}
+[7.443232] (cpp_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.448135] (python_node) JobEnded: {'identifier': 'python_node', 'rc': 0}
+[7.481829] (cpp_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.532211] (-) TimerEvent: {}
+[7.544252] (cpp_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.555050] (cpp_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.632347] (-) TimerEvent: {}
+[7.669148] (cpp_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.670081] (cpp_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.732522] (-) TimerEvent: {}
+[7.784762] (cpp_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.786080] (cpp_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.832675] (-) TimerEvent: {}
+[7.849216] (cpp_node) StdoutLine: {'line': b'-- Found ros_serivce: 0.0.0 (/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake)\n'}
+[7.887241] (cpp_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.932800] (-) TimerEvent: {}
+[7.994423] (cpp_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.994697] (cpp_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[7.994864] (cpp_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.995705] (cpp_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.997424] (cpp_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.997585] (cpp_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.998172] (cpp_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.999978] (cpp_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.014595] (cpp_node) StdoutLine: {'line': b'-- Generating done\n'}
+[8.019779] (cpp_node) StdoutLine: {'line': b'-- Build files have been written to: /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node\n'}
+[8.031192] (cpp_node) CommandEnded: {'returncode': 0}
+[8.032309] (cpp_node) JobProgress: {'identifier': 'cpp_node', 'progress': 'build'}
+[8.033725] (cpp_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node', '--', '-j12', '-l12'], 'cwd': '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'anhbaodz'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('STM32CubeMX_PATH', '/home/anhbaodz/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anhbaodz'), ('OLDPWD', '/home/anhbaodz/Documents/ROS2_Workspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1484'), ('SYSTEMD_EXEC_PID', '1641'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5110'), ('_colcon_cd_root', '/opt/ros/rolling/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anhbaodz'), ('JOURNAL_STREAM', '8:4011'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anhbaodz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/anhbaodz/.local/bin:/home/anhbaodz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Inspiration:@/tmp/.ICE-unix/1615,unix/Inspiration:/tmp/.ICE-unix/1615'), ('INVOCATION_ID', '7a032fdbff604c7ba89e3db70ba37574'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MNUMC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:edaa9acb-a222-499f-83b2-e3d16171d155'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ROS_MAIN_ID', '7'), ('PYTHONPATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble')]), 'shell': False}
+[8.035068] (-) TimerEvent: {}
+[8.108635] (cpp_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/request.dir/src/main.cpp.o\x1b[0m\n'}
+[8.135243] (-) TimerEvent: {}
+[8.235678] (-) TimerEvent: {}
+[8.336109] (-) TimerEvent: {}
+[8.436966] (-) TimerEvent: {}
+[8.537429] (-) TimerEvent: {}
+[8.637859] (-) TimerEvent: {}
+[8.738365] (-) TimerEvent: {}
+[8.838862] (-) TimerEvent: {}
+[8.939353] (-) TimerEvent: {}
+[9.039820] (-) TimerEvent: {}
+[9.140309] (-) TimerEvent: {}
+[9.240759] (-) TimerEvent: {}
+[9.341242] (-) TimerEvent: {}
+[9.441698] (-) TimerEvent: {}
+[9.542183] (-) TimerEvent: {}
+[9.642640] (-) TimerEvent: {}
+[9.743126] (-) TimerEvent: {}
+[9.843588] (-) TimerEvent: {}
+[9.944059] (-) TimerEvent: {}
+[10.044509] (-) TimerEvent: {}
+[10.144965] (-) TimerEvent: {}
+[10.245452] (-) TimerEvent: {}
+[10.345919] (-) TimerEvent: {}
+[10.446397] (-) TimerEvent: {}
+[10.546871] (-) TimerEvent: {}
+[10.647372] (-) TimerEvent: {}
+[10.740426] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:99:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KProcessRequest\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kros_serivce::srv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.740798] (cpp_node) StderrLine: {'line': b'   99 |     rclcpp::Client<ros_serivce::srv::\x1b[01;31m\x1b[KProcessRequest\x1b[m\x1b[K>::SharedPtr process_client_;\n'}
+[10.740956] (cpp_node) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.741136] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:99:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.741278] (cpp_node) StderrLine: {'line': b'   99 |     rclcpp::Client<ros_serivce::srv::ProcessRequest\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr process_client_;\n'}
+[10.741415] (cpp_node) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.741550] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:99:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[10.741686] (cpp_node) StderrLine: {'line': b'   99 |     rclcpp::Client<ros_serivce::srv::ProcessRequest>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K process_client_;\n'}
+[10.741819] (cpp_node) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[10.741954] (cpp_node) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[10.742348] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:99:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprocess_client_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[10.742516] (cpp_node) StderrLine: {'line': b'   99 | rclcpp::Client<ros_serivce::srv::ProcessRequest>::SharedPtr \x1b[01;31m\x1b[Kprocess_client_\x1b[m\x1b[K;\n'}
+[10.742629] (cpp_node) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.742732] (cpp_node) StderrLine: {'line': b'\n'}
+[10.747480] (-) TimerEvent: {}
+[10.749850] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRosInterfaceClient::RosInterfaceClient()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.750144] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:21:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprocess_client_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.750316] (cpp_node) StderrLine: {'line': b'   21 |         \x1b[01;31m\x1b[Kprocess_client_\x1b[m\x1b[K = this->create_client<ros_serivce::srv::RequestData>("RequestData");\n'}
+[10.750458] (cpp_node) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.794966] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RosInterfaceClient::send_update_config(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.795315] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:44:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kros_serivce::srv::UpdateConfig_Request_<std::allocator<void> >::_area_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.795513] (cpp_node) StderrLine: {'line': b'   44 |             request->area = \x1b[01;31m\x1b[K"500"\x1b[m\x1b[K;          // area is a string in your Python code\n'}
+[10.795656] (cpp_node) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.795791] (cpp_node) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[10.795925] (cpp_node) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[10.797815] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RosInterfaceClient::request_process_data()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.798068] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:74:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct ros_serivce::srv::RequestData_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct ros_serivce::srv::RequestData_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kstart_requestData\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.798270] (cpp_node) StderrLine: {'line': b'   74 |         request->\x1b[01;31m\x1b[Kstart_requestData\x1b[m\x1b[K = true;\n'}
+[10.798385] (cpp_node) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.804654] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:76:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprocess_client_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.804889] (cpp_node) StderrLine: {'line': b'   76 |         auto future = \x1b[01;31m\x1b[Kprocess_client_\x1b[m\x1b[K->async_send_request(request);\n'}
+[10.805066] (cpp_node) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.847605] (-) TimerEvent: {}
+[10.947994] (-) TimerEvent: {}
+[11.048482] (-) TimerEvent: {}
+[11.148943] (-) TimerEvent: {}
+[11.249424] (-) TimerEvent: {}
+[11.349893] (-) TimerEvent: {}
+[11.408161] (cpp_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/request.dir/build.make:76: CMakeFiles/request.dir/src/main.cpp.o] Error 1\n'}
+[11.408609] (cpp_node) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2\n'}
+[11.408891] (cpp_node) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.412604] (cpp_node) CommandEnded: {'returncode': 2}
+[11.416757] (cpp_node) JobEnded: {'identifier': 'cpp_node', 'rc': 2}
+[11.427676] (-) EventReactorShutdown: {}

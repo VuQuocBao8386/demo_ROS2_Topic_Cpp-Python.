@@ -1,0 +1,12 @@
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:22:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool MachineController::rosReady()[m[K’
+   22 | bool [01;31m[KMachineController[m[K::rosReady() {
+      |      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:22:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kbool MachineController::rosReady()[m[K’
+In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:18:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MachineController[m[K’ defined here
+   18 | class [01;36m[KMachineController[m[K {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/request.dir/build.make:146: CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

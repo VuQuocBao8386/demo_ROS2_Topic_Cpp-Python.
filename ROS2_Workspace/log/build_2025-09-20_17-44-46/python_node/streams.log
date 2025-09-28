@@ -1,0 +1,25 @@
+[0.517s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/src/python_node': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/build/python_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_node build --build-base /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build install --record /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/install.log --single-version-externally-managed install_data
+[0.704s] running egg_info
+[0.704s] writing ../../build/python_node/python_node.egg-info/PKG-INFO
+[0.704s] writing dependency_links to ../../build/python_node/python_node.egg-info/dependency_links.txt
+[0.705s] writing entry points to ../../build/python_node/python_node.egg-info/entry_points.txt
+[0.705s] writing requirements to ../../build/python_node/python_node.egg-info/requires.txt
+[0.705s] writing top-level names to ../../build/python_node/python_node.egg-info/top_level.txt
+[0.706s] reading manifest file '../../build/python_node/python_node.egg-info/SOURCES.txt'
+[0.707s] adding license file 'LICENSE'
+[0.707s] writing manifest file '../../build/python_node/python_node.egg-info/SOURCES.txt'
+[0.707s] running build
+[0.707s] running build_py
+[0.708s] copying python_node/main.py -> /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node
+[0.708s] running install
+[0.708s] running install_lib
+[0.709s] copying /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node/main.py -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node
+[0.709s] byte-compiling /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node/main.py to main.cpython-310.pyc
+[0.710s] running install_data
+[0.710s] running install_egg_info
+[0.712s] removing '/home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node-0.0.0-py3.10.egg-info' (and everything under it)
+[0.712s] Copying ../../build/python_node/python_node.egg-info to /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node-0.0.0-py3.10.egg-info
+[0.713s] running install_scripts
+[0.731s] Installing ros_response script to /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python_node
+[0.731s] writing list of installed files to '/home/anhbaodz/Documents/ROS2_Workspace/build/python_node/install.log'
+[0.765s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/src/python_node' returned '0': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/build/python_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_node build --build-base /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build install --record /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/install.log --single-version-externally-managed install_data

@@ -1,0 +1,72 @@
+[0.013s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node
+[0.115s] -- The C compiler identification is GNU 11.4.0
+[0.179s] -- The CXX compiler identification is GNU 11.4.0
+[0.188s] -- Detecting C compiler ABI info
+[0.267s] -- Detecting C compiler ABI info - done
+[0.274s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.274s] -- Detecting C compile features
+[0.274s] -- Detecting C compile features - done
+[0.277s] -- Detecting CXX compiler ABI info
+[0.367s] -- Detecting CXX compiler ABI info - done
+[0.377s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.377s] -- Detecting CXX compile features
+[0.377s] -- Detecting CXX compile features - done
+[0.380s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.521s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.600s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.636s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.641s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.648s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.659s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.673s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.711s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.713s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.828s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.855s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.897s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.906s] -- Looking for pthread.h
+[0.986s] -- Looking for pthread.h - found
+[0.986s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.071s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.072s] -- Found Threads: TRUE  
+[1.117s] -- Found ros_serivce: 0.0.0 (/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake)
+[1.143s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.215s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.215s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src>
+[1.215s] -- Configured cppcheck exclude dirs and/or files: 
+[1.215s] -- Added test 'lint_cmake' to check CMake code style
+[1.218s] -- Added test 'uncrustify' to check C / C++ code style
+[1.218s] -- Configured uncrustify additional arguments: 
+[1.218s] -- Added test 'xmllint' to check XML markup files
+[1.219s] -- Configuring done
+[1.231s] -- Generating done
+[1.235s] -- Build files have been written to: /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node
+[1.244s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node' returned '0': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node
+[1.247s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node -- -j12 -l12
+[1.294s] [35m[1mConsolidate compiler generated dependencies of target request[0m
+[1.316s] [ 25%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/communication/ros_Service.cpp.o[0m
+[1.316s] [ 25%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o[0m
+[1.320s] [ 37%] [32mBuilding CXX object CMakeFiles/request.dir/src/main.cpp.o[0m
+[1.566s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:2[m[K:
+[1.567s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kros_serivce/srv/update_configure.hpp: No such file or directory
+[1.567s]     6 | #include [01;31m[K"ros_serivce/srv/update_configure.hpp"[m[K
+[1.567s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.567s] compilation terminated.
+[1.568s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+[1.568s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[1.568s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kros_serivce/srv/update_configure.hpp: No such file or directory
+[1.568s]     6 | #include [01;31m[K"ros_serivce/srv/update_configure.hpp"[m[K
+[1.568s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.568s] compilation terminated.
+[1.568s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:1[m[K:
+[1.568s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kros_serivce/srv/update_configure.hpp: No such file or directory
+[1.568s]     6 | #include [01;31m[K"ros_serivce/srv/update_configure.hpp"[m[K
+[1.569s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.569s] compilation terminated.
+[1.571s] gmake[2]: *** [CMakeFiles/request.dir/build.make:160: CMakeFiles/request.dir/src/main.cpp.o] Error 1
+[1.571s] gmake[2]: *** Waiting for unfinished jobs....
+[1.572s] gmake[2]: *** [CMakeFiles/request.dir/build.make:146: CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o] Error 1
+[1.573s] gmake[2]: *** [CMakeFiles/request.dir/build.make:76: CMakeFiles/request.dir/src/demo/communication/ros_Service.cpp.o] Error 1
+[1.573s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2
+[1.573s] gmake: *** [Makefile:146: all] Error 2
+[1.577s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node' returned '2': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node -- -j12 -l12

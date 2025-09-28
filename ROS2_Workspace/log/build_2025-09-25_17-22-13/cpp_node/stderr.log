@@ -1,0 +1,62 @@
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kvoid MachineController::rosLoop()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:11:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Ros_Cpp[m[K’ {aka ‘[01m[Kclass Ros_Cpp[m[K’} has no member named ‘[01m[Kspin_some[m[K’
+   11 |     void MachineController::rosLoop()     { ros_->[01;31m[Kspin_some[m[K(); store_data_->pushROS("ros-event"); }
+      |                                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:11:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kstore_data_[m[K’ was not declared in this scope
+   11 |     void MachineController::rosLoop()     { ros_->spin_some(); [01;31m[Kstore_data_[m[K->pushROS("ros-event"); }
+      |                                                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kvoid MachineController::mcuLoop()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:23:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class serial_UART[m[K’ {aka ‘[01m[Kclass serial_UART[m[K’} has no member named ‘[01m[KreadData[m[K’
+   23 |     void MachineController::mcuLoop()     { auto d = serial_UART_->[01;31m[KreadData[m[K(); store_data_->pushMCU(d); }
+      |                                                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:23:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kstore_data_[m[K’ was not declared in this scope
+   23 |     void MachineController::mcuLoop()     { auto d = serial_UART_->readData(); [01;31m[Kstore_data_[m[K->pushMCU(d); }
+      |                                                                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kvoid MachineController::engineLoop()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:29:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Engine[m[K’ {aka ‘[01m[Kclass Engine[m[K’} has no member named ‘[01m[KrunOnce[m[K’
+   29 |     void MachineController::engineLoop()  { auto r = engine_->[01;31m[KrunOnce[m[K(); store_data_->pushEngine(r); }
+      |                                                               [01;31m[K^~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:29:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kstore_data_[m[K’ was not declared in this scope
+   29 |     void MachineController::engineLoop()  { auto r = engine_->runOnce(); [01;31m[Kstore_data_[m[K->pushEngine(r); }
+      |                                                                          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:[m[K In member function ‘[01m[Kbool Ros_Cpp::send_update_config(const string&)[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:11:37:[m[K [01;31m[Kerror: [m[K‘[01m[KUpdateConfigure[m[K’ was not declared in this scope; did you mean ‘[01m[KUpdateConfig[m[K’?
+   11 |     auto request = std::make_shared<[01;31m[KUpdateConfigure[m[K::Request>();
+      |                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                     [32m[KUpdateConfig[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:11:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   11 |     auto request = std::[01;31m[Kmake_shared<UpdateConfigure::Request>[m[K();
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:11:62:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   11 |     auto request = [01;31m[Kstd::make_shared<UpdateConfigure::Request>()[m[K;
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5[m[K,
+                 from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:11:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   11 |     auto request = [01;31m[Kstd::make_shared<UpdateConfigure::Request>()[m[K;
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:[m[K At global scope:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:38:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool Ros_Cpp::send_process_request(const string&)[m[K’
+   38 | bool [01;31m[KRos_Cpp[m[K::send_process_request(const std::string &command)
+      |      [01;31m[K^~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:38:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kbool Ros_Cpp::send_process_request(const string&)[m[K’
+In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:1[m[K:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:20:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Ros_Cpp[m[K’ defined here
+   20 | class [01;36m[KRos_Cpp[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:[m[K In member function ‘[01m[Kvoid Ros_Cpp::check_services()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:80:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kprocess_client_[m[K’ was not declared in this scope; did you mean ‘[01m[Krequest_client_[m[K’?
+   80 |     bool process_ok = [01;31m[Kprocess_client_[m[K->wait_for_service(std::chrono::seconds(0));
+      |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                       [32m[Krequest_client_[m[K
+gmake[2]: *** [CMakeFiles/request.dir/build.make:146: CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/request.dir/build.make:76: CMakeFiles/request.dir/src/demo/communication/ros_Service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

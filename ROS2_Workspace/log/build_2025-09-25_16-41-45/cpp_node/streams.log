@@ -1,0 +1,28 @@
+[0.015s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node -- -j12 -l12
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target request[0m
+[0.085s] [ 37%] [32mBuilding CXX object CMakeFiles/request.dir/src/main.cpp.o[0m
+[0.086s] [ 37%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o[0m
+[0.086s] [ 37%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/communication/ros_Service.cpp.o[0m
+[0.338s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:1[m[K:
+[0.338s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kros_interface/srv/update_configure.hpp: No such file or directory
+[0.338s]     6 | #include [01;31m[K"ros_interface/srv/update_configure.hpp"[m[K
+[0.338s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.338s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:2[m[K:
+[0.339s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kros_interface/srv/update_configure.hpp: No such file or directory
+[0.339s]     6 | #include [01;31m[K"ros_interface/srv/update_configure.hpp"[m[K
+[0.339s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.339s] compilation terminated.
+[0.339s] compilation terminated.
+[0.340s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+[0.340s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[0.340s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kros_interface/srv/update_configure.hpp: No such file or directory
+[0.340s]     6 | #include [01;31m[K"ros_interface/srv/update_configure.hpp"[m[K
+[0.340s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.340s] compilation terminated.
+[0.347s] gmake[2]: *** [CMakeFiles/request.dir/build.make:160: CMakeFiles/request.dir/src/main.cpp.o] Error 1
+[0.347s] gmake[2]: *** Waiting for unfinished jobs....
+[0.347s] gmake[2]: *** [CMakeFiles/request.dir/build.make:146: CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o] Error 1
+[0.349s] gmake[2]: *** [CMakeFiles/request.dir/build.make:76: CMakeFiles/request.dir/src/demo/communication/ros_Service.cpp.o] Error 1
+[0.350s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2
+[0.350s] gmake: *** [Makefile:146: all] Error 2
+[0.353s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node' returned '2': AMENT_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/opt/ros/humble LD_LIBRARY_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node -- -j12 -l12

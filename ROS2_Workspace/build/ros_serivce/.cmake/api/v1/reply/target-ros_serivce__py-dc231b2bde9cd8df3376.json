@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce/ros_serivce__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ros_serivce::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ros_serivce__py::@cb70934caa4a6c8c989e",
+	"name" : "ros_serivce__py",
+	"paths" : 
+	{
+		"build" : "ros_serivce__py",
+		"source" : "/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce/ros_serivce__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce/ros_serivce__py/CMakeFiles/ros_serivce__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce/ros_serivce__py/CMakeFiles/ros_serivce__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/anhbaodz/Documents/ROS2_Workspace/build/ros_serivce/rosidl_generator_py/ros_serivce/_ros_serivce_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

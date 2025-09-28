@@ -1,0 +1,53 @@
+running egg_info
+creating ../../build/python_node/python_node.egg-info
+writing ../../build/python_node/python_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/python_node/python_node.egg-info/dependency_links.txt
+writing entry points to ../../build/python_node/python_node.egg-info/entry_points.txt
+writing requirements to ../../build/python_node/python_node.egg-info/requires.txt
+writing top-level names to ../../build/python_node/python_node.egg-info/top_level.txt
+writing manifest file '../../build/python_node/python_node.egg-info/SOURCES.txt'
+reading manifest file '../../build/python_node/python_node.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/python_node/python_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build
+creating /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib
+creating /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node
+copying python_node/main.py -> /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node
+copying python_node/Util.py -> /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node
+copying python_node/camera_handler.py -> /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node
+copying python_node/image_processor.py -> /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node
+copying python_node/__init__.py -> /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node
+copying python_node/system_state.py -> /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node
+copying python_node/ros_manager.py -> /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node
+running install
+running install_lib
+creating /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node
+copying /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node/main.py -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node
+copying /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node/Util.py -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node
+copying /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node/camera_handler.py -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node
+copying /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node/image_processor.py -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node
+copying /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node/__init__.py -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node
+copying /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node/system_state.py -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node
+copying /home/anhbaodz/Documents/ROS2_Workspace/build/python_node/build/lib/python_node/ros_manager.py -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node
+byte-compiling /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node/main.py to main.cpython-310.pyc
+byte-compiling /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node/Util.py to Util.cpython-310.pyc
+byte-compiling /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node/camera_handler.py to camera_handler.cpython-310.pyc
+byte-compiling /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node/image_processor.py to image_processor.cpython-310.pyc
+byte-compiling /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node/system_state.py to system_state.cpython-310.pyc
+byte-compiling /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node/ros_manager.py to ros_manager.cpython-310.pyc
+running install_data
+creating /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/share/ament_index
+creating /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/share/ament_index/resource_index
+creating /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/share/ament_index/resource_index/packages
+copying resource/python_node -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/share/python_node
+creating /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/share/python_node/config
+copying config/default_config.json -> /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/share/python_node/config
+running install_egg_info
+Copying ../../build/python_node/python_node.egg-info to /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python3.10/site-packages/python_node-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ros_response script to /home/anhbaodz/Documents/ROS2_Workspace/install/python_node/lib/python_node
+writing list of installed files to '/home/anhbaodz/Documents/ROS2_Workspace/build/python_node/install.log'

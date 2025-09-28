@@ -1,0 +1,114 @@
+[0.013s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake /home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node
+[0.078s] -- The C compiler identification is GNU 11.4.0
+[0.141s] -- The CXX compiler identification is GNU 11.4.0
+[0.148s] -- Detecting C compiler ABI info
+[0.226s] -- Detecting C compiler ABI info - done
+[0.233s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.233s] -- Detecting C compile features
+[0.234s] -- Detecting C compile features - done
+[0.236s] -- Detecting CXX compiler ABI info
+[0.325s] -- Detecting CXX compiler ABI info - done
+[0.332s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.332s] -- Detecting CXX compile features
+[0.333s] -- Detecting CXX compile features - done
+[0.335s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.477s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.561s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.599s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.604s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.612s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.622s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.638s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.677s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.680s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.793s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.821s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.865s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.873s] -- Looking for pthread.h
+[0.956s] -- Looking for pthread.h - found
+[0.956s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.038s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.039s] -- Found Threads: TRUE  
+[1.086s] -- Found ros_serivce: 0.0.0 (/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake)
+[1.114s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.186s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.187s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src>
+[1.187s] -- Configured cppcheck exclude dirs and/or files: 
+[1.187s] -- Added test 'lint_cmake' to check CMake code style
+[1.189s] -- Added test 'uncrustify' to check C / C++ code style
+[1.189s] -- Configured uncrustify additional arguments: 
+[1.190s] -- Added test 'xmllint' to check XML markup files
+[1.191s] -- Configuring done
+[1.203s] -- Generating done
+[1.208s] -- Build files have been written to: /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node
+[1.221s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake /home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node
+[1.223s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node -- -j12 -l12
+[1.271s] [35m[1mConsolidate compiler generated dependencies of target request[0m
+[1.301s] [ 25%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o[0m
+[1.301s] [ 25%] [32mBuilding CXX object CMakeFiles/request.dir/src/main.cpp.o[0m
+[3.505s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.506s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:23:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid MachineController::setState(MachineController::State)[m[K’ is private within this context
+[3.506s]    23 |     [01;31m[KstateMachine.setState(MachineController::State::IDLE)[m[K;
+[3.506s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.506s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:6[m[K:
+[3.506s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:186:10:[m[K [01;36m[Knote: [m[Kdeclared private here
+[3.506s]   186 |     void [01;36m[KsetState[m[K(State new_state) {
+[3.507s]       |          [01;36m[K^~~~~~~~[m[K
+[3.507s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:26:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid MachineController::setState(MachineController::State)[m[K’ is private within this context
+[3.507s]    26 |     [01;31m[KstateMachine.setState(MachineController::State::READY)[m[K;
+[3.507s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.507s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:6[m[K:
+[3.507s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:186:10:[m[K [01;36m[Knote: [m[Kdeclared private here
+[3.507s]   186 |     void [01;36m[KsetState[m[K(State new_state) {
+[3.507s]       |          [01;36m[K^~~~~~~~[m[K
+[3.533s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kint MachineController::setup_User()[m[K’:
+[3.533s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:166:45:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kstd::string&[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>&[m[K’} to an rvalue of type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+[3.533s]   166 |                 data_Base_->set_Ros2_Config([01;31m[K"reset"[m[K, "", 0, 0, 0);
+[3.533s]       |                                             [01;31m[K^~~~~~~[m[K
+[3.534s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[3.534s]                  from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+[3.534s]                  from [01m[K/usr/include/c++/11/system_error:41[m[K,
+[3.534s]                  from [01m[K/usr/include/c++/11/mutex:42[m[K,
+[3.535s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[3.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.535s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5[m[K,
+[3.535s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+[3.535s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[3.535s] [01m[K/usr/include/c++/11/bits/basic_string.h:533:7:[m[K [01;36m[Knote: [m[K  after user-defined conversion: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with <template-parameter-2-1> = std::allocator<char>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[3.535s]   533 |       [01;36m[Kbasic_string[m[K(const _CharT* __s, const _Alloc& __a = _Alloc())
+[3.535s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[3.535s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:9[m[K,
+[3.535s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+[3.535s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[3.535s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/database/DataBase.hpp:47:39:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid DataBase::set_Ros2_Config(std::string&, std::string&, int&, int&, int&)[m[K’
+[3.536s]    47 |     void set_Ros2_Config([01;36m[Kstd::string& demand[m[K ,std::string& mode, int& area_val, int& thresh1_val, int& thresh2_val);
+[3.536s]       |                          [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[3.536s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:178:45:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kstd::string&[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>&[m[K’} to an rvalue of type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+[3.536s]   178 |                 data_Base_->set_Ros2_Config([01;31m[K"update"[m[K, mode, area, t1, t2);
+[3.536s]       |                                             [01;31m[K^~~~~~~~[m[K
+[3.536s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[3.536s]                  from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+[3.536s]                  from [01m[K/usr/include/c++/11/system_error:41[m[K,
+[3.536s]                  from [01m[K/usr/include/c++/11/mutex:42[m[K,
+[3.536s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[3.536s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[3.536s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.537s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5[m[K,
+[3.537s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+[3.537s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[3.537s] [01m[K/usr/include/c++/11/bits/basic_string.h:533:7:[m[K [01;36m[Knote: [m[K  after user-defined conversion: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with <template-parameter-2-1> = std::allocator<char>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[3.537s]   533 |       [01;36m[Kbasic_string[m[K(const _CharT* __s, const _Alloc& __a = _Alloc())
+[3.537s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[3.537s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:9[m[K,
+[3.537s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+[3.537s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[3.537s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/database/DataBase.hpp:47:39:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid DataBase::set_Ros2_Config(std::string&, std::string&, int&, int&, int&)[m[K’
+[3.537s]    47 |     void set_Ros2_Config([01;36m[Kstd::string& demand[m[K ,std::string& mode, int& area_val, int& thresh1_val, int& thresh2_val);
+[3.537s]       |                          [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[4.115s] gmake[2]: *** [CMakeFiles/request.dir/build.make:160: CMakeFiles/request.dir/src/main.cpp.o] Error 1
+[4.115s] gmake[2]: *** Waiting for unfinished jobs....
+[4.138s] gmake[2]: *** [CMakeFiles/request.dir/build.make:146: CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o] Error 1
+[4.139s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2
+[4.139s] gmake: *** [Makefile:146: all] Error 2
+[4.143s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node' returned '2': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node -- -j12 -l12

@@ -1,0 +1,27 @@
+[0.014s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node -- -j12 -l12
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target request[0m
+[0.093s] [ 12%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o[0m
+[0.093s] [ 25%] [32mBuilding CXX object CMakeFiles/request.dir/src/main.cpp.o[0m
+[3.695s] [ 37%] [32m[1mLinking CXX executable request[0m
+[3.952s] [100%] Built target request
+[3.966s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node -- -j12 -l12
+[3.977s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake --install /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node
+[3.985s] -- Install configuration: ""
+[3.985s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/lib/cpp_node/request
+[3.987s] -- Set runtime path of "/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/lib/cpp_node/request" to ""
+[3.988s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/ament_index/resource_index/package_run_dependencies/cpp_node
+[3.988s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/ament_index/resource_index/parent_prefix_path/cpp_node
+[3.988s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/environment/ament_prefix_path.sh
+[3.988s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/environment/ament_prefix_path.dsv
+[3.988s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/environment/path.sh
+[3.988s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/environment/path.dsv
+[3.988s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/local_setup.bash
+[3.988s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/local_setup.sh
+[3.988s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/local_setup.zsh
+[3.988s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/local_setup.dsv
+[3.989s] -- Installing: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/package.dsv
+[3.989s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/ament_index/resource_index/packages/cpp_node
+[3.989s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig.cmake
+[3.989s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig-version.cmake
+[3.989s] -- Up-to-date: /home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node/share/cpp_node/package.xml
+[3.991s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake --install /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node

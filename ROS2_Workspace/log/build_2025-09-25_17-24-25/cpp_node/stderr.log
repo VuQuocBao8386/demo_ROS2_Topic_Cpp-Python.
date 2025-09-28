@@ -1,0 +1,47 @@
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:[m[K In member function ‘[01m[Kbool Ros_Cpp::send_request_data(const string&)[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:40:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kprocess_client_[m[K’ was not declared in this scope; did you mean ‘[01m[Krequest_client_[m[K’?
+   40 |     if (![01;31m[Kprocess_client_[m[K->wait_for_service(std::chrono::seconds(2))) {
+      |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |          [32m[Krequest_client_[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:46:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct ros_serivce::srv::RequestData_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct ros_serivce::srv::RequestData_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kstart_communication[m[K’
+   46 |     request->[01;31m[Kstart_communication[m[K = command;
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:48:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kprocess_client_[m[K’ was not declared in this scope; did you mean ‘[01m[Krequest_client_[m[K’?
+   48 |     auto future = [01;31m[Kprocess_client_[m[K->async_send_request(request);
+      |                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                   [32m[Krequest_client_[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:[m[K In member function ‘[01m[Kvoid Ros_Cpp::check_services()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:80:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kprocess_client_[m[K’ was not declared in this scope; did you mean ‘[01m[Krequest_client_[m[K’?
+   80 |     bool process_ok = [01;31m[Kprocess_client_[m[K->wait_for_service(std::chrono::seconds(0));
+      |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                       [32m[Krequest_client_[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kvoid MachineController::rosLoop()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:11:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Ros_Cpp[m[K’ {aka ‘[01m[Kclass Ros_Cpp[m[K’} has no member named ‘[01m[Kspin_some[m[K’
+   11 |     void MachineController::rosLoop()     { ros_->[01;31m[Kspin_some[m[K(); store_data_->pushROS("ros-event"); }
+      |                                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:11:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kstore_data_[m[K’ was not declared in this scope
+   11 |     void MachineController::rosLoop()     { ros_->spin_some(); [01;31m[Kstore_data_[m[K->pushROS("ros-event"); }
+      |                                                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kvoid MachineController::mcuLoop()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:23:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class serial_UART[m[K’ {aka ‘[01m[Kclass serial_UART[m[K’} has no member named ‘[01m[KreadData[m[K’
+   23 |     void MachineController::mcuLoop()     { auto d = serial_UART_->[01;31m[KreadData[m[K(); store_data_->pushMCU(d); }
+      |                                                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:23:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kstore_data_[m[K’ was not declared in this scope
+   23 |     void MachineController::mcuLoop()     { auto d = serial_UART_->readData(); [01;31m[Kstore_data_[m[K->pushMCU(d); }
+      |                                                                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kvoid MachineController::engineLoop()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:29:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Engine[m[K’ {aka ‘[01m[Kclass Engine[m[K’} has no member named ‘[01m[KrunOnce[m[K’
+   29 |     void MachineController::engineLoop()  { auto r = engine_->[01;31m[KrunOnce[m[K(); store_data_->pushEngine(r); }
+      |                                                               [01;31m[K^~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:29:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kstore_data_[m[K’ was not declared in this scope
+   29 |     void MachineController::engineLoop()  { auto r = engine_->runOnce(); [01;31m[Kstore_data_[m[K->pushEngine(r); }
+      |                                                                          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:[m[K In member function ‘[01m[Kbool Ros_Cpp::send_request_data(const string&)[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:74:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   74 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/request.dir/build.make:76: CMakeFiles/request.dir/src/demo/communication/ros_Service.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/request.dir/build.make:146: CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

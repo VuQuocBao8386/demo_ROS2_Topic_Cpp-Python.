@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros_serivce/srv/RequestData.srv
+// generated code does not contain a copyright notice
+
+
+module ros_serivce {
+  module srv {
+    struct RequestData_Request {
+      boolean ros_request_data;
+    };
+    struct RequestData_Response {
+      sequence<int32> data;
+
+      boolean send_success;
+    };
+  };
+};

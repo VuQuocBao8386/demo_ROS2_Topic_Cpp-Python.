@@ -1,0 +1,9 @@
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:[m[K In member function ‘[01m[Kbool Ros_Cpp::send_request_data(const string&)[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.cpp:46:33:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kros_serivce::srv::RequestData_Request_<std::allocator<void> >::_ros_request_data_type[m[K’ {aka ‘[01m[Kbool[m[K’} in assignment
+   46 |     request->ros_request_data = [01;31m[Kcommand[m[K;
+      |                                 [01;31m[K^~~~~~~[m[K
+      |                                 [01;31m[K|[m[K
+      |                                 [01;31m[Kconst string {aka const std::__cxx11::basic_string<char>}[m[K
+gmake[2]: *** [CMakeFiles/request.dir/build.make:76: CMakeFiles/request.dir/src/demo/communication/ros_Service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

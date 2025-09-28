@@ -1,0 +1,10 @@
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kvoid MachineController::mcuIdle()[m[K’:
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:21:31:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kserial_UART::checking_Serial[m[K’ from type ‘[01m[Kbool (serial_UART::)()[m[K’ to type ‘[01m[Kbool[m[K’
+   21 |         while (!serial_UART_->[01;31m[Kchecking_Serial[m[K);
+      |                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:21:31:[m[K [01;31m[Kerror: [m[Kin argument to unary !
+   21 |         while (![01;31m[Kserial_UART_->checking_Serial[m[K);
+      |                 [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/request.dir/build.make:146: CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

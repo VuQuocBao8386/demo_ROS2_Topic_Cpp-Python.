@@ -1,0 +1,819 @@
+[0.013s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake /home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.132s] -- The CXX compiler identification is GNU 11.4.0
+[0.141s] -- Detecting C compiler ABI info
+[0.223s] -- Detecting C compiler ABI info - done
+[0.230s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.230s] -- Detecting C compile features
+[0.230s] -- Detecting C compile features - done
+[0.233s] -- Detecting CXX compiler ABI info
+[0.320s] -- Detecting CXX compiler ABI info - done
+[0.327s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.327s] -- Detecting CXX compile features
+[0.327s] -- Detecting CXX compile features - done
+[0.332s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.472s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.559s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.599s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.604s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.612s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.623s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.639s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.683s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.685s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.805s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.832s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.876s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.893s] -- Looking for pthread.h
+[0.972s] -- Looking for pthread.h - found
+[0.972s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.053s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.055s] -- Found Threads: TRUE  
+[1.100s] -- Found ros_serivce: 0.0.0 (/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce/share/ros_serivce/cmake)
+[1.127s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.201s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.201s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src>
+[1.201s] -- Configured cppcheck exclude dirs and/or files: 
+[1.202s] -- Added test 'lint_cmake' to check CMake code style
+[1.205s] -- Added test 'uncrustify' to check C / C++ code style
+[1.205s] -- Configured uncrustify additional arguments: 
+[1.205s] -- Added test 'xmllint' to check XML markup files
+[1.206s] -- Configuring done
+[1.218s] -- Generating done
+[1.222s] -- Build files have been written to: /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node
+[1.236s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake /home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node
+[1.239s] Invoking command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node -- -j12 -l12
+[1.287s] [35m[1mConsolidate compiler generated dependencies of target request[0m
+[1.317s] [ 12%] [32mBuilding CXX object CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o[0m
+[1.317s] [ 25%] [32mBuilding CXX object CMakeFiles/request.dir/src/main.cpp.o[0m
+[3.483s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:5:6:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMachineController::[m[K’ on member ‘[01m[KrosIdle[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.484s]     5 | bool [01;31m[KMachineController[m[K::rosIdle()
+[3.484s]       |      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.484s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:22:6:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMachineController::[m[K’ on member ‘[01m[KrosSetup[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.484s]    22 | bool [01;31m[KMachineController[m[K::rosSetup() {
+[3.484s]       |      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.484s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:34:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMachineController::[m[K’ on member ‘[01m[KrosLoop[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.484s]    34 |     void [01;31m[KMachineController[m[K::rosLoop()    {}
+[3.485s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.485s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:35:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMachineController::[m[K’ on member ‘[01m[KrosError[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.485s]    35 |     void [01;31m[KMachineController[m[K::rosError()   {}
+[3.485s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.485s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:36:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMachineController::[m[K’ on member ‘[01m[KrosShutdown[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.485s]    36 |     void [01;31m[KMachineController[m[K::rosShutdown(){}
+[3.485s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.485s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:42:6:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMachineController::[m[K’ on member ‘[01m[KmcuIdle[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.485s]    42 | bool [01;31m[KMachineController[m[K::mcuIdle() {
+[3.486s]       |      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.486s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:58:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMachineController::[m[K’ on member ‘[01m[KmcuLoop[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.486s]    58 |     void [01;31m[KMachineController[m[K::mcuLoop()   {}
+[3.486s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.486s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:59:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMachineController::[m[K’ on member ‘[01m[KmcuError[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.486s]    59 |     void [01;31m[KMachineController[m[K::mcuError()   {}
+[3.486s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.486s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:60:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMachineController::[m[K’ on member ‘[01m[KmcuShutdown[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.486s]    60 |     void [01;31m[KMachineController[m[K::mcuShutdown(){}
+[3.486s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.486s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:64:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMachineController::[m[K’ on member ‘[01m[KengineLoop[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.486s]    64 |     void [01;31m[KMachineController[m[K::engineLoop() {}
+[3.486s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.486s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:65:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMachineController::[m[K’ on member ‘[01m[KengineError[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.486s]    65 |     void [01;31m[KMachineController[m[K::engineError() {}
+[3.486s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.487s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:66:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMachineController::[m[K’ on member ‘[01m[KengineShutdown[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.487s]    66 |     void [01;31m[KMachineController[m[K::engineShutdown(){}
+[3.487s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.487s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:72:5:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMachineController::[m[K’ on member ‘[01m[Ksetup_User[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.487s]    72 | int [01;31m[KMachineController[m[K::setup_User() {
+[3.487s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.487s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:147:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[3.487s]   147 | }
+[3.487s]       |  [01;31m[K^[m[K
+[3.487s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[3.487s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:17:25:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[3.487s]    17 | class MachineController [01;36m[K{[m[K
+[3.487s]       |                         [01;36m[K^[m[K
+[3.489s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In constructor ‘[01m[KMachineController::MachineController(std::shared_ptr<Ros_Cpp>, std::shared_ptr<serial_UART>, std::shared_ptr<DataBase>, std::shared_ptr<Engine>)[m[K’:
+[3.489s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:27:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMachineController[m[K’ does not have any field named ‘[01m[Kros_[m[K’
+[3.489s]    27 |         : [01;31m[Kros_[m[K(roscpp),
+[3.489s]       |           [01;31m[K^~~~[m[K
+[3.489s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:28:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMachineController[m[K’ does not have any field named ‘[01m[Kserial_UART_[m[K’
+[3.489s]    28 |           [01;31m[Kserial_UART_[m[K(serialuart),
+[3.489s]       |           [01;31m[K^~~~~~~~~~~~[m[K
+[3.489s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:29:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMachineController[m[K’ does not have any field named ‘[01m[Kdata_Base_[m[K’
+[3.489s]    29 |           [01;31m[Kdata_Base_[m[K(database),
+[3.489s]       |           [01;31m[K^~~~~~~~~~[m[K
+[3.489s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:30:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMachineController[m[K’ does not have any field named ‘[01m[Kengine_[m[K’
+[3.490s]    30 |           [01;31m[Kengine_[m[K(engine),
+[3.490s]       |           [01;31m[K^~~~~~~[m[K
+[3.490s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:31:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMachineController[m[K’ does not have any field named ‘[01m[Kstop_flag[m[K’
+[3.490s]    31 |           [01;31m[Kstop_flag[m[K(false) {}
+[3.490s]       |           [01;31m[K^~~~~~~~~[m[K
+[3.493s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In destructor ‘[01m[KMachineController::~MachineController()[m[K’:
+[3.494s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:33:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstop[m[K’ was not declared in this scope
+[3.494s]    33 |     ~MachineController() { [01;31m[Kstop[m[K(); joinThreads(); }
+[3.494s]       |                            [01;31m[K^~~~[m[K
+[3.500s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:33:36:[m[K [01;31m[Kerror: [m[K‘[01m[KjoinThreads[m[K’ was not declared in this scope
+[3.500s]    33 |     ~MachineController() { stop(); [01;31m[KjoinThreads[m[K(); }
+[3.500s]       |                                    [01;31m[K^~~~~~~~~~~[m[K
+[3.505s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::start()[m[K’:
+[3.505s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:37:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kthreads[m[K’ was not declared in this scope; did you mean ‘[01m[Kread[m[K’?
+[3.505s]    37 |         [01;31m[Kthreads[m[K.emplace_back(&MachineController::runROS2, this);
+[3.505s]       |         [01;31m[K^~~~~~~[m[K
+[3.505s]       |         [32m[Kread[m[K
+[3.505s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:37:50:[m[K [01;31m[Kerror: [m[K‘[01m[KrunROS2[m[K’ is not a member of ‘[01m[KMachineController[m[K’
+[3.506s]    37 |         threads.emplace_back(&MachineController::[01;31m[KrunROS2[m[K, this);
+[3.506s]       |                                                  [01;31m[K^~~~~~~[m[K
+[3.506s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:38:50:[m[K [01;31m[Kerror: [m[K‘[01m[KrunMCU[m[K’ is not a member of ‘[01m[KMachineController[m[K’
+[3.506s]    38 |         threads.emplace_back(&MachineController::[01;31m[KrunMCU[m[K, this);
+[3.506s]       |                                                  [01;31m[K^~~~~~[m[K
+[3.506s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:39:50:[m[K [01;31m[Kerror: [m[K‘[01m[KrunEngine[m[K’ is not a member of ‘[01m[KMachineController[m[K’
+[3.506s]    39 |         threads.emplace_back(&MachineController::[01;31m[KrunEngine[m[K, this);
+[3.506s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[3.511s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::setState(MachineController::State)[m[K’:
+[3.511s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:44:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate_mutex[m[K’ was not declared in this scope
+[3.511s]    44 |             std::lock_guard<std::mutex> lock([01;31m[Kstate_mutex[m[K);
+[3.511s]       |                                              [01;31m[K^~~~~~~~~~~[m[K
+[3.517s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:45:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_state[m[K’ was not declared in this scope
+[3.517s]    45 |             [01;31m[Kcurrent_state[m[K = new_state;
+[3.518s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[3.522s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:50:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_ros[m[K’ was not declared in this scope
+[3.522s]    50 |                 [01;31m[Kcv_ros[m[K.notify_one();
+[3.522s]       |                 [01;31m[K^~~~~~[m[K
+[3.524s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:36:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[3.524s]    36 | }
+[3.524s]       |  [01;31m[K^[m[K
+[3.524s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:6[m[K:
+[3.524s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:17:25:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[3.524s]    17 | class MachineController [01;36m[K{[m[K
+[3.524s]       |                         [01;36m[K^[m[K
+[3.527s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:51:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_mcu[m[K’ was not declared in this scope
+[3.528s]    51 |                 [01;31m[Kcv_mcu[m[K.notify_one();
+[3.528s]       |                 [01;31m[K^~~~~~[m[K
+[3.528s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:70:33:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char*[m[K’ to ‘[01m[Kdouble[m[K’
+[3.528s]    70 |                             log([01;31m[K"Update successful ✅"[m[K);
+[3.528s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.529s]       |                                 [01;31m[K|[m[K
+[3.529s]       |                                 [01;31m[Kconst char*[m[K
+[3.529s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[3.529s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[3.529s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[3.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[3.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[3.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.529s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5[m[K,
+[3.530s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+[3.530s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[3.530s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble log(double)[m[K’
+[3.530s]   104 | [01;36m[K_[m[K_MATHCALL_VEC (log,, (_Mdouble_ __x));
+[3.530s]       | [01;36m[K^[m[K
+[3.530s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[3.530s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:81:33:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char*[m[K’ to ‘[01m[Kdouble[m[K’
+[3.530s]    81 |                             log([01;31m[K"Invalid choice, try again."[m[K);
+[3.530s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.530s]       |                                 [01;31m[K|[m[K
+[3.530s]       |                                 [01;31m[Kconst char*[m[K
+[3.530s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[3.530s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[3.530s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[3.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[3.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[3.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.531s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5[m[K,
+[3.531s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+[3.531s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[3.531s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble log(double)[m[K’
+[3.531s]   104 | [01;36m[K_[m[K_MATHCALL_VEC (log,, (_Mdouble_ __x));
+[3.531s]       | [01;36m[K^[m[K
+[3.531s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[3.531s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:88:25:[m[K [01;31m[Kerror: [m[Kjump to case label
+[3.531s]    88 |             case State::[01;31m[KREADY[m[K:
+[3.531s]       |                         [01;31m[K^~~~~[m[K
+[3.531s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kbool done[m[K’
+[3.531s]    61 |                 bool [01;36m[Kdone[m[K = false;
+[3.531s]       |                      [01;36m[K^~~~[m[K
+[3.531s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:90:25:[m[K [01;31m[Kerror: [m[Kjump to case label
+[3.531s]    90 |             case State::[01;31m[KRUNNING[m[K:
+[3.531s]       |                         [01;31m[K^~~~~~~[m[K
+[3.531s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kbool done[m[K’
+[3.532s]    61 |                 bool [01;36m[Kdone[m[K = false;
+[3.532s]       |                      [01;36m[K^~~~[m[K
+[3.532s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:93:25:[m[K [01;31m[Kerror: [m[Kjump to case label
+[3.532s]    93 |             case State::[01;31m[KERROR[m[K:
+[3.532s]       |                         [01;31m[K^~~~~[m[K
+[3.532s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kbool done[m[K’
+[3.532s]    61 |                 bool [01;36m[Kdone[m[K = false;
+[3.532s]       |                      [01;36m[K^~~~[m[K
+[3.532s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:96:25:[m[K [01;31m[Kerror: [m[Kjump to case label
+[3.532s]    96 |             case State::[01;31m[KSHUTDOWN[m[K:
+[3.532s]       |                         [01;31m[K^~~~~~~~[m[K
+[3.532s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kbool done[m[K’
+[3.532s]    61 |                 bool [01;36m[Kdone[m[K = false;
+[3.532s]       |                      [01;36m[K^~~~[m[K
+[3.532s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In constructor ‘[01m[KMachineController::MachineController(std::shared_ptr<Ros_Cpp>, std::shared_ptr<serial_UART>, std::shared_ptr<DataBase>, std::shared_ptr<Engine>)[m[K’:
+[3.532s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:27:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMachineController[m[K’ does not have any field named ‘[01m[Kros_[m[K’
+[3.532s]    27 |         : [01;31m[Kros_[m[K(roscpp),
+[3.532s]       |           [01;31m[K^~~~[m[K
+[3.532s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:28:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMachineController[m[K’ does not have any field named ‘[01m[Kserial_UART_[m[K’
+[3.532s]    28 |           [01;31m[Kserial_UART_[m[K(serialuart),
+[3.533s]       |           [01;31m[K^~~~~~~~~~~~[m[K
+[3.533s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:29:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMachineController[m[K’ does not have any field named ‘[01m[Kdata_Base_[m[K’
+[3.533s]    29 |           [01;31m[Kdata_Base_[m[K(database),
+[3.533s]       |           [01;31m[K^~~~~~~~~~[m[K
+[3.533s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:30:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMachineController[m[K’ does not have any field named ‘[01m[Kengine_[m[K’
+[3.533s]    30 |           [01;31m[Kengine_[m[K(engine),
+[3.533s]       |           [01;31m[K^~~~~~~[m[K
+[3.533s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:31:11:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMachineController[m[K’ does not have any field named ‘[01m[Kstop_flag[m[K’
+[3.533s]    31 |           [01;31m[Kstop_flag[m[K(false) {}
+[3.533s]       |           [01;31m[K^~~~~~~~~[m[K
+[3.534s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In destructor ‘[01m[KMachineController::~MachineController()[m[K’:
+[3.534s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:33:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstop[m[K’ was not declared in this scope
+[3.534s]    33 |     ~MachineController() { [01;31m[Kstop[m[K(); joinThreads(); }
+[3.534s]       |                            [01;31m[K^~~~[m[K
+[3.534s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:99:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_engine[m[K’ was not declared in this scope; did you mean ‘[01m[KEngine[m[K’?
+[3.534s]    99 |                 [01;31m[Kcv_engine[m[K.notify_one();
+[3.534s]       |                 [01;31m[K^~~~~~~~~[m[K
+[3.534s]       |                 [32m[KEngine[m[K
+[3.534s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:101:13:[m[K [01;31m[Kerror: [m[Kjump to case label
+[3.534s]   101 |             [01;31m[Kdefault[m[K:
+[3.535s]       |             [01;31m[K^~~~~~~[m[K
+[3.535s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kbool done[m[K’
+[3.535s]    61 |                 bool [01;36m[Kdone[m[K = false;
+[3.535s]       |                      [01;36m[K^~~~[m[K
+[3.535s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:48:16:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KREADY[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.535s]    48 |         switch [01;35m[K([m[Knew_state) {
+[3.535s]       |                [01;35m[K^[m[K
+[3.535s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:48:16:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KRUNNING[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.535s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:48:16:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KERROR[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.535s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:48:16:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSHUTDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.535s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:107:17:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.535s]   107 |     void stop() [01;31m[K{[m[K
+[3.535s]       |                 [01;31m[K^[m[K
+[3.535s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:114:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+[3.535s]   114 | [01;31m[Kprivate[m[K:
+[3.535s]       | [01;31m[K^~~~~~~[m[K
+[3.540s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:33:36:[m[K [01;31m[Kerror: [m[K‘[01m[KjoinThreads[m[K’ was not declared in this scope
+[3.540s]    33 |     ~MachineController() { stop(); [01;31m[KjoinThreads[m[K(); }
+[3.540s]       |                                    [01;31m[K^~~~~~~~~~~[m[K
+[3.543s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:129:20:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.544s]   129 |     void runROS2() [01;31m[K{[m[K
+[3.544s]       |                    [01;31m[K^[m[K
+[3.544s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:157:19:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.544s]   157 |     void runMCU() [01;31m[K{[m[K
+[3.544s]       |                   [01;31m[K^[m[K
+[3.544s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:185:22:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.544s]   185 |     void runEngine() [01;31m[K{[m[K
+[3.544s]       |                      [01;31m[K^[m[K
+[3.545s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:201:17:[m[K [01;35m[Kwarning: [m[Kempty parentheses were disambiguated as a function declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse-Wvexing-parse]8;;[m[K]
+[3.545s]   201 |     bool rosIdle[01;35m[K()[m[K;     // check ros serivce already
+[3.545s]       |                 [01;35m[K^~[m[K
+[3.545s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:201:17:[m[K [01;36m[Knote: [m[Kremove parentheses to default-initialize a variable
+[3.545s]   201 |     bool rosIdle[01;36m[K()[m[K;     // check ros serivce already
+[3.545s]       |                 [01;36m[K^~[m[K
+[3.545s]       |                 [31m[K--[m[K
+[3.545s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:201:17:[m[K [01;36m[Knote: [m[Kor replace parentheses with braces to value-initialize a variable
+[3.546s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:202:18:[m[K [01;35m[Kwarning: [m[Kempty parentheses were disambiguated as a function declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse-Wvexing-parse]8;;[m[K]
+[3.546s]   202 |     bool rosSetup[01;35m[K()[m[K;
+[3.546s]       |                  [01;35m[K^~[m[K
+[3.546s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:202:18:[m[K [01;36m[Knote: [m[Kremove parentheses to default-initialize a variable
+[3.546s]   202 |     bool rosSetup[01;36m[K()[m[K;
+[3.546s]       |                  [01;36m[K^~[m[K
+[3.546s]       |                  [31m[K--[m[K
+[3.546s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:202:18:[m[K [01;36m[Knote: [m[Kor replace parentheses with braces to value-initialize a variable
+[3.546s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:207:17:[m[K [01;35m[Kwarning: [m[Kempty parentheses were disambiguated as a function declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse-Wvexing-parse]8;;[m[K]
+[3.546s]   207 |     bool mcuIdle[01;35m[K()[m[K;    // check Mcu Serial already
+[3.546s]       |                 [01;35m[K^~[m[K
+[3.546s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:207:17:[m[K [01;36m[Knote: [m[Kremove parentheses to default-initialize a variable
+[3.546s]   207 |     bool mcuIdle[01;36m[K()[m[K;    // check Mcu Serial already
+[3.546s]       |                 [01;36m[K^~[m[K
+[3.546s]       |                 [31m[K--[m[K
+[3.546s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:207:17:[m[K [01;36m[Knote: [m[Kor replace parentheses with braces to value-initialize a variable
+[3.546s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:217:24:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.546s]   217 |     void joinThreads() [01;31m[K{[m[K
+[3.546s]       |                        [01;31m[K^[m[K
+[3.546s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:220:38:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.547s]   220 |     void log(const std::string &msg) [01;31m[K{[m[K
+[3.547s]       |                                      [01;31m[K^[m[K
+[3.547s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:224:19:[m[K [01;35m[Kwarning: [m[Kempty parentheses were disambiguated as a function declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse-Wvexing-parse]8;;[m[K]
+[3.547s]   224 |     int setup_User[01;35m[K()[m[K;
+[3.547s]       |                   [01;35m[K^~[m[K
+[3.547s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:224:19:[m[K [01;36m[Knote: [m[Kremove parentheses to default-initialize a variable
+[3.547s]   224 |     int setup_User[01;36m[K()[m[K;
+[3.547s]       |                   [01;36m[K^~[m[K
+[3.547s]       |                   [31m[K--[m[K
+[3.547s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:224:19:[m[K [01;36m[Knote: [m[Kor replace parentheses with braces to value-initialize a variable
+[3.547s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:121:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstop_flag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.547s]   121 |     std::atomic<bool> [01;35m[Kstop_flag[m[K;
+[3.547s]       |                       [01;35m[K^~~~~~~~~[m[K
+[3.547s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::start()[m[K’:
+[3.547s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:37:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kthreads[m[K’ was not declared in this scope; did you mean ‘[01m[Kread[m[K’?
+[3.547s]    37 |         [01;31m[Kthreads[m[K.emplace_back(&MachineController::runROS2, this);
+[3.547s]       |         [01;31m[K^~~~~~~[m[K
+[3.547s]       |         [32m[Kread[m[K
+[3.547s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:37:50:[m[K [01;31m[Kerror: [m[K‘[01m[KrunROS2[m[K’ is not a member of ‘[01m[KMachineController[m[K’
+[3.547s]    37 |         threads.emplace_back(&MachineController::[01;31m[KrunROS2[m[K, this);
+[3.548s]       |                                                  [01;31m[K^~~~~~~[m[K
+[3.548s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:38:50:[m[K [01;31m[Kerror: [m[K‘[01m[KrunMCU[m[K’ is not a member of ‘[01m[KMachineController[m[K’
+[3.548s]    38 |         threads.emplace_back(&MachineController::[01;31m[KrunMCU[m[K, this);
+[3.548s]       |                                                  [01;31m[K^~~~~~[m[K
+[3.548s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:39:50:[m[K [01;31m[Kerror: [m[K‘[01m[KrunEngine[m[K’ is not a member of ‘[01m[KMachineController[m[K’
+[3.548s]    39 |         threads.emplace_back(&MachineController::[01;31m[KrunEngine[m[K, this);
+[3.548s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[3.549s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kbool MachineController::rosIdle()[m[K’:
+[3.549s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:7:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstop_flag[m[K’ was not declared in this scope
+[3.550s]     7 |     if ([01;31m[Kstop_flag[m[K) return false;
+[3.550s]       |         [01;31m[K^~~~~~~~~[m[K
+[3.551s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:[m[K In member function ‘[01m[Kvoid MachineController::setState(MachineController::State)[m[K’:
+[3.552s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:44:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate_mutex[m[K’ was not declared in this scope
+[3.552s]    44 |             std::lock_guard<std::mutex> lock([01;31m[Kstate_mutex[m[K);
+[3.552s]       |                                              [01;31m[K^~~~~~~~~~~[m[K
+[3.554s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_[m[K’ was not declared in this scope
+[3.554s]     9 |     if ([01;31m[Kros_[m[K->Ros_Connect()) {
+[3.555s]       |         [01;31m[K^~~~[m[K
+[3.555s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:10:13:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char*[m[K’ to ‘[01m[Kdouble[m[K’
+[3.555s]    10 |         log([01;31m[K"[ROS] connected!"[m[K);
+[3.555s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.555s]       |             [01;31m[K|[m[K
+[3.555s]       |             [01;31m[Kconst char*[m[K
+[3.555s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[3.555s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[3.555s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[3.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[3.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[3.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.556s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5[m[K,
+[3.556s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+[3.556s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[3.556s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble log(double)[m[K’
+[3.556s]   104 | [01;36m[K_[m[K_MATHCALL_VEC (log,, (_Mdouble_ __x));
+[3.556s]       | [01;36m[K^[m[K
+[3.556s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:15:14:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char*[m[K’ to ‘[01m[Kdouble[m[K’
+[3.556s]    15 |         log( [01;31m[K"[ROS] waiting for services..."[m[K);
+[3.556s]       |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.557s]       |              [01;31m[K|[m[K
+[3.557s]       |              [01;31m[Kconst char*[m[K
+[3.557s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[3.557s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[3.557s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[3.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[3.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[3.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.557s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5[m[K,
+[3.557s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+[3.557s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[3.557s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble log(double)[m[K’
+[3.557s]   104 | [01;36m[K_[m[K_MATHCALL_VEC (log,, (_Mdouble_ __x));
+[3.557s]       | [01;36m[K^[m[K
+[3.558s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:45:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_state[m[K’ was not declared in this scope
+[3.558s]    45 |             [01;31m[Kcurrent_state[m[K = new_state;
+[3.558s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[3.560s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kbool MachineController::rosSetup()[m[K’:
+[3.560s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:23:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_Base_[m[K’ was not declared in this scope; did you mean ‘[01m[KDataBase[m[K’?
+[3.560s]    23 |     std::string demand = [01;31m[Kdata_Base_[m[K->get_Ros2_Demand();
+[3.560s]       |                          [01;31m[K^~~~~~~~~~[m[K
+[3.560s]       |                          [32m[KDataBase[m[K
+[3.562s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:50:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_ros[m[K’ was not declared in this scope
+[3.562s]    50 |                 [01;31m[Kcv_ros[m[K.notify_one();
+[3.562s]       |                 [01;31m[K^~~~~~[m[K
+[3.564s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:25:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_[m[K’ was not declared in this scope
+[3.564s]    25 |     while (![01;31m[Kros_[m[K->send_update_config(demand)) {
+[3.564s]       |             [01;31m[K^~~~[m[K
+[3.567s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:51:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_mcu[m[K’ was not declared in this scope
+[3.567s]    51 |                 [01;31m[Kcv_mcu[m[K.notify_one();
+[3.567s]       |                 [01;31m[K^~~~~~[m[K
+[3.570s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kbool MachineController::mcuIdle()[m[K’:
+[3.570s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:44:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstop_flag[m[K’ was not declared in this scope
+[3.570s]    44 |     if ([01;31m[Kstop_flag[m[K) return false;
+[3.570s]       |         [01;31m[K^~~~~~~~~[m[K
+[3.572s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:53:21:[m[K [01;31m[Kerror: [m[K‘[01m[KmcuIdle[m[K’ was not declared in this scope
+[3.572s]    53 |                 if ([01;31m[KmcuIdle[m[K() && rosIdle())
+[3.572s]       |                     [01;31m[K^~~~~~~[m[K
+[3.574s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:46:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_UART_[m[K’ was not declared in this scope; did you mean ‘[01m[Kserial_UART[m[K’?
+[3.574s]    46 |     if ([01;31m[Kserial_UART_[m[K->checking_Serial()) {
+[3.574s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[3.574s]       |         [32m[Kserial_UART[m[K
+[3.574s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:47:13:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char*[m[K’ to ‘[01m[Kdouble[m[K’
+[3.574s]    47 |         log([01;31m[K"[MCU] Connected !"[m[K);
+[3.574s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.575s]       |             [01;31m[K|[m[K
+[3.575s]       |             [01;31m[Kconst char*[m[K
+[3.575s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[3.575s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[3.575s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[3.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[3.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[3.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.576s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5[m[K,
+[3.576s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+[3.576s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[3.576s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble log(double)[m[K’
+[3.576s]   104 | [01;36m[K_[m[K_MATHCALL_VEC (log,, (_Mdouble_ __x));
+[3.576s]       | [01;36m[K^[m[K
+[3.576s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:50:13:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char*[m[K’ to ‘[01m[Kdouble[m[K’
+[3.576s]    50 |         log([01;31m[K"[MCU] Waiting for connecting serial..."[m[K);
+[3.576s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.577s]       |             [01;31m[K|[m[K
+[3.577s]       |             [01;31m[Kconst char*[m[K
+[3.577s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[3.577s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[3.577s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[3.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[3.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[3.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.577s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5[m[K,
+[3.577s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+[3.577s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[3.577s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble log(double)[m[K’
+[3.577s]   104 | [01;36m[K_[m[K_MATHCALL_VEC (log,, (_Mdouble_ __x));
+[3.578s]       | [01;36m[K^[m[K
+[3.578s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K In member function ‘[01m[Kint MachineController::setup_User()[m[K’:
+[3.578s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:73:9:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char*[m[K’ to ‘[01m[Kdouble[m[K’
+[3.578s]    73 |     log([01;31m[K"______________ Type your option: ______________"[m[K);
+[3.578s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.578s]       |         [01;31m[K|[m[K
+[3.578s]       |         [01;31m[Kconst char*[m[K
+[3.578s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[3.578s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[3.578s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[3.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[3.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[3.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.579s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5[m[K,
+[3.579s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+[3.579s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[3.579s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble log(double)[m[K’
+[3.579s]   104 | [01;36m[K_[m[K_MATHCALL_VEC (log,, (_Mdouble_ __x));
+[3.579s]       | [01;36m[K^[m[K
+[3.579s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:85:13:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char*[m[K’ to ‘[01m[Kdouble[m[K’
+[3.579s]    85 |         log([01;31m[K"Invalid input (non-numeric)."[m[K);
+[3.579s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.579s]       |             [01;31m[K|[m[K
+[3.579s]       |             [01;31m[Kconst char*[m[K
+[3.579s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[3.579s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[3.579s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[3.579s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[3.579s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[3.579s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.579s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.579s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.579s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.579s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.580s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.580s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.580s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.580s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5[m[K,
+[3.580s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+[3.580s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[3.580s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble log(double)[m[K’
+[3.580s]   104 | [01;36m[K_[m[K_MATHCALL_VEC (log,, (_Mdouble_ __x));
+[3.580s]       | [01;36m[K^[m[K
+[3.580s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:53:34:[m[K [01;31m[Kerror: [m[K‘[01m[KrosIdle[m[K’ was not declared in this scope
+[3.580s]    53 |                 if (mcuIdle() && [01;31m[KrosIdle[m[K())
+[3.580s]       |                                  [01;31m[K^~~~~~~[m[K
+[3.581s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:96:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_Base_[m[K’ was not declared in this scope; did you mean ‘[01m[KDataBase[m[K’?
+[3.581s]    96 |             [01;31m[Kdata_Base_[m[K->create_WoodBar(name, _length, _width);
+[3.581s]       |             [01;31m[K^~~~~~~~~~[m[K
+[3.581s]       |             [32m[KDataBase[m[K
+[3.581s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:97:17:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char*[m[K’ to ‘[01m[Kdouble[m[K’
+[3.581s]    97 |             log([01;31m[K"User information updated."[m[K);
+[3.581s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.581s]       |                 [01;31m[K|[m[K
+[3.581s]       |                 [01;31m[Kconst char*[m[K
+[3.581s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[3.581s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[3.581s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[3.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[3.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[3.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.582s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5[m[K,
+[3.582s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+[3.582s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[3.582s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble log(double)[m[K’
+[3.582s]   104 | [01;36m[K_[m[K_MATHCALL_VEC (log,, (_Mdouble_ __x));
+[3.582s]       | [01;36m[K^[m[K
+[3.582s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:102:17:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char*[m[K’ to ‘[01m[Kdouble[m[K’
+[3.582s]   102 |             log([01;31m[K"Create demand segments..."[m[K);
+[3.582s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.582s]       |                 [01;31m[K|[m[K
+[3.583s]       |                 [01;31m[Kconst char*[m[K
+[3.583s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[3.583s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[3.583s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[3.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[3.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[3.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.584s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5[m[K,
+[3.584s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+[3.584s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[3.584s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble log(double)[m[K’
+[3.584s]   104 | [01;36m[K_[m[K_MATHCALL_VEC (log,, (_Mdouble_ __x));
+[3.584s]       | [01;36m[K^[m[K
+[3.584s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:64:34:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetup_User[m[K’ was not declared in this scope
+[3.584s]    64 |                     int action = [01;31m[Ksetup_User[m[K();  // return user choice
+[3.584s]       |                                  [01;31m[K^~~~~~~~~~[m[K
+[3.584s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:70:33:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char*[m[K’ to ‘[01m[Kdouble[m[K’
+[3.584s]    70 |                             log([01;31m[K"Update successful ✅"[m[K);
+[3.584s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.584s]       |                                 [01;31m[K|[m[K
+[3.584s]       |                                 [01;31m[Kconst char*[m[K
+[3.584s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[3.584s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[3.584s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[3.584s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[3.584s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[3.584s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.584s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.585s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.585s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.585s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.585s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.585s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.585s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.585s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:1[m[K:
+[3.585s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble log(double)[m[K’
+[3.585s]   104 | [01;36m[K_[m[K_MATHCALL_VEC (log,, (_Mdouble_ __x));
+[3.585s]       | [01;36m[K^[m[K
+[3.587s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:114:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_Base_[m[K’ was not declared in this scope; did you mean ‘[01m[KDataBase[m[K’?
+[3.587s]   114 |                     [01;31m[Kdata_Base_[m[K->create_DemandSegment(l, w, q);
+[3.587s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[3.588s]       |                     [32m[KDataBase[m[K
+[3.588s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:116:17:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char*[m[K’ to ‘[01m[Kdouble[m[K’
+[3.588s]   116 |             log([01;31m[K"Demand segments updated."[m[K);
+[3.588s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.588s]       |                 [01;31m[K|[m[K
+[3.588s]       |                 [01;31m[Kconst char*[m[K
+[3.588s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[3.588s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[3.589s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[3.589s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[3.589s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[3.589s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.589s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.589s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.589s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.589s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.589s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.589s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.589s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.589s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5[m[K,
+[3.589s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+[3.589s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[3.589s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble log(double)[m[K’
+[3.590s]   104 | [01;36m[K_[m[K_MATHCALL_VEC (log,, (_Mdouble_ __x));
+[3.590s]       | [01;36m[K^[m[K
+[3.590s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:6[m[K:
+[3.590s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:74:33:[m[K [01;31m[Kerror: [m[K‘[01m[KrosSetup[m[K’ was not declared in this scope
+[3.590s]    74 |                             if ([01;31m[KrosSetup[m[K()) {
+[3.590s]       |                                 [01;31m[K^~~~~~~~[m[K
+[3.590s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:81:33:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char*[m[K’ to ‘[01m[Kdouble[m[K’
+[3.590s]    81 |                             log([01;31m[K"Invalid choice, try again."[m[K);
+[3.590s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.590s]       |                                 [01;31m[K|[m[K
+[3.590s]       |                                 [01;31m[Kconst char*[m[K
+[3.590s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[3.590s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[3.590s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[3.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[3.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[3.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.591s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:1[m[K:
+[3.591s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble log(double)[m[K’
+[3.591s]   104 | [01;36m[K_[m[K_MATHCALL_VEC (log,, (_Mdouble_ __x));
+[3.591s]       | [01;36m[K^[m[K
+[3.591s] In file included from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:6[m[K:
+[3.591s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:88:25:[m[K [01;31m[Kerror: [m[Kjump to case label
+[3.591s]    88 |             case State::[01;31m[KREADY[m[K:
+[3.591s]       |                         [01;31m[K^~~~~[m[K
+[3.591s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kbool done[m[K’
+[3.591s]    61 |                 bool [01;36m[Kdone[m[K = false;
+[3.591s]       |                      [01;36m[K^~~~[m[K
+[3.591s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:90:25:[m[K [01;31m[Kerror: [m[Kjump to case label
+[3.591s]    90 |             case State::[01;31m[KRUNNING[m[K:
+[3.591s]       |                         [01;31m[K^~~~~~~[m[K
+[3.591s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kbool done[m[K’
+[3.591s]    61 |                 bool [01;36m[Kdone[m[K = false;
+[3.592s]       |                      [01;36m[K^~~~[m[K
+[3.592s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:93:25:[m[K [01;31m[Kerror: [m[Kjump to case label
+[3.592s]    93 |             case State::[01;31m[KERROR[m[K:
+[3.592s]       |                         [01;31m[K^~~~~[m[K
+[3.592s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kbool done[m[K’
+[3.592s]    61 |                 bool [01;36m[Kdone[m[K = false;
+[3.592s]       |                      [01;36m[K^~~~[m[K
+[3.592s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:96:25:[m[K [01;31m[Kerror: [m[Kjump to case label
+[3.592s]    96 |             case State::[01;31m[KSHUTDOWN[m[K:
+[3.592s]       |                         [01;31m[K^~~~~~~~[m[K
+[3.592s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kbool done[m[K’
+[3.592s]    61 |                 bool [01;36m[Kdone[m[K = false;
+[3.592s]       |                      [01;36m[K^~~~[m[K
+[3.594s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:132:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_Base_[m[K’ was not declared in this scope; did you mean ‘[01m[KDataBase[m[K’?
+[3.594s]   132 |             [01;31m[Kdata_Base_[m[K->set_Ros2_Config(demand, mode, area, t1, t2);
+[3.594s]       |             [01;31m[K^~~~~~~~~~[m[K
+[3.595s]       |             [32m[KDataBase[m[K
+[3.595s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:133:17:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char*[m[K’ to ‘[01m[Kdouble[m[K’
+[3.595s]   133 |             log([01;31m[K"Camera configuration updated."[m[K);
+[3.595s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.595s]       |                 [01;31m[K|[m[K
+[3.595s]       |                 [01;31m[Kconst char*[m[K
+[3.595s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[3.595s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[3.595s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[3.596s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[3.596s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[3.596s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.596s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.596s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.596s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.596s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.596s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.596s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.596s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.596s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5[m[K,
+[3.596s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+[3.596s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[3.596s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble log(double)[m[K’
+[3.596s]   104 | [01;36m[K_[m[K_MATHCALL_VEC (log,, (_Mdouble_ __x));
+[3.596s]       | [01;36m[K^[m[K
+[3.596s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:141:17:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char*[m[K’ to ‘[01m[Kdouble[m[K’
+[3.596s]   141 |             log([01;31m[K"Exiting setup..."[m[K);
+[3.596s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.597s]       |                 [01;31m[K|[m[K
+[3.597s]       |                 [01;31m[Kconst char*[m[K
+[3.597s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[3.597s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[3.597s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[3.597s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[3.597s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[3.597s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.597s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.597s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.597s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.597s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.597s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.597s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.597s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.597s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/communication/ros_Service.hpp:5[m[K,
+[3.597s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:5[m[K,
+[3.597s]                  from [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:1[m[K:
+[3.597s] [01m[K/usr/include/x86_64-linux-gnu/bits/mathcalls.h:104:1:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kdouble log(double)[m[K’
+[3.597s]   104 | [01;36m[K_[m[K_MATHCALL_VEC (log,, (_Mdouble_ __x));
+[3.598s]       | [01;36m[K^[m[K
+[3.598s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:[m[K At global scope:
+[3.598s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/StateMachine.cpp:147:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[3.598s]   147 | }
+[3.598s]       |  [01;31m[K^[m[K
+[3.598s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:99:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_engine[m[K’ was not declared in this scope; did you mean ‘[01m[KEngine[m[K’?
+[3.598s]    99 |                 [01;31m[Kcv_engine[m[K.notify_one();
+[3.598s]       |                 [01;31m[K^~~~~~~~~[m[K
+[3.598s]       |                 [32m[KEngine[m[K
+[3.598s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:101:13:[m[K [01;31m[Kerror: [m[Kjump to case label
+[3.598s]   101 |             [01;31m[Kdefault[m[K:
+[3.598s]       |             [01;31m[K^~~~~~~[m[K
+[3.598s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:61:22:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kbool done[m[K’
+[3.598s]    61 |                 bool [01;36m[Kdone[m[K = false;
+[3.598s]       |                      [01;36m[K^~~~[m[K
+[3.598s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:48:16:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KREADY[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.598s]    48 |         switch [01;35m[K([m[Knew_state) {
+[3.598s]       |                [01;35m[K^[m[K
+[3.598s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:48:16:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KRUNNING[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.598s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:48:16:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KERROR[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.599s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:48:16:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSHUTDOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.599s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:107:17:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.599s]   107 |     void stop() [01;31m[K{[m[K
+[3.599s]       |                 [01;31m[K^[m[K
+[3.599s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:114:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+[3.599s]   114 | [01;31m[Kprivate[m[K:
+[3.599s]       | [01;31m[K^~~~~~~[m[K
+[3.604s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:129:20:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.604s]   129 |     void runROS2() [01;31m[K{[m[K
+[3.604s]       |                    [01;31m[K^[m[K
+[3.605s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:157:19:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.605s]   157 |     void runMCU() [01;31m[K{[m[K
+[3.605s]       |                   [01;31m[K^[m[K
+[3.605s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:185:22:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.605s]   185 |     void runEngine() [01;31m[K{[m[K
+[3.605s]       |                      [01;31m[K^[m[K
+[3.605s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:201:17:[m[K [01;35m[Kwarning: [m[Kempty parentheses were disambiguated as a function declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse-Wvexing-parse]8;;[m[K]
+[3.605s]   201 |     bool rosIdle[01;35m[K()[m[K;     // check ros serivce already
+[3.605s]       |                 [01;35m[K^~[m[K
+[3.606s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:201:17:[m[K [01;36m[Knote: [m[Kremove parentheses to default-initialize a variable
+[3.606s]   201 |     bool rosIdle[01;36m[K()[m[K;     // check ros serivce already
+[3.606s]       |                 [01;36m[K^~[m[K
+[3.606s]       |                 [31m[K--[m[K
+[3.606s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:201:17:[m[K [01;36m[Knote: [m[Kor replace parentheses with braces to value-initialize a variable
+[3.606s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:202:18:[m[K [01;35m[Kwarning: [m[Kempty parentheses were disambiguated as a function declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse-Wvexing-parse]8;;[m[K]
+[3.606s]   202 |     bool rosSetup[01;35m[K()[m[K;
+[3.606s]       |                  [01;35m[K^~[m[K
+[3.606s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:202:18:[m[K [01;36m[Knote: [m[Kremove parentheses to default-initialize a variable
+[3.606s]   202 |     bool rosSetup[01;36m[K()[m[K;
+[3.606s]       |                  [01;36m[K^~[m[K
+[3.606s]       |                  [31m[K--[m[K
+[3.606s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:202:18:[m[K [01;36m[Knote: [m[Kor replace parentheses with braces to value-initialize a variable
+[3.606s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:207:17:[m[K [01;35m[Kwarning: [m[Kempty parentheses were disambiguated as a function declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse-Wvexing-parse]8;;[m[K]
+[3.606s]   207 |     bool mcuIdle[01;35m[K()[m[K;    // check Mcu Serial already
+[3.606s]       |                 [01;35m[K^~[m[K
+[3.606s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:207:17:[m[K [01;36m[Knote: [m[Kremove parentheses to default-initialize a variable
+[3.606s]   207 |     bool mcuIdle[01;36m[K()[m[K;    // check Mcu Serial already
+[3.606s]       |                 [01;36m[K^~[m[K
+[3.607s]       |                 [31m[K--[m[K
+[3.607s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:207:17:[m[K [01;36m[Knote: [m[Kor replace parentheses with braces to value-initialize a variable
+[3.607s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:217:24:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.607s]   217 |     void joinThreads() [01;31m[K{[m[K
+[3.607s]       |                        [01;31m[K^[m[K
+[3.607s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:220:38:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.607s]   220 |     void log(const std::string &msg) [01;31m[K{[m[K
+[3.607s]       |                                      [01;31m[K^[m[K
+[3.607s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:224:19:[m[K [01;35m[Kwarning: [m[Kempty parentheses were disambiguated as a function declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse-Wvexing-parse]8;;[m[K]
+[3.607s]   224 |     int setup_User[01;35m[K()[m[K;
+[3.607s]       |                   [01;35m[K^~[m[K
+[3.607s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:224:19:[m[K [01;36m[Knote: [m[Kremove parentheses to default-initialize a variable
+[3.607s]   224 |     int setup_User[01;36m[K()[m[K;
+[3.607s]       |                   [01;36m[K^~[m[K
+[3.607s]       |                   [31m[K--[m[K
+[3.607s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:224:19:[m[K [01;36m[Knote: [m[Kor replace parentheses with braces to value-initialize a variable
+[3.607s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/demo/statemachine/Statemachine.hpp:121:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstop_flag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.607s]   121 |     std::atomic<bool> [01;35m[Kstop_flag[m[K;
+[3.607s]       |                       [01;35m[K^~~~~~~~~[m[K
+[3.609s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:[m[K In member function ‘[01m[Kint MachineController::main(int, char**)[m[K’:
+[3.609s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:33:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MachineController[m[K’ has no member named ‘[01m[Kstop[m[K’
+[3.609s]    33 |     stateMachine.[01;31m[Kstop[m[K();
+[3.609s]       |                  [01;31m[K^~~~[m[K
+[3.609s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:[m[K At global scope:
+[3.609s] [01m[K/home/anhbaodz/Documents/ROS2_Workspace/src/cpp_node/src/main.cpp:36:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[3.609s]    36 | }
+[3.609s]       |  [01;31m[K^[m[K
+[4.138s] gmake[2]: *** [CMakeFiles/request.dir/build.make:146: CMakeFiles/request.dir/src/demo/statemachine/StateMachine.cpp.o] Error 1
+[4.138s] gmake[2]: *** Waiting for unfinished jobs....
+[4.185s] gmake[2]: *** [CMakeFiles/request.dir/build.make:160: CMakeFiles/request.dir/src/main.cpp.o] Error 1
+[4.185s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/request.dir/all] Error 2
+[4.186s] gmake: *** [Makefile:146: all] Error 2
+[4.189s] Invoked command in '/home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node' returned '2': CMAKE_PREFIX_PATH=/home/anhbaodz/Documents/ROS2_Workspace/install/ros_serivce:/home/anhbaodz/Documents/ROS2_Workspace/install/cpp_node:/home/anhbaodz/Documents/ROS2_Workspace/install/python_node:/opt/ros/humble /usr/bin/cmake --build /home/anhbaodz/Documents/ROS2_Workspace/build/cpp_node -- -j12 -l12
